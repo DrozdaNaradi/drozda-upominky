@@ -1,4 +1,6433 @@
 {
-  "invoices": [],
-  "updated": "2026-03-30T12:32:32.442Z"
+  "invoices": [
+    {
+      "cislo": "23FV-0193",
+      "varsym": "230193",
+      "datum": "06. 03. 2023",
+      "splatno": "05. 04. 2023",
+      "splatnoDate": "2023-04-04T22:00:00.000Z",
+      "daysOver": 1090,
+      "celkem": 1034.55,
+      "firmaName": "S.O.S. - DEKORACE, s.r.o.",
+      "emails": [
+        "simonova@sosdekorace.cz",
+        "fakturace@sosdekorace.cz"
+      ],
+      "ic": "27119432",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "23FV-0401",
+      "varsym": "230401",
+      "datum": "05. 05. 2023",
+      "splatno": "04. 06. 2023",
+      "splatnoDate": "2023-06-03T22:00:00.000Z",
+      "daysOver": 1030,
+      "celkem": 2594.24,
+      "firmaName": "S.O.S. - DEKORACE, s.r.o.",
+      "emails": [
+        "simonova@sosdekorace.cz",
+        "fakturace@sosdekorace.cz"
+      ],
+      "ic": "27119432",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "23FV-0457",
+      "varsym": "230457",
+      "datum": "17. 05. 2023",
+      "splatno": "31. 05. 2023",
+      "splatnoDate": "2023-05-30T22:00:00.000Z",
+      "daysOver": 1034,
+      "celkem": 1034.55,
+      "firmaName": "S.O.S - DEKORACE s.r.o.",
+      "emails": [
+        "info@dekorace-sos.cz"
+      ],
+      "ic": "27119432",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "23FV-0564",
+      "varsym": "230564",
+      "datum": "08. 06. 2023",
+      "splatno": "22. 06. 2023",
+      "splatnoDate": "2023-06-21T22:00:00.000Z",
+      "daysOver": 1012,
+      "celkem": 706.64,
+      "firmaName": "EKOGRILL, s.r.o.",
+      "emails": [
+        "ekogrill@volny.cz"
+      ],
+      "ic": "25762745",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "23FV-0640",
+      "varsym": "230640",
+      "datum": "30. 06. 2023",
+      "splatno": "30. 06. 2023",
+      "splatnoDate": "2023-06-29T22:00:00.000Z",
+      "daysOver": 1004,
+      "celkem": 233.49,
+      "firmaName": "Cheznet servis s.r.o.",
+      "emails": [],
+      "ic": "04319371",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "23FV-0656",
+      "varsym": "230656",
+      "datum": "10. 07. 2023",
+      "splatno": "24. 07. 2023",
+      "splatnoDate": "2023-07-23T22:00:00.000Z",
+      "daysOver": 980,
+      "celkem": 9792.52,
+      "firmaName": "...",
+      "emails": [
+        "barsatomas@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "23FV-0740",
+      "varsym": "230740",
+      "datum": "02. 08. 2023",
+      "splatno": "16. 08. 2023",
+      "splatnoDate": "2023-08-15T22:00:00.000Z",
+      "daysOver": 957,
+      "celkem": 16069.78,
+      "firmaName": "Martin Janoš",
+      "emails": [],
+      "ic": "61495395",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "23FV-0769",
+      "varsym": "230769",
+      "datum": "08. 08. 2023",
+      "splatno": "22. 08. 2023",
+      "splatnoDate": "2023-08-21T22:00:00.000Z",
+      "daysOver": 951,
+      "celkem": 53493.82,
+      "firmaName": "Dřevěná výstavba s.r.o.",
+      "emails": [
+        "drevena.vystavba@seznam.cz"
+      ],
+      "ic": "24739545",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "23FV-0829",
+      "varsym": "230829",
+      "datum": "28. 08. 2023",
+      "splatno": "11. 09. 2023",
+      "splatnoDate": "2023-09-10T22:00:00.000Z",
+      "daysOver": 931,
+      "celkem": 9182.85,
+      "firmaName": "Dřevěná výstavba s.r.o.",
+      "emails": [
+        "drevena.vystavba@seznam.cz"
+      ],
+      "ic": "24739545",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "23FV-0840",
+      "varsym": "230840",
+      "datum": "30. 08. 2023",
+      "splatno": "13. 09. 2023",
+      "splatnoDate": "2023-09-12T22:00:00.000Z",
+      "daysOver": 929,
+      "celkem": 11719.38,
+      "firmaName": "Dřevěná výstavba s.r.o.",
+      "emails": [
+        "drevena.vystavba@seznam.cz"
+      ],
+      "ic": "24739545",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "23FV-1318",
+      "varsym": "231318",
+      "datum": "21. 12. 2023",
+      "splatno": "04. 01. 2024",
+      "splatnoDate": "2024-01-03T23:00:00.000Z",
+      "daysOver": 815,
+      "celkem": 3785.89,
+      "firmaName": "Winkler Jiří",
+      "emails": [
+        "fallout2@email.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-0002",
+      "varsym": "240002",
+      "datum": "05. 01. 2024",
+      "splatno": "19. 01. 2024",
+      "splatnoDate": "2024-01-18T23:00:00.000Z",
+      "daysOver": 800,
+      "celkem": 339.97,
+      "firmaName": "Václav Vaněk",
+      "emails": [
+        "info@zamecnictvi-vanek.cz"
+      ],
+      "ic": "45141479",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-0238",
+      "varsym": "240238",
+      "datum": "04. 03. 2024",
+      "splatno": "18. 03. 2024",
+      "splatnoDate": "2024-03-17T23:00:00.000Z",
+      "daysOver": 741,
+      "celkem": 63.76,
+      "firmaName": "SOREX s.r.o.",
+      "emails": [
+        "martin.culek@sorex.cz"
+      ],
+      "ic": "49827201",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-0300",
+      "varsym": "240300",
+      "datum": "15. 03. 2024",
+      "splatno": "29. 03. 2024",
+      "splatnoDate": "2024-03-28T23:00:00.000Z",
+      "daysOver": 730,
+      "celkem": 13310,
+      "firmaName": "Black pmc s.r.o.",
+      "emails": [
+        "milos.edelmann@yahoo.com"
+      ],
+      "ic": "07439831",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-0302",
+      "varsym": "240302",
+      "datum": "15. 03. 2024",
+      "splatno": "29. 03. 2024",
+      "splatnoDate": "2024-03-28T23:00:00.000Z",
+      "daysOver": 730,
+      "celkem": 627.99,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-0318",
+      "varsym": "240318",
+      "datum": "20. 03. 2024",
+      "splatno": "03. 04. 2024",
+      "splatnoDate": "2024-04-02T22:00:00.000Z",
+      "daysOver": 726,
+      "celkem": 349.34,
+      "firmaName": "Marek Gabriel",
+      "emails": [],
+      "ic": "06764266",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-0322",
+      "varsym": "240322",
+      "datum": "21. 03. 2024",
+      "splatno": "04. 04. 2024",
+      "splatnoDate": "2024-04-03T22:00:00.000Z",
+      "daysOver": 725,
+      "celkem": 827.1,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-0818",
+      "varsym": "240818",
+      "datum": "24. 07. 2024",
+      "splatno": "07. 08. 2024",
+      "splatnoDate": "2024-08-06T22:00:00.000Z",
+      "daysOver": 600,
+      "celkem": 379,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-1009",
+      "varsym": "241009",
+      "datum": "10. 09. 2024",
+      "splatno": "24. 09. 2024",
+      "splatnoDate": "2024-09-23T22:00:00.000Z",
+      "daysOver": 552,
+      "celkem": 5763.35,
+      "firmaName": "IVPS Group s.r.o.",
+      "emails": [
+        "sivan@ivps.cz",
+        "fakturace@ivps.cz",
+        "cerny@ivps.cz"
+      ],
+      "ic": "24257311",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-1214",
+      "varsym": "241214",
+      "datum": "22. 10. 2024",
+      "splatno": "05. 11. 2024",
+      "splatnoDate": "2024-11-04T23:00:00.000Z",
+      "daysOver": 509,
+      "celkem": 140,
+      "firmaName": "NEW-WIN CZ s.r.o.",
+      "emails": [
+        "new.win.cz@gmail.com"
+      ],
+      "ic": "02723441",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-1359",
+      "varsym": "241359",
+      "datum": "14. 11. 2024",
+      "splatno": "28. 11. 2024",
+      "splatnoDate": "2024-11-27T23:00:00.000Z",
+      "daysOver": 486,
+      "celkem": 744,
+      "firmaName": "Jungrest, s.r.o.",
+      "emails": [
+        "pachoo@seznam.cz"
+      ],
+      "ic": "09675523",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-1430",
+      "varsym": "241430",
+      "datum": "27. 11. 2024",
+      "splatno": "11. 12. 2024",
+      "splatnoDate": "2024-12-10T23:00:00.000Z",
+      "daysOver": 473,
+      "celkem": 2601,
+      "firmaName": "KSO, s.r.o.",
+      "emails": [
+        "analfaust@gmail.com"
+      ],
+      "ic": "26477360",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-1449",
+      "varsym": "241449",
+      "datum": "02. 12. 2024",
+      "splatno": "16. 12. 2024",
+      "splatnoDate": "2024-12-15T23:00:00.000Z",
+      "daysOver": 468,
+      "celkem": 1342.22,
+      "firmaName": "Generator Store s.r.o.",
+      "emails": [
+        "p.beranek@genstore.cz"
+      ],
+      "ic": "08975353",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-1501",
+      "varsym": "241501",
+      "datum": "09. 12. 2024",
+      "splatno": "23. 12. 2024",
+      "splatnoDate": "2024-12-22T23:00:00.000Z",
+      "daysOver": 461,
+      "celkem": 1222.22,
+      "firmaName": "Generator Store s.r.o.",
+      "emails": [
+        "p.beranek@genstore.cz"
+      ],
+      "ic": "08975353",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-1564",
+      "varsym": "241564",
+      "datum": "19. 12. 2024",
+      "splatno": "02. 01. 2025",
+      "splatnoDate": "2025-01-01T23:00:00.000Z",
+      "daysOver": 451,
+      "celkem": 24141.61,
+      "firmaName": "SH-TEC Energies s.r.o.",
+      "emails": [
+        "PSANDA@SHTEC.CZ"
+      ],
+      "ic": "06785298",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-1573",
+      "varsym": "241573",
+      "datum": "20. 12. 2024",
+      "splatno": "03. 01. 2025",
+      "splatnoDate": "2025-01-02T23:00:00.000Z",
+      "daysOver": 450,
+      "celkem": 43954.65,
+      "firmaName": "OPM-System s.r.o.",
+      "emails": [
+        "opm-system@seznam.cz"
+      ],
+      "ic": "14292602",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "24FV-1574",
+      "varsym": "241574",
+      "datum": "20. 12. 2024",
+      "splatno": "03. 01. 2025",
+      "splatnoDate": "2025-01-02T23:00:00.000Z",
+      "daysOver": 450,
+      "celkem": 28223.51,
+      "firmaName": "OPM-System s.r.o.",
+      "emails": [
+        "opm-system@seznam.cz"
+      ],
+      "ic": "14292602",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-0045",
+      "varsym": "250045",
+      "datum": "22. 01. 2025",
+      "splatno": "05. 02. 2025",
+      "splatnoDate": "2025-02-04T23:00:00.000Z",
+      "daysOver": 417,
+      "celkem": 0.05,
+      "firmaName": "Yaru adventure s.r.o.",
+      "emails": [
+        "jirka.bendl@gmail.com"
+      ],
+      "ic": "02462494",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-0087",
+      "varsym": "250087",
+      "datum": "28. 01. 2025",
+      "splatno": "11. 02. 2025",
+      "splatnoDate": "2025-02-10T23:00:00.000Z",
+      "daysOver": 411,
+      "celkem": 1424.27,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-0163",
+      "varsym": "250163",
+      "datum": "12. 02. 2025",
+      "splatno": "26. 02. 2025",
+      "splatnoDate": "2025-02-25T23:00:00.000Z",
+      "daysOver": 396,
+      "celkem": 4034.75,
+      "firmaName": "HAAD Company s.r.o.",
+      "emails": [
+        "zamboch@haad.cz"
+      ],
+      "ic": "27809145",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-0423",
+      "varsym": "250423",
+      "datum": "14. 03. 2025",
+      "splatno": "28. 03. 2025",
+      "splatnoDate": "2025-03-27T23:00:00.000Z",
+      "daysOver": 366,
+      "celkem": 12948.79,
+      "firmaName": "SVP půjčovna, s.r.o.",
+      "emails": [
+        "jcerny@svp.cz",
+        "svitakova@svp.cz"
+      ],
+      "ic": "27898717",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-0533",
+      "varsym": "250533",
+      "datum": "02. 04. 2025",
+      "splatno": "16. 04. 2025",
+      "splatnoDate": "2025-04-15T22:00:00.000Z",
+      "daysOver": 348,
+      "celkem": 0.04,
+      "firmaName": "MITEL a.s.",
+      "emails": [
+        "levora@mitel.cz",
+        "kosvancova@mitel.cz"
+      ],
+      "ic": "25675036",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-0534",
+      "varsym": "250534",
+      "datum": "28. 03. 2025",
+      "splatno": "27. 04. 2025",
+      "splatnoDate": "2025-04-26T22:00:00.000Z",
+      "daysOver": 337,
+      "celkem": 4779.98,
+      "firmaName": "Techtronic Industries Czech s.r.o.",
+      "emails": [
+        "kancelar@tti-emea.com"
+      ],
+      "ic": "27178005",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-0626",
+      "varsym": "250626",
+      "datum": "09. 04. 2025",
+      "splatno": "23. 04. 2025",
+      "splatnoDate": "2025-04-22T22:00:00.000Z",
+      "daysOver": 341,
+      "celkem": 0.02,
+      "firmaName": "MITEL a.s.",
+      "emails": [
+        "levora@mitel.cz",
+        "kosvancova@mitel.cz"
+      ],
+      "ic": "25675036",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-0855",
+      "varsym": "250855",
+      "datum": "15. 05. 2025",
+      "splatno": "13. 08. 2025",
+      "splatnoDate": "2025-08-12T22:00:00.000Z",
+      "daysOver": 229,
+      "celkem": 11637.89,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-0959",
+      "varsym": "250959",
+      "datum": "02. 06. 2025",
+      "splatno": "16. 06. 2025",
+      "splatnoDate": "2025-06-15T22:00:00.000Z",
+      "daysOver": 287,
+      "celkem": 301,
+      "firmaName": "Ivan Popovych",
+      "emails": [
+        "popovich200244@gmail.com"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1003",
+      "varsym": "251003",
+      "datum": "04. 06. 2025",
+      "splatno": "18. 06. 2025",
+      "splatnoDate": "2025-06-17T22:00:00.000Z",
+      "daysOver": 285,
+      "celkem": 7137.79,
+      "firmaName": "STARP Home s.r.o.",
+      "emails": [
+        "valentino.ros@seznam.cz",
+        "kancelar@starp-home.cz",
+        "michal.frank@starp-home.cz"
+      ],
+      "ic": "09978925",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1041",
+      "varsym": "251041",
+      "datum": "05. 06. 2025",
+      "splatno": "19. 06. 2025",
+      "splatnoDate": "2025-06-18T22:00:00.000Z",
+      "daysOver": 284,
+      "celkem": 2250.02,
+      "firmaName": "ŽIŽKOFF s.r.o.",
+      "emails": [
+        "dan@mathaus.cz"
+      ],
+      "ic": "07011709",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1080",
+      "varsym": "251080",
+      "datum": "10. 06. 2025",
+      "splatno": "24. 06. 2025",
+      "splatnoDate": "2025-06-23T22:00:00.000Z",
+      "daysOver": 279,
+      "celkem": 12021.78,
+      "firmaName": "PNEU PROCHÁZKA s.r.o.",
+      "emails": [
+        "hornof@pneuprochazka.cz"
+      ],
+      "ic": "29139163",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1125",
+      "varsym": "251125",
+      "datum": "17. 06. 2025",
+      "splatno": "01. 07. 2025",
+      "splatnoDate": "2025-06-30T22:00:00.000Z",
+      "daysOver": 272,
+      "celkem": 2582.33,
+      "firmaName": "4 COILS TECH s.r.o.",
+      "emails": [
+        "Jan.Milfort@4coilstech.eu",
+        "lenka.pisova@4coilstech.eu"
+      ],
+      "ic": "13981391",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1209",
+      "varsym": "251209",
+      "datum": "27. 06. 2025",
+      "splatno": "11. 07. 2025",
+      "splatnoDate": "2025-07-10T22:00:00.000Z",
+      "daysOver": 262,
+      "celkem": 1324,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1216",
+      "varsym": "251216",
+      "datum": "30. 06. 2025",
+      "splatno": "14. 07. 2025",
+      "splatnoDate": "2025-07-13T22:00:00.000Z",
+      "daysOver": 259,
+      "celkem": 0.02,
+      "firmaName": "MITEL a.s.",
+      "emails": [
+        "solc@mitel.cz",
+        "kosvancova@mitel.cz"
+      ],
+      "ic": "25675036",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1246",
+      "varsym": "251246",
+      "datum": "04. 07. 2025",
+      "splatno": "18. 07. 2025",
+      "splatnoDate": "2025-07-17T22:00:00.000Z",
+      "daysOver": 255,
+      "celkem": 1196.16,
+      "firmaName": "aeqoom technologies s.r.o.",
+      "emails": [
+        "m.joukl@aeqoom.com",
+        "finance@aeqoom.com"
+      ],
+      "ic": "45809488",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1284",
+      "varsym": "251284",
+      "datum": "10. 07. 2025",
+      "splatno": "24. 07. 2025",
+      "splatnoDate": "2025-07-23T22:00:00.000Z",
+      "daysOver": 249,
+      "celkem": 22256.74,
+      "firmaName": "Jan Vrba",
+      "emails": [
+        "jarbas@email.cz"
+      ],
+      "ic": "71356932",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1310",
+      "varsym": "251310",
+      "datum": "15. 07. 2025",
+      "splatno": "29. 07. 2025",
+      "splatnoDate": "2025-07-28T22:00:00.000Z",
+      "daysOver": 244,
+      "celkem": 1497.59,
+      "firmaName": "Andres a Vild, spol. s r.o.",
+      "emails": [
+        "vildml@andres-vild.cz",
+        "strnadova@andres-vild.cz"
+      ],
+      "ic": "41191862",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1336",
+      "varsym": "251336",
+      "datum": "17. 07. 2025",
+      "splatno": "31. 07. 2025",
+      "splatnoDate": "2025-07-30T22:00:00.000Z",
+      "daysOver": 242,
+      "celkem": 0.1,
+      "firmaName": "ONDŘEJ ŽAHOUR",
+      "emails": [
+        "Ondrej.zahour@gmail.com"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1354",
+      "varsym": "251354",
+      "datum": "17. 07. 2025",
+      "splatno": "31. 07. 2025",
+      "splatnoDate": "2025-07-30T22:00:00.000Z",
+      "daysOver": 242,
+      "celkem": 2,
+      "firmaName": "Tomáš Horký",
+      "emails": [
+        "horky.formal@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1422",
+      "varsym": "251422",
+      "datum": "25. 07. 2025",
+      "splatno": "08. 08. 2025",
+      "splatnoDate": "2025-08-07T22:00:00.000Z",
+      "daysOver": 234,
+      "celkem": 32608.86,
+      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "emails": [
+        "papirnik.elektro@gmail.com"
+      ],
+      "ic": "17296374",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1445",
+      "varsym": "251445",
+      "datum": "28. 07. 2025",
+      "splatno": "11. 08. 2025",
+      "splatnoDate": "2025-08-10T22:00:00.000Z",
+      "daysOver": 231,
+      "celkem": 677.69,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1455",
+      "varsym": "251455",
+      "datum": "29. 07. 2025",
+      "splatno": "12. 08. 2025",
+      "splatnoDate": "2025-08-11T22:00:00.000Z",
+      "daysOver": 230,
+      "celkem": 2,
+      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "emails": [
+        "servisvesely@seznam.cz"
+      ],
+      "ic": "27239560",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1499",
+      "varsym": "251499",
+      "datum": "04. 08. 2025",
+      "splatno": "03. 09. 2025",
+      "splatnoDate": "2025-09-02T22:00:00.000Z",
+      "daysOver": 208,
+      "celkem": 110000,
+      "firmaName": "Techtronic Industries Eastern Europe Sp. z o.o.",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1510",
+      "varsym": "251510",
+      "datum": "05. 08. 2025",
+      "splatno": "19. 08. 2025",
+      "splatnoDate": "2025-08-18T22:00:00.000Z",
+      "daysOver": 223,
+      "celkem": 0.01,
+      "firmaName": "MITEL a.s.",
+      "emails": [
+        "solc@mitel.cz",
+        "kosvancova@mitel.cz"
+      ],
+      "ic": "25675036",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1560",
+      "varsym": "251560",
+      "datum": "12. 08. 2025",
+      "splatno": "26. 08. 2025",
+      "splatnoDate": "2025-08-25T22:00:00.000Z",
+      "daysOver": 216,
+      "celkem": 2,
+      "firmaName": "Michaela Hlaváčková",
+      "emails": [
+        "kokonek@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1573",
+      "varsym": "251573",
+      "datum": "13. 08. 2025",
+      "splatno": "27. 08. 2025",
+      "splatnoDate": "2025-08-26T22:00:00.000Z",
+      "daysOver": 215,
+      "celkem": 5454.85,
+      "firmaName": "Andres a Vild, spol. s r.o.",
+      "emails": [
+        "vildml@andres-vild.cz",
+        "strnadova@andres-vild.cz"
+      ],
+      "ic": "41191862",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1606",
+      "varsym": "251606",
+      "datum": "18. 08. 2025",
+      "splatno": "01. 09. 2025",
+      "splatnoDate": "2025-08-31T22:00:00.000Z",
+      "daysOver": 210,
+      "celkem": 17768.3,
+      "firmaName": "SOREX s.r.o.",
+      "emails": [
+        "martin.culek@sorex.cz"
+      ],
+      "ic": "49827201",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1628",
+      "varsym": "251628",
+      "datum": "21. 08. 2025",
+      "splatno": "04. 09. 2025",
+      "splatnoDate": "2025-09-03T22:00:00.000Z",
+      "daysOver": 207,
+      "celkem": 1,
+      "firmaName": "Gear Power s.r.o.",
+      "emails": [
+        "hodac@gearpower.cz"
+      ],
+      "ic": "04733126",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1670",
+      "varsym": "251670",
+      "datum": "26. 08. 2025",
+      "splatno": "09. 09. 2025",
+      "splatnoDate": "2025-09-08T22:00:00.000Z",
+      "daysOver": 202,
+      "celkem": 2069.1,
+      "firmaName": "SOREX s.r.o.",
+      "emails": [
+        "martin.culek@sorex.cz"
+      ],
+      "ic": "49827201",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1708",
+      "varsym": "251708",
+      "datum": "29. 08. 2025",
+      "splatno": "27. 11. 2025",
+      "splatnoDate": "2025-11-26T23:00:00.000Z",
+      "daysOver": 122,
+      "celkem": 27421.28,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1719",
+      "varsym": "251719",
+      "datum": "01. 09. 2025",
+      "splatno": "15. 09. 2025",
+      "splatnoDate": "2025-09-14T22:00:00.000Z",
+      "daysOver": 196,
+      "celkem": 6525.32,
+      "firmaName": "Petr Hrabánek",
+      "emails": [],
+      "ic": "87163951",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1781",
+      "varsym": "251781",
+      "datum": "08. 09. 2025",
+      "splatno": "22. 09. 2025",
+      "splatnoDate": "2025-09-21T22:00:00.000Z",
+      "daysOver": 189,
+      "celkem": 2132,
+      "firmaName": "Milan BERAN",
+      "emails": [
+        "milanberan@email.cz"
+      ],
+      "ic": "45817821",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1786",
+      "varsym": "251786",
+      "datum": "09. 09. 2025",
+      "splatno": "23. 09. 2025",
+      "splatnoDate": "2025-09-22T22:00:00.000Z",
+      "daysOver": 188,
+      "celkem": 4480.29,
+      "firmaName": "Společnost T.A.Q. s.r.o.",
+      "emails": [
+        "jiri.brozik@taq.cz"
+      ],
+      "ic": "28868781",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1788",
+      "varsym": "251788",
+      "datum": "09. 09. 2025",
+      "splatno": "23. 09. 2025",
+      "splatnoDate": "2025-09-22T22:00:00.000Z",
+      "daysOver": 188,
+      "celkem": 2491.64,
+      "firmaName": "Společnost T.A.Q. s.r.o.",
+      "emails": [
+        "jiri.brozik@taq.cz"
+      ],
+      "ic": "28868781",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1793",
+      "varsym": "251793",
+      "datum": "10. 09. 2025",
+      "splatno": "24. 09. 2025",
+      "splatnoDate": "2025-09-23T22:00:00.000Z",
+      "daysOver": 187,
+      "celkem": 9170,
+      "firmaName": "Jaroslav Fleišer",
+      "emails": [
+        "fleiserjaroslav@seznam.cz"
+      ],
+      "ic": "43766536",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1808",
+      "varsym": "251808",
+      "datum": "11. 09. 2025",
+      "splatno": "25. 09. 2025",
+      "splatnoDate": "2025-09-24T22:00:00.000Z",
+      "daysOver": 186,
+      "celkem": 3695.53,
+      "firmaName": "ZASO Landa s.r.o.",
+      "emails": [
+        "zaso@centrum.cz"
+      ],
+      "ic": "27136299",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1811",
+      "varsym": "251811",
+      "datum": "11. 09. 2025",
+      "splatno": "25. 09. 2025",
+      "splatnoDate": "2025-09-24T22:00:00.000Z",
+      "daysOver": 186,
+      "celkem": 915.85,
+      "firmaName": "Unostav s.r.o.",
+      "emails": [
+        "pospisil.pett@seznam.cz"
+      ],
+      "ic": "03836517",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1836",
+      "varsym": "251836",
+      "datum": "16. 09. 2025",
+      "splatno": "30. 09. 2025",
+      "splatnoDate": "2025-09-29T22:00:00.000Z",
+      "daysOver": 181,
+      "celkem": 9825,
+      "firmaName": "El Horis s.r.o.",
+      "emails": [
+        "mikimichal97@gmail.com"
+      ],
+      "ic": "23347856",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1841",
+      "varsym": "251841",
+      "datum": "17. 09. 2025",
+      "splatno": "01. 10. 2025",
+      "splatnoDate": "2025-09-30T22:00:00.000Z",
+      "daysOver": 180,
+      "celkem": 2081.87,
+      "firmaName": "Petr Hrabánek",
+      "emails": [
+        "info@inteligentnidomyabyty.cz"
+      ],
+      "ic": "87163951",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1854",
+      "varsym": "251854",
+      "datum": "17. 09. 2025",
+      "splatno": "01. 10. 2025",
+      "splatnoDate": "2025-09-30T22:00:00.000Z",
+      "daysOver": 180,
+      "celkem": 1844.65,
+      "firmaName": "PSP - BAU s.r.o.",
+      "emails": [
+        "pspbau@seznam.cz"
+      ],
+      "ic": "08620245",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1881",
+      "varsym": "251881",
+      "datum": "23. 09. 2025",
+      "splatno": "07. 10. 2025",
+      "splatnoDate": "2025-10-06T22:00:00.000Z",
+      "daysOver": 174,
+      "celkem": 4256.96,
+      "firmaName": "LiftTowers s.r.o.",
+      "emails": [
+        "tomas.michalka@lifttowers.com",
+        "faktury@lifttowers.com"
+      ],
+      "ic": "02610809",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1891",
+      "varsym": "251891",
+      "datum": "22. 09. 2025",
+      "splatno": "06. 10. 2025",
+      "splatnoDate": "2025-10-05T22:00:00.000Z",
+      "daysOver": 175,
+      "celkem": 7292,
+      "firmaName": "Gerad Elektro s.r.o.",
+      "emails": [
+        "faktury@gerad.cz",
+        "radek@gerad.cz"
+      ],
+      "ic": "23636181",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1892",
+      "varsym": "251892",
+      "datum": "22. 09. 2025",
+      "splatno": "06. 10. 2025",
+      "splatnoDate": "2025-10-05T22:00:00.000Z",
+      "daysOver": 175,
+      "celkem": 25269,
+      "firmaName": "SAŠ GLASS s.r.o.",
+      "emails": [
+        "nikola@sasglass.cz"
+      ],
+      "ic": "29151384",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1914",
+      "varsym": "251914",
+      "datum": "24. 09. 2025",
+      "splatno": "08. 10. 2025",
+      "splatnoDate": "2025-10-07T22:00:00.000Z",
+      "daysOver": 173,
+      "celkem": 30176.19,
+      "firmaName": "RECIMA GROUP s.r.o.",
+      "emails": [
+        "martin@recimagroup.cz"
+      ],
+      "ic": "01467662",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1946",
+      "varsym": "251946",
+      "datum": "26. 09. 2025",
+      "splatno": "10. 10. 2025",
+      "splatnoDate": "2025-10-09T22:00:00.000Z",
+      "daysOver": 171,
+      "celkem": 16327.12,
+      "firmaName": "Petr Hrabánek",
+      "emails": [
+        "info@inteligentnidomyabyty.cz"
+      ],
+      "ic": "87163951",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1948",
+      "varsym": "251948",
+      "datum": "26. 09. 2025",
+      "splatno": "10. 10. 2025",
+      "splatnoDate": "2025-10-09T22:00:00.000Z",
+      "daysOver": 171,
+      "celkem": 503.97,
+      "firmaName": "Petr Hrabánek",
+      "emails": [
+        "info@inteligentnidomyabyty.cz"
+      ],
+      "ic": "87163951",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-1995",
+      "varsym": "251995",
+      "datum": "01. 10. 2025",
+      "splatno": "15. 10. 2025",
+      "splatnoDate": "2025-10-14T22:00:00.000Z",
+      "daysOver": 166,
+      "celkem": 1686.86,
+      "firmaName": "Josef PETRUS",
+      "emails": [
+        "josefpetrus@gmail.com"
+      ],
+      "ic": "14766221",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2016",
+      "varsym": "252016",
+      "datum": "03. 10. 2025",
+      "splatno": "17. 10. 2025",
+      "splatnoDate": "2025-10-16T22:00:00.000Z",
+      "daysOver": 164,
+      "celkem": 37887.52,
+      "firmaName": "KASKO-BLINDS a.s.",
+      "emails": [
+        "info@kasko-vs.cz",
+        "hradecka@kasko.eu"
+      ],
+      "ic": "07582366",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2036",
+      "varsym": "252036",
+      "datum": "06. 10. 2025",
+      "splatno": "20. 10. 2025",
+      "splatnoDate": "2025-10-19T22:00:00.000Z",
+      "daysOver": 161,
+      "celkem": 6923.14,
+      "firmaName": "KASKO-BLINDS a.s.",
+      "emails": [
+        "info@kasko-vs.cz",
+        "hradecka@kasko.eu"
+      ],
+      "ic": "07582366",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2068",
+      "varsym": "252068",
+      "datum": "09. 10. 2025",
+      "splatno": "23. 10. 2025",
+      "splatnoDate": "2025-10-22T22:00:00.000Z",
+      "daysOver": 158,
+      "celkem": 5321.07,
+      "firmaName": "LOGOSIGN a.s.",
+      "emails": [
+        "marek.bouma@logosign.cz",
+        "lucie.vondrakova@logosign.cz"
+      ],
+      "ic": "27579158",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2110",
+      "varsym": "252110",
+      "datum": "15. 10. 2025",
+      "splatno": "29. 10. 2025",
+      "splatnoDate": "2025-10-28T23:00:00.000Z",
+      "daysOver": 151,
+      "celkem": 1034.55,
+      "firmaName": "SAŠ GLASS s.r.o.",
+      "emails": [
+        "nikola@sasglass.cz"
+      ],
+      "ic": "29151384",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2147",
+      "varsym": "252147",
+      "datum": "21. 10. 2025",
+      "splatno": "04. 11. 2025",
+      "splatnoDate": "2025-11-03T23:00:00.000Z",
+      "daysOver": 145,
+      "celkem": 6206,
+      "firmaName": "J.P.Trans Fišer, s.r.o.",
+      "emails": [
+        "j.p.transfiser@seznam.cz"
+      ],
+      "ic": "27146201",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2207",
+      "varsym": "252207",
+      "datum": "29. 10. 2025",
+      "splatno": "12. 11. 2025",
+      "splatnoDate": "2025-11-11T23:00:00.000Z",
+      "daysOver": 137,
+      "celkem": 286.77,
+      "firmaName": "Ivo Kulhánek",
+      "emails": [
+        "ivo.2010@seznam.cz"
+      ],
+      "ic": "48064700",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2210",
+      "varsym": "252210",
+      "datum": "24. 10. 2025",
+      "splatno": "07. 11. 2025",
+      "splatnoDate": "2025-11-06T23:00:00.000Z",
+      "daysOver": 142,
+      "celkem": 8746.42,
+      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "emails": [
+        "papirnik.elektro@gmail.com"
+      ],
+      "ic": "17296374",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2223",
+      "varsym": "252223",
+      "datum": "30. 10. 2025",
+      "splatno": "13. 11. 2025",
+      "splatnoDate": "2025-11-12T23:00:00.000Z",
+      "daysOver": 136,
+      "celkem": 5942.31,
+      "firmaName": "Benalix spol. s r.o.",
+      "emails": [
+        "epcfakturace@seznam.cz"
+      ],
+      "ic": "14224232",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2235",
+      "varsym": "252235",
+      "datum": "31. 10. 2025",
+      "splatno": "14. 11. 2025",
+      "splatnoDate": "2025-11-13T23:00:00.000Z",
+      "daysOver": 135,
+      "celkem": 2185.56,
+      "firmaName": "Karavan Point s.r.o.",
+      "emails": [
+        "info@karavanpoint.cz"
+      ],
+      "ic": "10812938",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2236",
+      "varsym": "252236",
+      "datum": "31. 10. 2025",
+      "splatno": "14. 11. 2025",
+      "splatnoDate": "2025-11-13T23:00:00.000Z",
+      "daysOver": 135,
+      "celkem": 7989,
+      "firmaName": "Antikor CZ s.r.o.",
+      "emails": [
+        "vendl@antikorcz.cz"
+      ],
+      "ic": "27198341",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2247",
+      "varsym": "252247",
+      "datum": "03. 11. 2025",
+      "splatno": "17. 11. 2025",
+      "splatnoDate": "2025-11-16T23:00:00.000Z",
+      "daysOver": 132,
+      "celkem": 12699.71,
+      "firmaName": "SEKELA CZ s.r.o.",
+      "emails": [
+        "sekela@sekela.cz"
+      ],
+      "ic": "08608903",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2262",
+      "varsym": "252262",
+      "datum": "04. 11. 2025",
+      "splatno": "18. 11. 2025",
+      "splatnoDate": "2025-11-17T23:00:00.000Z",
+      "daysOver": 131,
+      "celkem": 4867.83,
+      "firmaName": "Andres a Vild, spol. s r.o.",
+      "emails": [
+        "vildml@andres-vild.cz",
+        "strnadova@andres-vild.cz"
+      ],
+      "ic": "41191862",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2271",
+      "varsym": "252271",
+      "datum": "10. 11. 2025",
+      "splatno": "24. 11. 2025",
+      "splatnoDate": "2025-11-23T23:00:00.000Z",
+      "daysOver": 125,
+      "celkem": 0.3,
+      "firmaName": "JL servis s.r.o.",
+      "emails": [
+        "fakturace@jlservissro.cz"
+      ],
+      "ic": "25680463",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2275",
+      "varsym": "252275",
+      "datum": "05. 11. 2025",
+      "splatno": "19. 11. 2025",
+      "splatnoDate": "2025-11-18T23:00:00.000Z",
+      "daysOver": 130,
+      "celkem": 10474,
+      "firmaName": "Tomáš Weigl",
+      "emails": [
+        "tomas.weigl@email.cz"
+      ],
+      "ic": "14275546",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2282",
+      "varsym": "252282",
+      "datum": "05. 11. 2025",
+      "splatno": "19. 11. 2025",
+      "splatnoDate": "2025-11-18T23:00:00.000Z",
+      "daysOver": 130,
+      "celkem": 22869.38,
+      "firmaName": "SCARPA Works s.r.o.",
+      "emails": [
+        "jakub.skarpa@scarpa-works.com"
+      ],
+      "ic": "21494762",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2294",
+      "varsym": "252294",
+      "datum": "05. 11. 2025",
+      "splatno": "19. 11. 2025",
+      "splatnoDate": "2025-11-18T23:00:00.000Z",
+      "daysOver": 130,
+      "celkem": 42079.94,
+      "firmaName": "VP Construction Development s.r.o.",
+      "emails": [
+        "vecera@vpcd.cz",
+        "fakturace@vpcd.cz"
+      ],
+      "ic": "04778642",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2295",
+      "varsym": "252295",
+      "datum": "06. 11. 2025",
+      "splatno": "20. 11. 2025",
+      "splatnoDate": "2025-11-19T23:00:00.000Z",
+      "daysOver": 129,
+      "celkem": 10424.82,
+      "firmaName": "JEZL ELEKTRO s.r.o.",
+      "emails": [
+        "petr@elektrojezl.cz"
+      ],
+      "ic": "27137210",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2304",
+      "varsym": "252304",
+      "datum": "06. 11. 2025",
+      "splatno": "20. 11. 2025",
+      "splatnoDate": "2025-11-19T23:00:00.000Z",
+      "daysOver": 129,
+      "celkem": 10424.82,
+      "firmaName": "VP Construction Development s.r.o.",
+      "emails": [
+        "vecera@vpcd.cz",
+        "fakturace@vpcd.cz"
+      ],
+      "ic": "04778642",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2310",
+      "varsym": "252310",
+      "datum": "06. 11. 2025",
+      "splatno": "20. 11. 2025",
+      "splatnoDate": "2025-11-19T23:00:00.000Z",
+      "daysOver": 129,
+      "celkem": 19118.7,
+      "firmaName": "HUMAT-TEX.INVEST s.r.o.",
+      "emails": [
+        "humat-tex@seznam.cz"
+      ],
+      "ic": "05800510",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2335",
+      "varsym": "252335",
+      "datum": "11. 11. 2025",
+      "splatno": "25. 11. 2025",
+      "splatnoDate": "2025-11-24T23:00:00.000Z",
+      "daysOver": 124,
+      "celkem": 8092.55,
+      "firmaName": "Zahradní a parková spol. s r.o.",
+      "emails": [
+        "vostal@zahradaml.cz"
+      ],
+      "ic": "25205978",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2337",
+      "varsym": "252337",
+      "datum": "11. 11. 2025",
+      "splatno": "25. 11. 2025",
+      "splatnoDate": "2025-11-24T23:00:00.000Z",
+      "daysOver": 124,
+      "celkem": 6040.81,
+      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "emails": [
+        "papirnik.elektro@gmail.com"
+      ],
+      "ic": "17296374",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2338",
+      "varsym": "252338",
+      "datum": "11. 11. 2025",
+      "splatno": "25. 11. 2025",
+      "splatnoDate": "2025-11-24T23:00:00.000Z",
+      "daysOver": 124,
+      "celkem": 2359.67,
+      "firmaName": "Společnost T.A.Q. s.r.o.",
+      "emails": [
+        "jiri.brozik@taq.cz"
+      ],
+      "ic": "28868781",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2340",
+      "varsym": "252340",
+      "datum": "11. 11. 2025",
+      "splatno": "25. 11. 2025",
+      "splatnoDate": "2025-11-24T23:00:00.000Z",
+      "daysOver": 124,
+      "celkem": 422.53,
+      "firmaName": "Václav Tůma",
+      "emails": [
+        "instalaterstvituma@seznam.cz"
+      ],
+      "ic": "70775508",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2381",
+      "varsym": "252381",
+      "datum": "14. 11. 2025",
+      "splatno": "28. 11. 2025",
+      "splatnoDate": "2025-11-27T23:00:00.000Z",
+      "daysOver": 121,
+      "celkem": 6816,
+      "firmaName": "Tomáš Vít",
+      "emails": [
+        "tomik@zoomboom.cz"
+      ],
+      "ic": "71554424",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2407",
+      "varsym": "252407",
+      "datum": "18. 11. 2025",
+      "splatno": "02. 12. 2025",
+      "splatnoDate": "2025-12-01T23:00:00.000Z",
+      "daysOver": 117,
+      "celkem": 27869.51,
+      "firmaName": "LOGOSIGN a.s.",
+      "emails": [
+        "marek.bouma@logosign.cz",
+        "lucie.vondrakova@logosign.cz"
+      ],
+      "ic": "27579158",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2444",
+      "varsym": "252444",
+      "datum": "21. 11. 2025",
+      "splatno": "05. 12. 2025",
+      "splatnoDate": "2025-12-04T23:00:00.000Z",
+      "daysOver": 114,
+      "celkem": 609,
+      "firmaName": "Roman LEDINSKÝ",
+      "emails": [],
+      "ic": "62942841",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2475",
+      "varsym": "252475",
+      "datum": "24. 11. 2025",
+      "splatno": "08. 12. 2025",
+      "splatnoDate": "2025-12-07T23:00:00.000Z",
+      "daysOver": 111,
+      "celkem": 2763,
+      "firmaName": "Pavel Macháček",
+      "emails": [
+        "pavel.machacek25@gmail.com"
+      ],
+      "ic": "22167293",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2476",
+      "varsym": "252476",
+      "datum": "24. 11. 2025",
+      "splatno": "08. 12. 2025",
+      "splatnoDate": "2025-12-07T23:00:00.000Z",
+      "daysOver": 111,
+      "celkem": 1742,
+      "firmaName": "Martin Mokroš",
+      "emails": [
+        "vtpinstalatermokros@gmail.com"
+      ],
+      "ic": "74964666",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2490",
+      "varsym": "252490",
+      "datum": "26. 11. 2025",
+      "splatno": "10. 12. 2025",
+      "splatnoDate": "2025-12-09T23:00:00.000Z",
+      "daysOver": 109,
+      "celkem": 3230.16,
+      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "emails": [
+        "papirnik.elektro@gmail.com"
+      ],
+      "ic": "17296374",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2501",
+      "varsym": "252501",
+      "datum": "26. 11. 2025",
+      "splatno": "10. 12. 2025",
+      "splatnoDate": "2025-12-09T23:00:00.000Z",
+      "daysOver": 109,
+      "celkem": 200000,
+      "firmaName": "Techtronic Industries Eastern Europe Sp. z o.o.",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2505",
+      "varsym": "252505",
+      "datum": "27. 11. 2025",
+      "splatno": "11. 12. 2025",
+      "splatnoDate": "2025-12-10T23:00:00.000Z",
+      "daysOver": 108,
+      "celkem": 22147,
+      "firmaName": "Vasyl Kolochavyn",
+      "emails": [
+        "kolochavyn@seznam.cz"
+      ],
+      "ic": "28912551",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2507",
+      "varsym": "252507",
+      "datum": "27. 11. 2025",
+      "splatno": "11. 12. 2025",
+      "splatnoDate": "2025-12-10T23:00:00.000Z",
+      "daysOver": 108,
+      "celkem": 0.01,
+      "firmaName": "Stavební geologie - Geosan, s.r.o.",
+      "emails": [
+        "blaha@sggeosan.cz"
+      ],
+      "ic": "44684631",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2529",
+      "varsym": "252529",
+      "datum": "28. 11. 2025",
+      "splatno": "12. 12. 2025",
+      "splatnoDate": "2025-12-11T23:00:00.000Z",
+      "daysOver": 107,
+      "celkem": 8725.07,
+      "firmaName": "Mercator s.r.o.",
+      "emails": [
+        "zuzana.riegerova@mercator.cz",
+        "alena.pavlova@mercator.cz",
+        "lubos.pavel@mercator.cz"
+      ],
+      "ic": "47053135",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2530",
+      "varsym": "252530",
+      "datum": "28. 11. 2025",
+      "splatno": "12. 12. 2025",
+      "splatnoDate": "2025-12-11T23:00:00.000Z",
+      "daysOver": 107,
+      "celkem": 2613,
+      "firmaName": "Martin Mokroš",
+      "emails": [
+        "vtpinstalatermokros@gmail.com"
+      ],
+      "ic": "74964666",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2535",
+      "varsym": "252535",
+      "datum": "01. 12. 2025",
+      "splatno": "01. 03. 2026",
+      "splatnoDate": "2026-02-28T23:00:00.000Z",
+      "daysOver": 28,
+      "celkem": 24435.41,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2541",
+      "varsym": "252541",
+      "datum": "01. 12. 2025",
+      "splatno": "15. 12. 2025",
+      "splatnoDate": "2025-12-14T23:00:00.000Z",
+      "daysOver": 104,
+      "celkem": 2098,
+      "firmaName": "KIMICAR CZ s. r. o.",
+      "emails": [
+        "info@kimicar.cz"
+      ],
+      "ic": "28252438",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2547",
+      "varsym": "252547",
+      "datum": "01. 12. 2025",
+      "splatno": "15. 12. 2025",
+      "splatnoDate": "2025-12-14T23:00:00.000Z",
+      "daysOver": 104,
+      "celkem": 23286.35,
+      "firmaName": "LOGOSIGN a.s.",
+      "emails": [
+        "marek.bouma@logosign.cz",
+        "lucie.vondrakova@logosign.cz"
+      ],
+      "ic": "27579158",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2622",
+      "varsym": "252622",
+      "datum": "05. 12. 2025",
+      "splatno": "19. 12. 2025",
+      "splatnoDate": "2025-12-18T23:00:00.000Z",
+      "daysOver": 100,
+      "celkem": 4175,
+      "firmaName": "PROFI-INVEST, a.s.",
+      "emails": [],
+      "ic": "60197081",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2652",
+      "varsym": "252652",
+      "datum": "09. 12. 2025",
+      "splatno": "23. 12. 2025",
+      "splatnoDate": "2025-12-22T23:00:00.000Z",
+      "daysOver": 96,
+      "celkem": 2783,
+      "firmaName": "SCARPA Works s.r.o.",
+      "emails": [
+        "jakub.skarpa@scarpa-works.com"
+      ],
+      "ic": "21494762",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2693",
+      "varsym": "252693",
+      "datum": "10. 12. 2025",
+      "splatno": "24. 12. 2025",
+      "splatnoDate": "2025-12-23T23:00:00.000Z",
+      "daysOver": 95,
+      "celkem": 2033,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2699",
+      "varsym": "252699",
+      "datum": "12. 12. 2025",
+      "splatno": "26. 12. 2025",
+      "splatnoDate": "2025-12-25T23:00:00.000Z",
+      "daysOver": 93,
+      "celkem": 11373.64,
+      "firmaName": "Volvo Group Czech Republic, s.r.o.",
+      "emails": [
+        "jiri.holl@volvo.com"
+      ],
+      "ic": "61055239",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2704",
+      "varsym": "252704",
+      "datum": "12. 12. 2025",
+      "splatno": "26. 12. 2025",
+      "splatnoDate": "2025-12-25T23:00:00.000Z",
+      "daysOver": 93,
+      "celkem": 29370.51,
+      "firmaName": "WYMA EUROPE s.r.o.",
+      "emails": [
+        "lukas.l@wymasolutions.com"
+      ],
+      "ic": "28427688",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2709",
+      "varsym": "252709",
+      "datum": "12. 12. 2025",
+      "splatno": "26. 12. 2025",
+      "splatnoDate": "2025-12-25T23:00:00.000Z",
+      "daysOver": 93,
+      "celkem": 3442,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2729",
+      "varsym": "252729",
+      "datum": "15. 12. 2025",
+      "splatno": "29. 12. 2025",
+      "splatnoDate": "2025-12-28T23:00:00.000Z",
+      "daysOver": 90,
+      "celkem": 2878.11,
+      "firmaName": "SOME CZ, s.r.o.",
+      "emails": [
+        "stibal@some.cz",
+        "cerveny@some.cz"
+      ],
+      "ic": "27438171",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2735",
+      "varsym": "252735",
+      "datum": "16. 12. 2025",
+      "splatno": "30. 12. 2025",
+      "splatnoDate": "2025-12-29T23:00:00.000Z",
+      "daysOver": 89,
+      "celkem": 3501.5,
+      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "emails": [
+        "papirnik.elektro@gmail.com"
+      ],
+      "ic": "17296374",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2748",
+      "varsym": "252748",
+      "datum": "16. 12. 2025",
+      "splatno": "30. 12. 2025",
+      "splatnoDate": "2025-12-29T23:00:00.000Z",
+      "daysOver": 89,
+      "celkem": 357.19,
+      "firmaName": "Dřevosprint P+B s.r.o.",
+      "emails": [
+        "brada@drevosprint.cz"
+      ],
+      "ic": "27161722",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2789",
+      "varsym": "252789",
+      "datum": "30. 12. 2025",
+      "splatno": "13. 01. 2026",
+      "splatnoDate": "2026-01-12T23:00:00.000Z",
+      "daysOver": 75,
+      "celkem": 35402.81,
+      "firmaName": "SOREX s.r.o.",
+      "emails": [
+        "martin.culek@sorex.cz"
+      ],
+      "ic": "49827201",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2790",
+      "varsym": "252790",
+      "datum": "30. 12. 2025",
+      "splatno": "13. 01. 2026",
+      "splatnoDate": "2026-01-12T23:00:00.000Z",
+      "daysOver": 75,
+      "celkem": 22822.89,
+      "firmaName": "SOREX s.r.o.",
+      "emails": [
+        "martin.culek@sorex.cz"
+      ],
+      "ic": "49827201",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2810",
+      "varsym": "252810",
+      "datum": "19. 12. 2025",
+      "splatno": "02. 01. 2026",
+      "splatnoDate": "2026-01-01T23:00:00.000Z",
+      "daysOver": 86,
+      "celkem": 977.92,
+      "firmaName": "Jandaservis s.r.o.",
+      "emails": [
+        "info@jandaservis.cz"
+      ],
+      "ic": "24192171",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2821",
+      "varsym": "252821",
+      "datum": "22. 12. 2025",
+      "splatno": "05. 01. 2026",
+      "splatnoDate": "2026-01-04T23:00:00.000Z",
+      "daysOver": 83,
+      "celkem": 50759.5,
+      "firmaName": "Petr Palička",
+      "emails": [
+        "paldapal@gmail.com",
+        "paldaman.office@gmail.com"
+      ],
+      "ic": "68820631",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "25FV-2826",
+      "varsym": "252826",
+      "datum": "30. 12. 2025",
+      "splatno": "13. 01. 2026",
+      "splatnoDate": "2026-01-12T23:00:00.000Z",
+      "daysOver": 75,
+      "celkem": 66830,
+      "firmaName": "Alois Eiselt",
+      "emails": [
+        "aloiseiselt@gmail.com"
+      ],
+      "ic": "43173934",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0017",
+      "varsym": "260017",
+      "datum": "07. 01. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 6458.62,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0019",
+      "varsym": "260019",
+      "datum": "07. 01. 2026",
+      "splatno": "21. 01. 2026",
+      "splatnoDate": "2026-01-20T23:00:00.000Z",
+      "daysOver": 67,
+      "celkem": 14278,
+      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "emails": [
+        "servisvesely@seznam.cz"
+      ],
+      "ic": "27239560",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0057",
+      "varsym": "260057",
+      "datum": "12. 01. 2026",
+      "splatno": "26. 01. 2026",
+      "splatnoDate": "2026-01-25T23:00:00.000Z",
+      "daysOver": 62,
+      "celkem": 3933.47,
+      "firmaName": "Mercator s.r.o.",
+      "emails": [
+        "zuzana.riegerova@mercator.cz",
+        "alena.pavlova@mercator.cz",
+        "lubos.pavel@mercator.cz"
+      ],
+      "ic": "47053135",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0078",
+      "varsym": "260078",
+      "datum": "14. 01. 2026",
+      "splatno": "28. 01. 2026",
+      "splatnoDate": "2026-01-27T23:00:00.000Z",
+      "daysOver": 60,
+      "celkem": 8332.37,
+      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "emails": [
+        "papirnik.elektro@gmail.com"
+      ],
+      "ic": "17296374",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0082",
+      "varsym": "260082",
+      "datum": "14. 01. 2026",
+      "splatno": "28. 01. 2026",
+      "splatnoDate": "2026-01-27T23:00:00.000Z",
+      "daysOver": 60,
+      "celkem": 35440.18,
+      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "emails": [
+        "servisvesely@seznam.cz"
+      ],
+      "ic": "27239560",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0089",
+      "varsym": "260089",
+      "datum": "14. 01. 2026",
+      "splatno": "28. 01. 2026",
+      "splatnoDate": "2026-01-27T23:00:00.000Z",
+      "daysOver": 60,
+      "celkem": 24175.8,
+      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "emails": [
+        "papirnik.elektro@gmail.com"
+      ],
+      "ic": "17296374",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0097",
+      "varsym": "260097",
+      "datum": "15. 01. 2026",
+      "splatno": "29. 01. 2026",
+      "splatnoDate": "2026-01-28T23:00:00.000Z",
+      "daysOver": 59,
+      "celkem": 7203.74,
+      "firmaName": "Ondřej Klimeš",
+      "emails": [
+        "info@klimes-servis.cz"
+      ],
+      "ic": "73783455",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0114",
+      "varsym": "260114",
+      "datum": "16. 01. 2026",
+      "splatno": "30. 01. 2026",
+      "splatnoDate": "2026-01-29T23:00:00.000Z",
+      "daysOver": 58,
+      "celkem": 528.3,
+      "firmaName": "Ondřej Klimeš",
+      "emails": [
+        "info@klimes-servis.cz"
+      ],
+      "ic": "73783455",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0153",
+      "varsym": "260153",
+      "datum": "20. 01. 2026",
+      "splatno": "03. 02. 2026",
+      "splatnoDate": "2026-02-02T23:00:00.000Z",
+      "daysOver": 54,
+      "celkem": 3280.43,
+      "firmaName": "Ondřej Klimeš",
+      "emails": [
+        "info@klimes-servis.cz"
+      ],
+      "ic": "73783455",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0205",
+      "varsym": "260205",
+      "datum": "26. 01. 2026",
+      "splatno": "09. 02. 2026",
+      "splatnoDate": "2026-02-08T23:00:00.000Z",
+      "daysOver": 48,
+      "celkem": 6391.1,
+      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "emails": [
+        "servisvesely@seznam.cz"
+      ],
+      "ic": "27239560",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0227",
+      "varsym": "260227",
+      "datum": "28. 01. 2026",
+      "splatno": "11. 02. 2026",
+      "splatnoDate": "2026-02-10T23:00:00.000Z",
+      "daysOver": 46,
+      "celkem": 13320.45,
+      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "emails": [
+        "servisvesely@seznam.cz"
+      ],
+      "ic": "27239560",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0230",
+      "varsym": "260230",
+      "datum": "29. 01. 2026",
+      "splatno": "12. 02. 2026",
+      "splatnoDate": "2026-02-11T23:00:00.000Z",
+      "daysOver": 45,
+      "celkem": 6941.35,
+      "firmaName": "Iveco Truck Centrum, s.r.o.",
+      "emails": [
+        "jan.brezina@ivecotc.cz",
+        "faktura@ivecotc.cz"
+      ],
+      "ic": "60462710",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0241",
+      "varsym": "260241",
+      "datum": "30. 01. 2026",
+      "splatno": "13. 02. 2026",
+      "splatnoDate": "2026-02-12T23:00:00.000Z",
+      "daysOver": 44,
+      "celkem": 15778.09,
+      "firmaName": "Vápenka Čertovy schody a.s.",
+      "emails": [
+        "CZ03.invoices@lhoist.com",
+        "robert.stochl@lhoist.com"
+      ],
+      "ic": "45348626",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0242",
+      "varsym": "260242",
+      "datum": "30. 01. 2026",
+      "splatno": "30. 04. 2026",
+      "splatnoDate": "2026-04-29T22:00:00.000Z",
+      "daysOver": -31,
+      "celkem": 4992.28,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0253",
+      "varsym": "260253",
+      "datum": "30. 01. 2026",
+      "splatno": "13. 02. 2026",
+      "splatnoDate": "2026-02-12T23:00:00.000Z",
+      "daysOver": 44,
+      "celkem": 9109.83,
+      "firmaName": "LOGOSIGN a.s.",
+      "emails": [
+        "marek.bouma@logosign.cz",
+        "lucie.vondrakova@logosign.cz"
+      ],
+      "ic": "27579158",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0286",
+      "varsym": "260286",
+      "datum": "03. 02. 2026",
+      "splatno": "17. 02. 2026",
+      "splatnoDate": "2026-02-16T23:00:00.000Z",
+      "daysOver": 40,
+      "celkem": 22580.03,
+      "firmaName": "Frigotop s.r.o.",
+      "emails": [
+        "topenimajer@seznam.cz"
+      ],
+      "ic": "17985200",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0305",
+      "varsym": "260305",
+      "datum": "05. 02. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 123501,
+      "firmaName": "SKV s.r.o.",
+      "emails": [
+        "nakup@skv-sro.cz"
+      ],
+      "ic": "42197171",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0348",
+      "varsym": "260348",
+      "datum": "09. 02. 2026",
+      "splatno": "23. 02. 2026",
+      "splatnoDate": "2026-02-22T23:00:00.000Z",
+      "daysOver": 34,
+      "celkem": 16877.08,
+      "firmaName": "KLIMASERVIS SŮVA, spol. s r.o.",
+      "emails": [
+        "fakturace@klimaservis-suva.cz",
+        "bromova@klimaservis-suva.cz"
+      ],
+      "ic": "47535318",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0354",
+      "varsym": "260354",
+      "datum": "09. 02. 2026",
+      "splatno": "23. 02. 2026",
+      "splatnoDate": "2026-02-22T23:00:00.000Z",
+      "daysOver": 34,
+      "celkem": 47807.42,
+      "firmaName": "YAMP s.r.o.",
+      "emails": [
+        "yamp.sro@seznam.cz"
+      ],
+      "ic": "26444160",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0374",
+      "varsym": "260374",
+      "datum": "11. 02. 2026",
+      "splatno": "25. 02. 2026",
+      "splatnoDate": "2026-02-24T23:00:00.000Z",
+      "daysOver": 32,
+      "celkem": 2383.7,
+      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "emails": [
+        "servisvesely@seznam.cz"
+      ],
+      "ic": "27239560",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0377",
+      "varsym": "260377",
+      "datum": "11. 02. 2026",
+      "splatno": "25. 02. 2026",
+      "splatnoDate": "2026-02-24T23:00:00.000Z",
+      "daysOver": 32,
+      "celkem": 11080.27,
+      "firmaName": "Ondřej Klimeš",
+      "emails": [
+        "info@klimes-servis.cz"
+      ],
+      "ic": "73783455",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0401",
+      "varsym": "260401",
+      "datum": "13. 02. 2026",
+      "splatno": "14. 05. 2026",
+      "splatnoDate": "2026-05-13T22:00:00.000Z",
+      "daysOver": -45,
+      "celkem": 29628.97,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0403",
+      "varsym": "260403",
+      "datum": "13. 02. 2026",
+      "splatno": "27. 02. 2026",
+      "splatnoDate": "2026-02-26T23:00:00.000Z",
+      "daysOver": 30,
+      "celkem": 7223.7,
+      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "emails": [
+        "servisvesely@seznam.cz"
+      ],
+      "ic": "27239560",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0408",
+      "varsym": "260408",
+      "datum": "13. 02. 2026",
+      "splatno": "21. 03. 2026",
+      "splatnoDate": "2026-03-20T23:00:00.000Z",
+      "daysOver": 8,
+      "celkem": 50554.69,
+      "firmaName": "SWIETELSKY Rail CZ s.r.o.",
+      "emails": [
+        "d.rehorova@swietelsky.cz"
+      ],
+      "ic": "28332202",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0413",
+      "varsym": "260413",
+      "datum": "13. 02. 2026",
+      "splatno": "27. 02. 2026",
+      "splatnoDate": "2026-02-26T23:00:00.000Z",
+      "daysOver": 30,
+      "celkem": 118022.37,
+      "firmaName": "Petr Palička",
+      "emails": [
+        "paldapal@gmail.com",
+        "paldaman.office@gmail.com"
+      ],
+      "ic": "68820631",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0417",
+      "varsym": "260417",
+      "datum": "16. 02. 2026",
+      "splatno": "02. 03. 2026",
+      "splatnoDate": "2026-03-01T23:00:00.000Z",
+      "daysOver": 27,
+      "celkem": 15952.9,
+      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "emails": [
+        "servisvesely@seznam.cz"
+      ],
+      "ic": "27239560",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0433",
+      "varsym": "260433",
+      "datum": "17. 02. 2026",
+      "splatno": "19. 03. 2026",
+      "splatnoDate": "2026-03-18T23:00:00.000Z",
+      "daysOver": 10,
+      "celkem": 18813.22,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0446",
+      "varsym": "260446",
+      "datum": "19. 02. 2026",
+      "splatno": "05. 03. 2026",
+      "splatnoDate": "2026-03-04T23:00:00.000Z",
+      "daysOver": 24,
+      "celkem": 2246.86,
+      "firmaName": "Andres a Vild, spol. s r.o.",
+      "emails": [
+        "vildml@andres-vild.cz",
+        "strnadova@andres-vild.cz"
+      ],
+      "ic": "41191862",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0447",
+      "varsym": "260447",
+      "datum": "19. 02. 2026",
+      "splatno": "05. 03. 2026",
+      "splatnoDate": "2026-03-04T23:00:00.000Z",
+      "daysOver": 24,
+      "celkem": 2361.92,
+      "firmaName": "Mercator s.r.o.",
+      "emails": [
+        "zuzana.riegerova@mercator.cz",
+        "alena.pavlova@mercator.cz",
+        "lubos.pavel@mercator.cz"
+      ],
+      "ic": "47053135",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0466",
+      "varsym": "260466",
+      "datum": "20. 02. 2026",
+      "splatno": "21. 05. 2026",
+      "splatnoDate": "2026-05-20T22:00:00.000Z",
+      "daysOver": -52,
+      "celkem": 3695.34,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0475",
+      "varsym": "260475",
+      "datum": "23. 02. 2026",
+      "splatno": "25. 03. 2026",
+      "splatnoDate": "2026-03-24T23:00:00.000Z",
+      "daysOver": 4,
+      "celkem": 3440.15,
+      "firmaName": "CH vodní stavby a.s.",
+      "emails": [
+        "vitezslav.matejka@chvs.cz",
+        "faktury@chvs.cz"
+      ],
+      "ic": "26212005",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0478",
+      "varsym": "260478",
+      "datum": "23. 02. 2026",
+      "splatno": "09. 03. 2026",
+      "splatnoDate": "2026-03-08T23:00:00.000Z",
+      "daysOver": 20,
+      "celkem": 13248.58,
+      "firmaName": "Petr Palička",
+      "emails": [
+        "paldapal@gmail.com",
+        "paldaman.office@gmail.com"
+      ],
+      "ic": "68820631",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0491",
+      "varsym": "260491",
+      "datum": "25. 02. 2026",
+      "splatno": "11. 03. 2026",
+      "splatnoDate": "2026-03-10T23:00:00.000Z",
+      "daysOver": 18,
+      "celkem": 1561.62,
+      "firmaName": "YAMP s.r.o.",
+      "emails": [
+        "yamp.sro@seznam.cz"
+      ],
+      "ic": "26444160",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0492",
+      "varsym": "260492",
+      "datum": "25. 02. 2026",
+      "splatno": "26. 05. 2026",
+      "splatnoDate": "2026-05-25T22:00:00.000Z",
+      "daysOver": -57,
+      "celkem": 1561.62,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0493",
+      "varsym": "260493",
+      "datum": "25. 02. 2026",
+      "splatno": "27. 03. 2026",
+      "splatnoDate": "2026-03-26T23:00:00.000Z",
+      "daysOver": 2,
+      "celkem": 7848.89,
+      "firmaName": "workman s.r.o.",
+      "emails": [
+        "stavbyvedouci1@work-man.cz"
+      ],
+      "ic": "06901921",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0497",
+      "varsym": "260497",
+      "datum": "25. 02. 2026",
+      "splatno": "11. 03. 2026",
+      "splatnoDate": "2026-03-10T23:00:00.000Z",
+      "daysOver": 18,
+      "celkem": 2002.67,
+      "firmaName": "ROCK SALT, s.r.o.",
+      "emails": [
+        "marta.kozakova@rocksalt.cz"
+      ],
+      "ic": "24138908",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0498",
+      "varsym": "260498",
+      "datum": "25. 02. 2026",
+      "splatno": "11. 03. 2026",
+      "splatnoDate": "2026-03-10T23:00:00.000Z",
+      "daysOver": 18,
+      "celkem": 12697.11,
+      "firmaName": "4 COILS TECH s.r.o.",
+      "emails": [
+        "Jan.Milfort@4coilstech.eu",
+        "lenka.pisova@4coilstech.eu"
+      ],
+      "ic": "13981391",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0503",
+      "varsym": "260503",
+      "datum": "25. 02. 2026",
+      "splatno": "11. 03. 2026",
+      "splatnoDate": "2026-03-10T23:00:00.000Z",
+      "daysOver": 18,
+      "celkem": 5445,
+      "firmaName": "KLIMASERVIS SŮVA, spol. s r.o.",
+      "emails": [
+        "fakturace@klimaservis-suva.cz",
+        "bromova@klimaservis-suva.cz"
+      ],
+      "ic": "47535318",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0505",
+      "varsym": "260505",
+      "datum": "26. 02. 2026",
+      "splatno": "12. 03. 2026",
+      "splatnoDate": "2026-03-11T23:00:00.000Z",
+      "daysOver": 17,
+      "celkem": 23518.65,
+      "firmaName": "CARACAL MACHINES s.r.o.",
+      "emails": [
+        "eva@caracal-machines.cz"
+      ],
+      "ic": "06059201",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0513",
+      "varsym": "260513",
+      "datum": "26. 02. 2026",
+      "splatno": "12. 03. 2026",
+      "splatnoDate": "2026-03-11T23:00:00.000Z",
+      "daysOver": 17,
+      "celkem": 885.36,
+      "firmaName": "CARACAL MACHINES s.r.o.",
+      "emails": [
+        "eva@caracal-machines.cz"
+      ],
+      "ic": "06059201",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0522",
+      "varsym": "260522",
+      "datum": "27. 02. 2026",
+      "splatno": "29. 03. 2026",
+      "splatnoDate": "2026-03-28T23:00:00.000Z",
+      "daysOver": 0,
+      "celkem": 3343.23,
+      "firmaName": "CH vodní stavby a.s.",
+      "emails": [
+        "vitezslav.matejka@chvs.cz",
+        "faktury@chvs.cz"
+      ],
+      "ic": "26212005",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0526",
+      "varsym": "260526",
+      "datum": "02. 03. 2026",
+      "splatno": "31. 05. 2026",
+      "splatnoDate": "2026-05-30T22:00:00.000Z",
+      "daysOver": -62,
+      "celkem": 15506.76,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0528",
+      "varsym": "260528",
+      "datum": "02. 03. 2026",
+      "splatno": "31. 05. 2026",
+      "splatnoDate": "2026-05-30T22:00:00.000Z",
+      "daysOver": -62,
+      "celkem": 1945.68,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0531",
+      "varsym": "260531",
+      "datum": "02. 03. 2026",
+      "splatno": "16. 03. 2026",
+      "splatnoDate": "2026-03-15T23:00:00.000Z",
+      "daysOver": 13,
+      "celkem": 12765.98,
+      "firmaName": "DD PNEU s.r.o.",
+      "emails": [],
+      "ic": "26904195",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0533",
+      "varsym": "260533",
+      "datum": "02. 03. 2026",
+      "splatno": "16. 03. 2026",
+      "splatnoDate": "2026-03-15T23:00:00.000Z",
+      "daysOver": 13,
+      "celkem": 24188,
+      "firmaName": "ProTelco s.r.o.",
+      "emails": [
+        "perglerova@protelco.cz"
+      ],
+      "ic": "06605176",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0537",
+      "varsym": "260537",
+      "datum": "02. 03. 2026",
+      "splatno": "16. 03. 2026",
+      "splatnoDate": "2026-03-15T23:00:00.000Z",
+      "daysOver": 13,
+      "celkem": 8438.66,
+      "firmaName": "Vladimír Duben",
+      "emails": [],
+      "ic": "15936252",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0536",
+      "varsym": "260536",
+      "datum": "02. 03. 2026",
+      "splatno": "16. 03. 2026",
+      "splatnoDate": "2026-03-15T23:00:00.000Z",
+      "daysOver": 13,
+      "celkem": 1012.81,
+      "firmaName": "Dřevosprint P+B s.r.o.",
+      "emails": [
+        "brada@drevosprint.cz"
+      ],
+      "ic": "27161722",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0541",
+      "varsym": "260541",
+      "datum": "02. 03. 2026",
+      "splatno": "16. 03. 2026",
+      "splatnoDate": "2026-03-15T23:00:00.000Z",
+      "daysOver": 13,
+      "celkem": 1825,
+      "firmaName": "Jiří Flaks",
+      "emails": [
+        "j.flaks@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0542",
+      "varsym": "260542",
+      "datum": "02. 03. 2026",
+      "splatno": "16. 03. 2026",
+      "splatnoDate": "2026-03-15T23:00:00.000Z",
+      "daysOver": 13,
+      "celkem": 23232.72,
+      "firmaName": "VP Construction Development s.r.o.",
+      "emails": [
+        "vecera@vpcd.cz",
+        "fakturace@vpcd.cz"
+      ],
+      "ic": "04778642",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0543",
+      "varsym": "260543",
+      "datum": "02. 03. 2026",
+      "splatno": "16. 03. 2026",
+      "splatnoDate": "2026-03-15T23:00:00.000Z",
+      "daysOver": 13,
+      "celkem": 43858.87,
+      "firmaName": "VP Construction Development s.r.o.",
+      "emails": [
+        "vecera@vpcd.cz",
+        "fakturace@vpcd.cz"
+      ],
+      "ic": "04778642",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0544",
+      "varsym": "260544",
+      "datum": "02. 03. 2026",
+      "splatno": "16. 03. 2026",
+      "splatnoDate": "2026-03-15T23:00:00.000Z",
+      "daysOver": 13,
+      "celkem": 27833.81,
+      "firmaName": "VP Construction Development s.r.o.",
+      "emails": [
+        "vecera@vpcd.cz",
+        "fakturace@vpcd.cz"
+      ],
+      "ic": "04778642",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0545",
+      "varsym": "260545",
+      "datum": "02. 03. 2026",
+      "splatno": "16. 03. 2026",
+      "splatnoDate": "2026-03-15T23:00:00.000Z",
+      "daysOver": 13,
+      "celkem": 47133.26,
+      "firmaName": "VP Construction Development s.r.o.",
+      "emails": [
+        "vecera@vpcd.cz",
+        "fakturace@vpcd.cz"
+      ],
+      "ic": "04778642",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0550",
+      "varsym": "260550",
+      "datum": "02. 03. 2026",
+      "splatno": "01. 04. 2026",
+      "splatnoDate": "2026-03-31T22:00:00.000Z",
+      "daysOver": -2,
+      "celkem": 7105.71,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0554",
+      "varsym": "260554",
+      "datum": "02. 03. 2026",
+      "splatno": "01. 04. 2026",
+      "splatnoDate": "2026-03-31T22:00:00.000Z",
+      "daysOver": -2,
+      "celkem": 174.24,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0558",
+      "varsym": "260558",
+      "datum": "02. 03. 2026",
+      "splatno": "16. 03. 2026",
+      "splatnoDate": "2026-03-15T23:00:00.000Z",
+      "daysOver": 13,
+      "celkem": 7158.54,
+      "firmaName": "Tomáš Vorel",
+      "emails": [
+        "vorlos@volny.cz"
+      ],
+      "ic": "62987844",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0561",
+      "varsym": "260561",
+      "datum": "03. 03. 2026",
+      "splatno": "17. 03. 2026",
+      "splatnoDate": "2026-03-16T23:00:00.000Z",
+      "daysOver": 12,
+      "celkem": 4719,
+      "firmaName": "FM servis Praha CZ s.r.o.",
+      "emails": [
+        "info@fmservispraha.cz"
+      ],
+      "ic": "27120988",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0578",
+      "varsym": "260578",
+      "datum": "03. 03. 2026",
+      "splatno": "02. 04. 2026",
+      "splatnoDate": "2026-04-01T22:00:00.000Z",
+      "daysOver": -3,
+      "celkem": 45471.16,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0580",
+      "varsym": "260580",
+      "datum": "04. 03. 2026",
+      "splatno": "18. 03. 2026",
+      "splatnoDate": "2026-03-17T23:00:00.000Z",
+      "daysOver": 11,
+      "celkem": 8524.69,
+      "firmaName": "4 COILS TECH s.r.o.",
+      "emails": [
+        "Jan.Milfort@4coilstech.eu",
+        "lenka.pisova@4coilstech.eu"
+      ],
+      "ic": "13981391",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0590",
+      "varsym": "260590",
+      "datum": "04. 03. 2026",
+      "splatno": "18. 03. 2026",
+      "splatnoDate": "2026-03-17T23:00:00.000Z",
+      "daysOver": 11,
+      "celkem": 8989.59,
+      "firmaName": "...",
+      "emails": [
+        "pavel.pataki@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0593",
+      "varsym": "260593",
+      "datum": "04. 03. 2026",
+      "splatno": "18. 03. 2026",
+      "splatnoDate": "2026-03-17T23:00:00.000Z",
+      "daysOver": 11,
+      "celkem": 374.95,
+      "firmaName": "BSRoman s.r.o.",
+      "emails": [
+        "bsroman@seznam.cz"
+      ],
+      "ic": "19224851",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0595",
+      "varsym": "260595",
+      "datum": "05. 03. 2026",
+      "splatno": "04. 04. 2026",
+      "splatnoDate": "2026-04-03T22:00:00.000Z",
+      "daysOver": -5,
+      "celkem": 1415.46,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0599",
+      "varsym": "260599",
+      "datum": "05. 03. 2026",
+      "splatno": "19. 03. 2026",
+      "splatnoDate": "2026-03-18T23:00:00.000Z",
+      "daysOver": 10,
+      "celkem": 4587.46,
+      "firmaName": "KarlDom s.r.o.",
+      "emails": [
+        "karldominfo@gmail.com"
+      ],
+      "ic": "19541350",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0601",
+      "varsym": "260601",
+      "datum": "05. 03. 2026",
+      "splatno": "19. 03. 2026",
+      "splatnoDate": "2026-03-18T23:00:00.000Z",
+      "daysOver": 10,
+      "celkem": 642.75,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0606",
+      "varsym": "260606",
+      "datum": "06. 03. 2026",
+      "splatno": "20. 03. 2026",
+      "splatnoDate": "2026-03-19T23:00:00.000Z",
+      "daysOver": 9,
+      "celkem": 7465.7,
+      "firmaName": "BSRoman s.r.o.",
+      "emails": [
+        "bsroman@seznam.cz"
+      ],
+      "ic": "19224851",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0608",
+      "varsym": "260608",
+      "datum": "06. 03. 2026",
+      "splatno": "20. 03. 2026",
+      "splatnoDate": "2026-03-19T23:00:00.000Z",
+      "daysOver": 9,
+      "celkem": 3768,
+      "firmaName": "Petr Tichý",
+      "emails": [
+        "tichyp@hotmail.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0610",
+      "varsym": "260610",
+      "datum": "06. 03. 2026",
+      "splatno": "05. 04. 2026",
+      "splatnoDate": "2026-04-04T22:00:00.000Z",
+      "daysOver": -6,
+      "celkem": 51279.82,
+      "firmaName": "Peter Schmidt",
+      "emails": [
+        "stavbyvedouci1schmidt@seznam.cz"
+      ],
+      "ic": "24425176",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0616",
+      "varsym": "260616",
+      "datum": "09. 03. 2026",
+      "splatno": "23. 03. 2026",
+      "splatnoDate": "2026-03-22T23:00:00.000Z",
+      "daysOver": 6,
+      "celkem": 4535.3,
+      "firmaName": "Marek Stejskal",
+      "emails": [
+        "mareks@trebestovice.cz"
+      ],
+      "ic": "86971999",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0617",
+      "varsym": "260617",
+      "datum": "09. 03. 2026",
+      "splatno": "23. 03. 2026",
+      "splatnoDate": "2026-03-22T23:00:00.000Z",
+      "daysOver": 6,
+      "celkem": 310.85,
+      "firmaName": "Petr Šimon",
+      "emails": [
+        "petr.simonjn@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0619",
+      "varsym": "260619",
+      "datum": "09. 03. 2026",
+      "splatno": "23. 03. 2026",
+      "splatnoDate": "2026-03-22T23:00:00.000Z",
+      "daysOver": 6,
+      "celkem": 10941,
+      "firmaName": "Fox-install, s.r.o.",
+      "emails": [
+        "fox-install@seznam.cz"
+      ],
+      "ic": "23852534",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0621",
+      "varsym": "260621",
+      "datum": "09. 03. 2026",
+      "splatno": "23. 03. 2026",
+      "splatnoDate": "2026-03-22T23:00:00.000Z",
+      "daysOver": 6,
+      "celkem": 109.99,
+      "firmaName": "CETIN a.s.",
+      "emails": [],
+      "ic": "04084063",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0625",
+      "varsym": "260625",
+      "datum": "10. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 4117.51,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0630",
+      "varsym": "260630",
+      "datum": "10. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 13704.46,
+      "firmaName": "APB - PLZEŇ a.s.",
+      "emails": [
+        "masatova.lucie@apb-plzen.cz"
+      ],
+      "ic": "27066410",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0635",
+      "varsym": "260635",
+      "datum": "10. 03. 2026",
+      "splatno": "24. 03. 2026",
+      "splatnoDate": "2026-03-23T23:00:00.000Z",
+      "daysOver": 5,
+      "celkem": 5207.29,
+      "firmaName": "QUANTUM OF MONEY s.r.o.",
+      "emails": [
+        "jan.zbuzek@gmail.com"
+      ],
+      "ic": "06612750",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0638",
+      "varsym": "260638",
+      "datum": "11. 03. 2026",
+      "splatno": "25. 03. 2026",
+      "splatnoDate": "2026-03-24T23:00:00.000Z",
+      "daysOver": 4,
+      "celkem": 8183.29,
+      "firmaName": "Stavební geologie - Geosan, s.r.o.",
+      "emails": [
+        "blaha@sggeosan.cz"
+      ],
+      "ic": "44684631",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0644",
+      "varsym": "260644",
+      "datum": "11. 03. 2026",
+      "splatno": "09. 06. 2026",
+      "splatnoDate": "2026-06-08T22:00:00.000Z",
+      "daysOver": -71,
+      "celkem": 36291.53,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0648",
+      "varsym": "260648",
+      "datum": "11. 03. 2026",
+      "splatno": "25. 03. 2026",
+      "splatnoDate": "2026-03-24T23:00:00.000Z",
+      "daysOver": 4,
+      "celkem": 475.53,
+      "firmaName": "Norican Czech s.r.o.",
+      "emails": [
+        "invoiceCZ@noricangroup.com",
+        "eva.fronkova@noricangroup.com"
+      ],
+      "ic": "49822977",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0650",
+      "varsym": "260650",
+      "datum": "11. 03. 2026",
+      "splatno": "25. 03. 2026",
+      "splatnoDate": "2026-03-24T23:00:00.000Z",
+      "daysOver": 4,
+      "celkem": 2407.9,
+      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "emails": [
+        "servisvesely@seznam.cz"
+      ],
+      "ic": "27239560",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0651",
+      "varsym": "260651",
+      "datum": "11. 03. 2026",
+      "splatno": "25. 03. 2026",
+      "splatnoDate": "2026-03-24T23:00:00.000Z",
+      "daysOver": 4,
+      "celkem": 989.05,
+      "firmaName": "H-IZOL Liberec s.r.o.",
+      "emails": [
+        "henrik.santa@gmail.com"
+      ],
+      "ic": "05666244",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0654",
+      "varsym": "260654",
+      "datum": "11. 03. 2026",
+      "splatno": "25. 03. 2026",
+      "splatnoDate": "2026-03-24T23:00:00.000Z",
+      "daysOver": 4,
+      "celkem": 1540.93,
+      "firmaName": "AL Stavby Míkovec s.r.o.",
+      "emails": [
+        "info@alsm.cz"
+      ],
+      "ic": "19915373",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0657",
+      "varsym": "260657",
+      "datum": "11. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 28530.59,
+      "firmaName": "CH vodní stavby a.s.",
+      "emails": [
+        "vitezslav.matejka@chvs.cz",
+        "faktury@chvs.cz"
+      ],
+      "ic": "26212005",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0659",
+      "varsym": "260659",
+      "datum": "12. 03. 2026",
+      "splatno": "26. 03. 2026",
+      "splatnoDate": "2026-03-25T23:00:00.000Z",
+      "daysOver": 3,
+      "celkem": 6889,
+      "firmaName": "Lukáš Hovorka",
+      "emails": [
+        "Lukas.Hovorka@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0662",
+      "varsym": "260662",
+      "datum": "12. 03. 2026",
+      "splatno": "26. 03. 2026",
+      "splatnoDate": "2026-03-25T23:00:00.000Z",
+      "daysOver": 3,
+      "celkem": 1622.26,
+      "firmaName": "Róbert Malinovský",
+      "emails": [
+        "tesarstvi.malinovsky@seznam.cz"
+      ],
+      "ic": "49343904",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0664",
+      "varsym": "260664",
+      "datum": "12. 03. 2026",
+      "splatno": "26. 03. 2026",
+      "splatnoDate": "2026-03-25T23:00:00.000Z",
+      "daysOver": 3,
+      "celkem": 3418.37,
+      "firmaName": "ROCK SALT, s.r.o.",
+      "emails": [
+        "marta.kozakova@rocksalt.cz"
+      ],
+      "ic": "24138908",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0667",
+      "varsym": "260667",
+      "datum": "12. 03. 2026",
+      "splatno": "26. 03. 2026",
+      "splatnoDate": "2026-03-25T23:00:00.000Z",
+      "daysOver": 3,
+      "celkem": 7811.03,
+      "firmaName": "Iveco Truck Centrum, s.r.o.",
+      "emails": [
+        "jan.brezina@ivecotc.cz",
+        "faktura@ivecotc.cz"
+      ],
+      "ic": "60462710",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0671",
+      "varsym": "260671",
+      "datum": "13. 03. 2026",
+      "splatno": "27. 03. 2026",
+      "splatnoDate": "2026-03-26T23:00:00.000Z",
+      "daysOver": 2,
+      "celkem": 4855.13,
+      "firmaName": "ELKOV Jaroměř s.r.o.",
+      "emails": [
+        "elkov.jaromer@seznam.cz"
+      ],
+      "ic": "27485471",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0675",
+      "varsym": "260675",
+      "datum": "13. 03. 2026",
+      "splatno": "27. 03. 2026",
+      "splatnoDate": "2026-03-26T23:00:00.000Z",
+      "daysOver": 2,
+      "celkem": 401.72,
+      "firmaName": "ELKOV Jaroměř s.r.o.",
+      "emails": [
+        "elkov.jaromer@seznam.cz"
+      ],
+      "ic": "27485471",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0679",
+      "varsym": "260679",
+      "datum": "13. 03. 2026",
+      "splatno": "27. 03. 2026",
+      "splatnoDate": "2026-03-26T23:00:00.000Z",
+      "daysOver": 2,
+      "celkem": 15816.15,
+      "firmaName": "David Drábek",
+      "emails": [
+        "daviddrabek@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0682",
+      "varsym": "260682",
+      "datum": "16. 03. 2026",
+      "splatno": "30. 03. 2026",
+      "splatnoDate": "2026-03-29T22:00:00.000Z",
+      "daysOver": 0,
+      "celkem": 7842.37,
+      "firmaName": "LOGOSIGN a.s.",
+      "emails": [
+        "marek.bouma@logosign.cz",
+        "lucie.vondrakova@logosign.cz"
+      ],
+      "ic": "27579158",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0683",
+      "varsym": "260683",
+      "datum": "16. 03. 2026",
+      "splatno": "30. 03. 2026",
+      "splatnoDate": "2026-03-29T22:00:00.000Z",
+      "daysOver": 0,
+      "celkem": 9987.06,
+      "firmaName": "LOGOSIGN a.s.",
+      "emails": [
+        "marek.bouma@logosign.cz",
+        "lucie.vondrakova@logosign.cz"
+      ],
+      "ic": "27579158",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0686",
+      "varsym": "260686",
+      "datum": "16. 03. 2026",
+      "splatno": "30. 03. 2026",
+      "splatnoDate": "2026-03-29T22:00:00.000Z",
+      "daysOver": 0,
+      "celkem": 2270,
+      "firmaName": "Adam Staněk",
+      "emails": [
+        "adamstanek86@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0687",
+      "varsym": "260687",
+      "datum": "16. 03. 2026",
+      "splatno": "30. 03. 2026",
+      "splatnoDate": "2026-03-29T22:00:00.000Z",
+      "daysOver": 0,
+      "celkem": 16206.8,
+      "firmaName": "Quixy s.r.o.",
+      "emails": [
+        "info@quixy.team"
+      ],
+      "ic": "21986550",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0690",
+      "varsym": "260690",
+      "datum": "16. 03. 2026",
+      "splatno": "30. 03. 2026",
+      "splatnoDate": "2026-03-29T22:00:00.000Z",
+      "daysOver": 0,
+      "celkem": 19098.4,
+      "firmaName": "Petr Palička",
+      "emails": [
+        "paldapal@gmail.com",
+        "paldaman.office@gmail.com"
+      ],
+      "ic": "68820631",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0694",
+      "varsym": "260694",
+      "datum": "16. 03. 2026",
+      "splatno": "30. 03. 2026",
+      "splatnoDate": "2026-03-29T22:00:00.000Z",
+      "daysOver": 0,
+      "celkem": 9196.61,
+      "firmaName": "Santech alfa s.r.o.",
+      "emails": [
+        "obchod@santechalfa.cz"
+      ],
+      "ic": "24277665",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0695",
+      "varsym": "260695",
+      "datum": "16. 03. 2026",
+      "splatno": "30. 03. 2026",
+      "splatnoDate": "2026-03-29T22:00:00.000Z",
+      "daysOver": 0,
+      "celkem": 13132.86,
+      "firmaName": "Relem s.r.o.",
+      "emails": [
+        "david.pusztakurti@relem.cz"
+      ],
+      "ic": "06896146",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0697",
+      "varsym": "260697",
+      "datum": "16. 03. 2026",
+      "splatno": "30. 03. 2026",
+      "splatnoDate": "2026-03-29T22:00:00.000Z",
+      "daysOver": 0,
+      "celkem": 2104.52,
+      "firmaName": "Vápenka Čertovy schody a.s.",
+      "emails": [
+        "CZ03.invoices@lhoist.com",
+        "robert.stochl@lhoist.com"
+      ],
+      "ic": "45348626",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0698",
+      "varsym": "260698",
+      "datum": "16. 03. 2026",
+      "splatno": "30. 03. 2026",
+      "splatnoDate": "2026-03-29T22:00:00.000Z",
+      "daysOver": 0,
+      "celkem": 752.5,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0699",
+      "varsym": "260699",
+      "datum": "16. 03. 2026",
+      "splatno": "15. 04. 2026",
+      "splatnoDate": "2026-04-14T22:00:00.000Z",
+      "daysOver": -16,
+      "celkem": 28023.6,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0709",
+      "varsym": "260709",
+      "datum": "17. 03. 2026",
+      "splatno": "31. 03. 2026",
+      "splatnoDate": "2026-03-30T22:00:00.000Z",
+      "daysOver": -1,
+      "celkem": 11459,
+      "firmaName": "Róbert Janek",
+      "emails": [
+        "janek.fkblsany@tiscali.cz"
+      ],
+      "ic": "71810200",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0710",
+      "varsym": "260710",
+      "datum": "16. 03. 2026",
+      "splatno": "30. 03. 2026",
+      "splatnoDate": "2026-03-29T22:00:00.000Z",
+      "daysOver": 0,
+      "celkem": 1008.92,
+      "firmaName": "František Macháč",
+      "emails": [
+        "trtek89@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0711",
+      "varsym": "260711",
+      "datum": "17. 03. 2026",
+      "splatno": "31. 03. 2026",
+      "splatnoDate": "2026-03-30T22:00:00.000Z",
+      "daysOver": -1,
+      "celkem": 3911.75,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0714",
+      "varsym": "260714",
+      "datum": "17. 03. 2026",
+      "splatno": "31. 03. 2026",
+      "splatnoDate": "2026-03-30T22:00:00.000Z",
+      "daysOver": -1,
+      "celkem": 5623.06,
+      "firmaName": "STARP Home s.r.o.",
+      "emails": [
+        "valentino.ros@seznam.cz",
+        "kancelar@starp-home.cz",
+        "michal.frank@starp-home.cz"
+      ],
+      "ic": "09978925",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0715",
+      "varsym": "260715",
+      "datum": "17. 03. 2026",
+      "splatno": "31. 03. 2026",
+      "splatnoDate": "2026-03-30T22:00:00.000Z",
+      "daysOver": -1,
+      "celkem": 569.16,
+      "firmaName": "STARP Home s.r.o.",
+      "emails": [
+        "valentino.ros@seznam.cz",
+        "kancelar@starp-home.cz",
+        "michal.frank@starp-home.cz"
+      ],
+      "ic": "09978925",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0716",
+      "varsym": "260716",
+      "datum": "17. 03. 2026",
+      "splatno": "16. 04. 2026",
+      "splatnoDate": "2026-04-15T22:00:00.000Z",
+      "daysOver": -17,
+      "celkem": 2063.49,
+      "firmaName": "CH vodní stavby a.s.",
+      "emails": [
+        "vitezslav.matejka@chvs.cz",
+        "faktury@chvs.cz"
+      ],
+      "ic": "26212005",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0719",
+      "varsym": "260719",
+      "datum": "18. 03. 2026",
+      "splatno": "01. 04. 2026",
+      "splatnoDate": "2026-03-31T22:00:00.000Z",
+      "daysOver": -2,
+      "celkem": 1571,
+      "firmaName": "Michal Šujak",
+      "emails": [
+        "majkl7777@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0720",
+      "varsym": "260720",
+      "datum": "18. 03. 2026",
+      "splatno": "01. 04. 2026",
+      "splatnoDate": "2026-03-31T22:00:00.000Z",
+      "daysOver": -2,
+      "celkem": 6753.33,
+      "firmaName": "LiftTowers s.r.o.",
+      "emails": [
+        "tomas.michalka@lifttowers.com",
+        "faktury@lifttowers.com"
+      ],
+      "ic": "02610809",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0721",
+      "varsym": "260721",
+      "datum": "18. 03. 2026",
+      "splatno": "01. 04. 2026",
+      "splatnoDate": "2026-03-31T22:00:00.000Z",
+      "daysOver": -2,
+      "celkem": 1069,
+      "firmaName": "Němec Zdeněk",
+      "emails": [
+        "zdenek.21@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0722",
+      "varsym": "260722",
+      "datum": "18. 03. 2026",
+      "splatno": "01. 04. 2026",
+      "splatnoDate": "2026-03-31T22:00:00.000Z",
+      "daysOver": -2,
+      "celkem": 4336,
+      "firmaName": "Josef Snášel",
+      "emails": [
+        "snaselovi@email.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0725",
+      "varsym": "260725",
+      "datum": "18. 03. 2026",
+      "splatno": "01. 04. 2026",
+      "splatnoDate": "2026-03-31T22:00:00.000Z",
+      "daysOver": -2,
+      "celkem": 17895.9,
+      "firmaName": "SE-MA STAV EU s.r.o.",
+      "emails": [
+        "LIBOR.MATOUCH@SEMASTAV.CZ"
+      ],
+      "ic": "17894654",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0726",
+      "varsym": "260726",
+      "datum": "18. 03. 2026",
+      "splatno": "01. 04. 2026",
+      "splatnoDate": "2026-03-31T22:00:00.000Z",
+      "daysOver": -2,
+      "celkem": 8378.91,
+      "firmaName": "MONO-STAV cz s.r.o.",
+      "emails": [
+        "hybsmichal@email.cz"
+      ],
+      "ic": "28070771",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0728",
+      "varsym": "260728",
+      "datum": "18. 03. 2026",
+      "splatno": "01. 04. 2026",
+      "splatnoDate": "2026-03-31T22:00:00.000Z",
+      "daysOver": -2,
+      "celkem": 5448.15,
+      "firmaName": "JEZL ELEKTRO s.r.o.",
+      "emails": [
+        "petr@elektrojezl.cz"
+      ],
+      "ic": "27137210",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0730",
+      "varsym": "260730",
+      "datum": "18. 03. 2026",
+      "splatno": "01. 04. 2026",
+      "splatnoDate": "2026-03-31T22:00:00.000Z",
+      "daysOver": -2,
+      "celkem": 91.48,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0732",
+      "varsym": "260732",
+      "datum": "18. 03. 2026",
+      "splatno": "17. 04. 2026",
+      "splatnoDate": "2026-04-16T22:00:00.000Z",
+      "daysOver": -18,
+      "celkem": 28169.2,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0734",
+      "varsym": "260734",
+      "datum": "18. 03. 2026",
+      "splatno": "01. 04. 2026",
+      "splatnoDate": "2026-03-31T22:00:00.000Z",
+      "daysOver": -2,
+      "celkem": 5872.98,
+      "firmaName": "Václav Tůma",
+      "emails": [
+        "instalaterstvituma@seznam.cz"
+      ],
+      "ic": "70775508",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0746",
+      "varsym": "260746",
+      "datum": "19. 03. 2026",
+      "splatno": "18. 04. 2026",
+      "splatnoDate": "2026-04-17T22:00:00.000Z",
+      "daysOver": -19,
+      "celkem": 383.32,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0753",
+      "varsym": "260753",
+      "datum": "19. 03. 2026",
+      "splatno": "02. 04. 2026",
+      "splatnoDate": "2026-04-01T22:00:00.000Z",
+      "daysOver": -3,
+      "celkem": 1453.1,
+      "firmaName": "INSTALA PROFI s.r.o.",
+      "emails": [],
+      "ic": "28927338",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0756",
+      "varsym": "260756",
+      "datum": "19. 03. 2026",
+      "splatno": "02. 04. 2026",
+      "splatnoDate": "2026-04-01T22:00:00.000Z",
+      "daysOver": -3,
+      "celkem": 6488.33,
+      "firmaName": "DKF systém s.r.o.",
+      "emails": [
+        "dkfs@email.cz"
+      ],
+      "ic": "28590376",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0759",
+      "varsym": "260759",
+      "datum": "19. 03. 2026",
+      "splatno": "02. 04. 2026",
+      "splatnoDate": "2026-04-01T22:00:00.000Z",
+      "daysOver": -3,
+      "celkem": 718.74,
+      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "emails": [
+        "servisvesely@seznam.cz"
+      ],
+      "ic": "27239560",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0761",
+      "varsym": "260761",
+      "datum": "20. 03. 2026",
+      "splatno": "03. 04. 2026",
+      "splatnoDate": "2026-04-02T22:00:00.000Z",
+      "daysOver": -4,
+      "celkem": 2420.85,
+      "firmaName": "ProTelco s.r.o.",
+      "emails": [
+        "perglerova@protelco.cz"
+      ],
+      "ic": "06605176",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0765",
+      "varsym": "260765",
+      "datum": "20. 03. 2026",
+      "splatno": "03. 04. 2026",
+      "splatnoDate": "2026-04-02T22:00:00.000Z",
+      "daysOver": -4,
+      "celkem": 18068.66,
+      "firmaName": "Tomáš Vorel",
+      "emails": [
+        "vorlos@volny.cz"
+      ],
+      "ic": "62987844",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0766",
+      "varsym": "260766",
+      "datum": "20. 03. 2026",
+      "splatno": "03. 04. 2026",
+      "splatnoDate": "2026-04-02T22:00:00.000Z",
+      "daysOver": -4,
+      "celkem": 15062.09,
+      "firmaName": "Petr Palička",
+      "emails": [
+        "paldapal@gmail.com",
+        "paldaman.office@gmail.com"
+      ],
+      "ic": "68820631",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0767",
+      "varsym": "260767",
+      "datum": "20. 03. 2026",
+      "splatno": "19. 04. 2026",
+      "splatnoDate": "2026-04-18T22:00:00.000Z",
+      "daysOver": -20,
+      "celkem": 36179,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0768",
+      "varsym": "260768",
+      "datum": "20. 03. 2026",
+      "splatno": "03. 04. 2026",
+      "splatnoDate": "2026-04-02T22:00:00.000Z",
+      "daysOver": -4,
+      "celkem": 14899,
+      "firmaName": "Roman Mol",
+      "emails": [
+        "molroman@seznam.cz"
+      ],
+      "ic": "87599872",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0769",
+      "varsym": "260769",
+      "datum": "20. 03. 2026",
+      "splatno": "03. 04. 2026",
+      "splatnoDate": "2026-04-02T22:00:00.000Z",
+      "daysOver": -4,
+      "celkem": 5630.9,
+      "firmaName": "Miroslav Drs",
+      "emails": [],
+      "ic": "60842792",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0771",
+      "varsym": "260771",
+      "datum": "20. 03. 2026",
+      "splatno": "03. 04. 2026",
+      "splatnoDate": "2026-04-02T22:00:00.000Z",
+      "daysOver": -4,
+      "celkem": 13540.05,
+      "firmaName": "AL Stavby Míkovec s.r.o.",
+      "emails": [
+        "info@alsm.cz"
+      ],
+      "ic": "19915373",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0774",
+      "varsym": "260774",
+      "datum": "20. 03. 2026",
+      "splatno": "03. 04. 2026",
+      "splatnoDate": "2026-04-02T22:00:00.000Z",
+      "daysOver": -4,
+      "celkem": 16206.8,
+      "firmaName": "Quixy s.r.o.",
+      "emails": [
+        "info@quixy.team"
+      ],
+      "ic": "21986550",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0776",
+      "varsym": "260776",
+      "datum": "20. 03. 2026",
+      "splatno": "03. 04. 2026",
+      "splatnoDate": "2026-04-02T22:00:00.000Z",
+      "daysOver": -4,
+      "celkem": 655.58,
+      "firmaName": "HMS, spol. s r.o.",
+      "emails": [
+        "KOHOUT@HMS-STAVBY.CZ"
+      ],
+      "ic": "43762573",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0777",
+      "varsym": "260777",
+      "datum": "20. 03. 2026",
+      "splatno": "03. 04. 2026",
+      "splatnoDate": "2026-04-02T22:00:00.000Z",
+      "daysOver": -4,
+      "celkem": 9183.54,
+      "firmaName": "LOGOSIGN a.s.",
+      "emails": [
+        "marek.bouma@logosign.cz",
+        "lucie.vondrakova@logosign.cz"
+      ],
+      "ic": "27579158",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0779",
+      "varsym": "260779",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 720.2,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0781",
+      "varsym": "260781",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 21668.79,
+      "firmaName": "Jakub Knettig",
+      "emails": [
+        "Jakub.knettig@icloud.com"
+      ],
+      "ic": "10723676",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0782",
+      "varsym": "260782",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 4697.95,
+      "firmaName": "MITEL a.s.",
+      "emails": [
+        "solc@mitel.cz",
+        "kosvancova@mitel.cz"
+      ],
+      "ic": "25675036",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0783",
+      "varsym": "260783",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 1040,
+      "firmaName": "Petr Seemann",
+      "emails": [
+        "semlovec@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0784",
+      "varsym": "260784",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 8069.49,
+      "firmaName": "ProTelco s.r.o.",
+      "emails": [
+        "perglerova@protelco.cz"
+      ],
+      "ic": "06605176",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0785",
+      "varsym": "260785",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 388.2,
+      "firmaName": "Miroslav Kuča",
+      "emails": [
+        "neomedic@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0786",
+      "varsym": "260786",
+      "datum": "23. 03. 2026",
+      "splatno": "22. 04. 2026",
+      "splatnoDate": "2026-04-21T22:00:00.000Z",
+      "daysOver": -23,
+      "celkem": 16422.12,
+      "firmaName": "CH vodní stavby a.s.",
+      "emails": [
+        "vitezslav.matejka@chvs.cz",
+        "faktury@chvs.cz"
+      ],
+      "ic": "26212005",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0788",
+      "varsym": "260788",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 723.1,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0789",
+      "varsym": "260789",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 8445.8,
+      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "emails": [
+        "servisvesely@seznam.cz"
+      ],
+      "ic": "27239560",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0790",
+      "varsym": "260790",
+      "datum": "23. 03. 2026",
+      "splatno": "22. 04. 2026",
+      "splatnoDate": "2026-04-21T22:00:00.000Z",
+      "daysOver": -23,
+      "celkem": 728.54,
+      "firmaName": "CH vodní stavby a.s.",
+      "emails": [
+        "vitezslav.matejka@chvs.cz",
+        "faktury@chvs.cz"
+      ],
+      "ic": "26212005",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0791",
+      "varsym": "260791",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 522,
+      "firmaName": "HEFA-PROTIPOŽÁRNÍ SYSTÉMY, v.o.s.",
+      "emails": [
+        "hefa.vos@seznam.cz"
+      ],
+      "ic": "26702037",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0792",
+      "varsym": "260792",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 3461.93,
+      "firmaName": "Stavitelství Vlček s.r.o.",
+      "emails": [
+        "petr@stavitelstvi-vlcek.cz"
+      ],
+      "ic": "29157871",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0795",
+      "varsym": "260795",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 46512.05,
+      "firmaName": "Elektro pohotovost RM, s.r.o.",
+      "emails": [
+        "elektropohotovostrm@seznam.cz"
+      ],
+      "ic": "17443997",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0797",
+      "varsym": "260797",
+      "datum": "23. 03. 2026",
+      "splatno": "21. 06. 2026",
+      "splatnoDate": "2026-06-20T22:00:00.000Z",
+      "daysOver": -83,
+      "celkem": 8819.78,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0798",
+      "varsym": "260798",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 20014.14,
+      "firmaName": "ALSAP s.r.o.",
+      "emails": [
+        "marsik@alsap.cz",
+        "plavnicka@alsap.cz"
+      ],
+      "ic": "28861388",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0800",
+      "varsym": "260800",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 6163,
+      "firmaName": "Libuše Sedláková",
+      "emails": [
+        "milos.sedlak.ml@centrum.cz"
+      ],
+      "ic": "87979471",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0801",
+      "varsym": "260801",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 5554.99,
+      "firmaName": "Jakub Šimka",
+      "emails": [
+        "d.z.o.n@seznam.cz"
+      ],
+      "ic": "05912024",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0802",
+      "varsym": "260802",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 8442.63,
+      "firmaName": "STARP Home s.r.o.",
+      "emails": [
+        "valentino.ros@seznam.cz",
+        "kancelar@starp-home.cz",
+        "michal.frank@starp-home.cz"
+      ],
+      "ic": "09978925",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0803",
+      "varsym": "260803",
+      "datum": "23. 03. 2026",
+      "splatno": "06. 04. 2026",
+      "splatnoDate": "2026-04-05T22:00:00.000Z",
+      "daysOver": -7,
+      "celkem": 2690.98,
+      "firmaName": "Patrik Pechek",
+      "emails": [
+        "pechekpatrik@gmail.com"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0804",
+      "varsym": "260804",
+      "datum": "18. 03. 2026",
+      "splatno": "01. 04. 2026",
+      "splatnoDate": "2026-03-31T22:00:00.000Z",
+      "daysOver": -2,
+      "celkem": 253,
+      "firmaName": "Alexandru Moscovici",
+      "emails": [],
+      "ic": "08525846",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0805",
+      "varsym": "260805",
+      "datum": "24. 03. 2026",
+      "splatno": "22. 06. 2026",
+      "splatnoDate": "2026-06-21T22:00:00.000Z",
+      "daysOver": -84,
+      "celkem": 3830.03,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0807",
+      "varsym": "260807",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 3338.65,
+      "firmaName": "Lukáš Vydra",
+      "emails": [
+        "vydryseek@email.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0808",
+      "varsym": "260808",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 2,
+      "firmaName": "Záchranná služba Asociace samaritánů České republiky Praha-západ  z.s.",
+      "emails": [
+        "pavel.jarkovsky@gmail.com"
+      ],
+      "ic": "48134821",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0809",
+      "varsym": "260809",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 18166.58,
+      "firmaName": "Tomáš Gorgoň",
+      "emails": [
+        "tomaaasek1@seznam.cz"
+      ],
+      "ic": "04278267",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0810",
+      "varsym": "260810",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 1491.94,
+      "firmaName": "Záchranná služba Asociace samaritánů České republiky Praha-západ  z.s.",
+      "emails": [
+        "pavel.jarkovsky@gmail.com"
+      ],
+      "ic": "48134821",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0811",
+      "varsym": "260811",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 5349.95,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0812",
+      "varsym": "260812",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 458.47,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0813",
+      "varsym": "260813",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 3599.75,
+      "firmaName": "SPOJmat Hýskov s.r.o.",
+      "emails": [
+        "petra.smejkalova@spojmat-hyskov.cz"
+      ],
+      "ic": "26157152",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0814",
+      "varsym": "260814",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 2379,
+      "firmaName": "Martin Müller",
+      "emails": [
+        "kmotr.x@email.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0816",
+      "varsym": "260816",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 2653.29,
+      "firmaName": "Ing. Josef Mašek",
+      "emails": [
+        "masek2050@gmail.com"
+      ],
+      "ic": "72223561",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0817",
+      "varsym": "260817",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 1385,
+      "firmaName": "Bowling servis s.r.o.",
+      "emails": [
+        "eshop@bowlingservis.net"
+      ],
+      "ic": "24267848",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0818",
+      "varsym": "260818",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 885.5,
+      "firmaName": "Roman Demchuk",
+      "emails": [
+        "romademtak2@gmail.com"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0819",
+      "varsym": "260819",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 4950.52,
+      "firmaName": "VP Construction Development s.r.o.",
+      "emails": [
+        "vecera@vpcd.cz",
+        "fakturace@vpcd.cz"
+      ],
+      "ic": "04778642",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0820",
+      "varsym": "260820",
+      "datum": "25. 03. 2026",
+      "splatno": "08. 04. 2026",
+      "splatnoDate": "2026-04-07T22:00:00.000Z",
+      "daysOver": -9,
+      "celkem": 8539,
+      "firmaName": "Aleš Krchňavý",
+      "emails": [
+        "ales.krchnavy@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0821",
+      "varsym": "260821",
+      "datum": "24. 03. 2026",
+      "splatno": "07. 04. 2026",
+      "splatnoDate": "2026-04-06T22:00:00.000Z",
+      "daysOver": -8,
+      "celkem": 39511.36,
+      "firmaName": "Ing. Martin Svoboda",
+      "emails": [
+        "bksvo@post.cz"
+      ],
+      "ic": "68028270",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0823",
+      "varsym": "260823",
+      "datum": "25. 03. 2026",
+      "splatno": "08. 04. 2026",
+      "splatnoDate": "2026-04-07T22:00:00.000Z",
+      "daysOver": -9,
+      "celkem": 910.3,
+      "firmaName": "Ondrej Veselý",
+      "emails": [
+        "serus007@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0824",
+      "varsym": "260824",
+      "datum": "25. 03. 2026",
+      "splatno": "08. 04. 2026",
+      "splatnoDate": "2026-04-07T22:00:00.000Z",
+      "daysOver": -9,
+      "celkem": 2592.48,
+      "firmaName": "Dřevosprint P+B s.r.o.",
+      "emails": [
+        "brada@drevosprint.cz"
+      ],
+      "ic": "27161722",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0825",
+      "varsym": "260825",
+      "datum": "25. 03. 2026",
+      "splatno": "08. 04. 2026",
+      "splatnoDate": "2026-04-07T22:00:00.000Z",
+      "daysOver": -9,
+      "celkem": 740.52,
+      "firmaName": "Barrandov Studio a.s.",
+      "emails": [
+        "masekmiloslav@seznam.cz"
+      ],
+      "ic": "28172469",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0826",
+      "varsym": "260826",
+      "datum": "25. 03. 2026",
+      "splatno": "08. 04. 2026",
+      "splatnoDate": "2026-04-07T22:00:00.000Z",
+      "daysOver": -9,
+      "celkem": 2482.92,
+      "firmaName": "ROTHLEHNER pracovní plošiny s.r.o.",
+      "emails": [
+        "junek@rothlehner.cz"
+      ],
+      "ic": "48108677",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0827",
+      "varsym": "260827",
+      "datum": "25. 03. 2026",
+      "splatno": "08. 04. 2026",
+      "splatnoDate": "2026-04-07T22:00:00.000Z",
+      "daysOver": -9,
+      "celkem": 2,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0828",
+      "varsym": "260828",
+      "datum": "25. 03. 2026",
+      "splatno": "08. 04. 2026",
+      "splatnoDate": "2026-04-07T22:00:00.000Z",
+      "daysOver": -9,
+      "celkem": 12546.67,
+      "firmaName": "CARACAL MACHINES s.r.o.",
+      "emails": [
+        "eva@caracal-machines.cz"
+      ],
+      "ic": "06059201",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0829",
+      "varsym": "260829",
+      "datum": "25. 03. 2026",
+      "splatno": "08. 04. 2026",
+      "splatnoDate": "2026-04-07T22:00:00.000Z",
+      "daysOver": -9,
+      "celkem": 29966.62,
+      "firmaName": "El Horis s.r.o.",
+      "emails": [
+        "pavelhoracek850@gmail.com"
+      ],
+      "ic": "23347856",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0832",
+      "varsym": "260832",
+      "datum": "25. 03. 2026",
+      "splatno": "08. 04. 2026",
+      "splatnoDate": "2026-04-07T22:00:00.000Z",
+      "daysOver": -9,
+      "celkem": 14593.52,
+      "firmaName": "Gerad Elektro s.r.o.",
+      "emails": [
+        "faktury@gerad.cz",
+        "radek@gerad.cz"
+      ],
+      "ic": "23636181",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0833",
+      "varsym": "260833",
+      "datum": "25. 03. 2026",
+      "splatno": "24. 04. 2026",
+      "splatnoDate": "2026-04-23T22:00:00.000Z",
+      "daysOver": -25,
+      "celkem": 3755.96,
+      "firmaName": "CONSTRUCTION TEAM  s.r.o.",
+      "emails": [
+        "ct_uctarna@akesoholding.cz"
+      ],
+      "ic": "27203409",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0835",
+      "varsym": "260835",
+      "datum": "25. 03. 2026",
+      "splatno": "08. 04. 2026",
+      "splatnoDate": "2026-04-07T22:00:00.000Z",
+      "daysOver": -9,
+      "celkem": 9661.24,
+      "firmaName": "Ing. František Kuba",
+      "emails": [
+        "franta.kuba@zfk.cz"
+      ],
+      "ic": "66326494",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0837",
+      "varsym": "260837",
+      "datum": "25. 03. 2026",
+      "splatno": "08. 04. 2026",
+      "splatnoDate": "2026-04-07T22:00:00.000Z",
+      "daysOver": -9,
+      "celkem": 6103.36,
+      "firmaName": "Radek Dvořák",
+      "emails": [
+        "radek@radocom.cz"
+      ],
+      "ic": "67926568",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0838",
+      "varsym": "260838",
+      "datum": "26. 03. 2026",
+      "splatno": "24. 06. 2026",
+      "splatnoDate": "2026-06-23T22:00:00.000Z",
+      "daysOver": -86,
+      "celkem": 4520.19,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0839",
+      "varsym": "260839",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 22294.98,
+      "firmaName": "Prowater, s.r.o.",
+      "emails": [
+        "a.roubal@prowater.cz"
+      ],
+      "ic": "21262471",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0840",
+      "varsym": "260840",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 468.45,
+      "firmaName": "Kýhos Ladislav",
+      "emails": [
+        "la.ky62@icloud.com"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0841",
+      "varsym": "260841",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 2448.07,
+      "firmaName": "Záchranná služba Asociace samaritánů České republiky Praha-západ  z.s.",
+      "emails": [
+        "pavel.jarkovsky@gmail.com"
+      ],
+      "ic": "48134821",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0842",
+      "varsym": "260842",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 20809.12,
+      "firmaName": "Servis Musil, s.r.o.",
+      "emails": [],
+      "ic": "25699911",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0843",
+      "varsym": "260843",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 40226.26,
+      "firmaName": "Jakub Knettig",
+      "emails": [
+        "Jakub.knettig@icloud.com"
+      ],
+      "ic": "10723676",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0845",
+      "varsym": "260845",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 5842.49,
+      "firmaName": "Instal servis V s.r.o.",
+      "emails": [
+        "iv2230473@gmail.com"
+      ],
+      "ic": "23963051",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0844",
+      "varsym": "260844",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 14808.27,
+      "firmaName": "Instal servis V s.r.o.",
+      "emails": [
+        "iv2230473@gmail.com"
+      ],
+      "ic": "23963051",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0846",
+      "varsym": "260846",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 15464.53,
+      "firmaName": "SCARPA Works s.r.o.",
+      "emails": [
+        "jakub.skarpa@scarpa-works.com"
+      ],
+      "ic": "21494762",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0847",
+      "varsym": "260847",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 444.68,
+      "firmaName": "Mi:Bo Transportation s.r.o.",
+      "emails": [
+        "borek.benes@mibotrans.cz",
+        "faktury@mibotrans.cz"
+      ],
+      "ic": "11727276",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0848",
+      "varsym": "260848",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 12976.53,
+      "firmaName": "Jan Vrba",
+      "emails": [
+        "jarbas@email.cz"
+      ],
+      "ic": "71356932",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0849",
+      "varsym": "260849",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 8433.85,
+      "firmaName": "Ivo Kulhánek",
+      "emails": [
+        "ivo.2010@seznam.cz"
+      ],
+      "ic": "48064700",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0850",
+      "varsym": "260850",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 3781,
+      "firmaName": "Miroslav Dani",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0851",
+      "varsym": "260851",
+      "datum": "26. 03. 2026",
+      "splatno": "09. 04. 2026",
+      "splatnoDate": "2026-04-08T22:00:00.000Z",
+      "daysOver": -10,
+      "celkem": 2213.57,
+      "firmaName": "Jaroslav PROCHÁZKA",
+      "emails": [],
+      "ic": "69310122",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0852",
+      "varsym": "260852",
+      "datum": "27. 03. 2026",
+      "splatno": "25. 06. 2026",
+      "splatnoDate": "2026-06-24T22:00:00.000Z",
+      "daysOver": -87,
+      "celkem": 2050.04,
+      "firmaName": "ELMONT GROUP, a.s.",
+      "emails": [
+        "karel.grund@elmontgroup.cz",
+        "fakturace@elmontgroup.cz"
+      ],
+      "ic": "25576119",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0855",
+      "varsym": "260855",
+      "datum": "27. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 6532.63,
+      "firmaName": "MITEL a.s.",
+      "emails": [
+        "solc@mitel.cz",
+        "kosvancova@mitel.cz"
+      ],
+      "ic": "25675036",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0856",
+      "varsym": "260856",
+      "datum": "27. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 2035,
+      "firmaName": "Martin Buchl",
+      "emails": [
+        "martin.buchl@atlas.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0857",
+      "varsym": "260857",
+      "datum": "27. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 1727,
+      "firmaName": "ÚSOVSKO AGRO s.r.o.",
+      "emails": [
+        "benda@usovsko.cz"
+      ],
+      "ic": "25398849",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0858",
+      "varsym": "260858",
+      "datum": "27. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 918.75,
+      "firmaName": "František Živčák",
+      "emails": [
+        "f.zivcak@seznam.cz"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0859",
+      "varsym": "260859",
+      "datum": "27. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 644,
+      "firmaName": "Martin Blahut",
+      "emails": [
+        "blahut.mk@gmail.com"
+      ],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0860",
+      "varsym": "260860",
+      "datum": "27. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 7295.09,
+      "firmaName": "Heidelberg CZ & SK s.r.o.",
+      "emails": [],
+      "ic": "40765580",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0861",
+      "varsym": "260861",
+      "datum": "27. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 22687.5,
+      "firmaName": "KLIMASERVIS SŮVA, spol. s r.o.",
+      "emails": [
+        "fakturace@klimaservis-suva.cz",
+        "bromova@klimaservis-suva.cz"
+      ],
+      "ic": "47535318",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0863",
+      "varsym": "260863",
+      "datum": "27. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 1317.69,
+      "firmaName": "ZRUP Příbram a.s.",
+      "emails": [
+        "krizan@zrup.cz",
+        "mtz@zrup.cz",
+        "faktury@zrup.cz"
+      ],
+      "ic": "45147761",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0864",
+      "varsym": "260864",
+      "datum": "27. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 2339.17,
+      "firmaName": "Andres a Vild, spol. s r.o.",
+      "emails": [
+        "vildml@andres-vild.cz",
+        "strnadova@andres-vild.cz"
+      ],
+      "ic": "41191862",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0865",
+      "varsym": "260865",
+      "datum": "27. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 48952.6,
+      "firmaName": "BRAJ ProBuild s.r.o.",
+      "emails": [
+        "brajprobuild@seznam.cz"
+      ],
+      "ic": "23880937",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0866",
+      "varsym": "260866",
+      "datum": "27. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 2568.95,
+      "firmaName": "Miroslav Gregor",
+      "emails": [
+        "tomirek@seznam.cz"
+      ],
+      "ic": "60551186",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0867",
+      "varsym": "260867",
+      "datum": "27. 03. 2026",
+      "splatno": "10. 04. 2026",
+      "splatnoDate": "2026-04-09T22:00:00.000Z",
+      "daysOver": -11,
+      "celkem": 22826.11,
+      "firmaName": "Elektro pohotovost RM, s.r.o.",
+      "emails": [
+        "elektropohotovostrm@seznam.cz"
+      ],
+      "ic": "17443997",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0871",
+      "varsym": "260871",
+      "datum": "30. 03. 2026",
+      "splatno": "13. 04. 2026",
+      "splatnoDate": "2026-04-12T22:00:00.000Z",
+      "daysOver": -14,
+      "celkem": 1637.13,
+      "firmaName": "Róbert Malinovský",
+      "emails": [
+        "tesarstvi.malinovsky@seznam.cz"
+      ],
+      "ic": "49343904",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0873",
+      "varsym": "260873",
+      "datum": "30. 03. 2026",
+      "splatno": "13. 04. 2026",
+      "splatnoDate": "2026-04-12T22:00:00.000Z",
+      "daysOver": -14,
+      "celkem": 5,
+      "firmaName": "Petr Mile",
+      "emails": [
+        "petrmile@seznam.cz"
+      ],
+      "ic": "87502399",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0874",
+      "varsym": "260874",
+      "datum": "30. 03. 2026",
+      "splatno": "13. 04. 2026",
+      "splatnoDate": "2026-04-12T22:00:00.000Z",
+      "daysOver": -14,
+      "celkem": 8681.75,
+      "firmaName": "Pavel Zlesák",
+      "emails": [
+        "p.zlesak@mybox.cz"
+      ],
+      "ic": "46486879",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0875",
+      "varsym": "260875",
+      "datum": "30. 03. 2026",
+      "splatno": "13. 04. 2026",
+      "splatnoDate": "2026-04-12T22:00:00.000Z",
+      "daysOver": -14,
+      "celkem": 23956.41,
+      "firmaName": "Bagger BS s.r.o.",
+      "emails": [
+        "schnaubelt@bagger.cz"
+      ],
+      "ic": "05527601",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0876",
+      "varsym": "260876",
+      "datum": "30. 03. 2026",
+      "splatno": "13. 04. 2026",
+      "splatnoDate": "2026-04-12T22:00:00.000Z",
+      "daysOver": -14,
+      "celkem": 722.12,
+      "firmaName": "...",
+      "emails": [],
+      "ic": "",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0877",
+      "varsym": "260877",
+      "datum": "30. 03. 2026",
+      "splatno": "13. 04. 2026",
+      "splatnoDate": "2026-04-12T22:00:00.000Z",
+      "daysOver": -14,
+      "celkem": 42752.87,
+      "firmaName": "El Horis s.r.o.",
+      "emails": [
+        "pavelhoracek850@gmail.com"
+      ],
+      "ic": "23347856",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0878",
+      "varsym": "260878",
+      "datum": "30. 03. 2026",
+      "splatno": "13. 04. 2026",
+      "splatnoDate": "2026-04-12T22:00:00.000Z",
+      "daysOver": -14,
+      "celkem": 2003.04,
+      "firmaName": "David Chaloupek",
+      "emails": [
+        "davidchaloupek@seznam.cz"
+      ],
+      "ic": "88018105",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0879",
+      "varsym": "260879",
+      "datum": "30. 03. 2026",
+      "splatno": "13. 04. 2026",
+      "splatnoDate": "2026-04-12T22:00:00.000Z",
+      "daysOver": -14,
+      "celkem": 7.26,
+      "firmaName": "Mi:Bo Transportation s.r.o.",
+      "emails": [
+        "borek.benes@mibotrans.cz",
+        "faktury@mibotrans.cz"
+      ],
+      "ic": "11727276",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0882",
+      "varsym": "260882",
+      "datum": "30. 03. 2026",
+      "splatno": "13. 04. 2026",
+      "splatnoDate": "2026-04-12T22:00:00.000Z",
+      "daysOver": -14,
+      "celkem": 476.74,
+      "firmaName": "AL Stavby Míkovec s.r.o.",
+      "emails": [
+        "info@alsm.cz"
+      ],
+      "ic": "19915373",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0883",
+      "varsym": "260883",
+      "datum": "30. 03. 2026",
+      "splatno": "13. 04. 2026",
+      "splatnoDate": "2026-04-12T22:00:00.000Z",
+      "daysOver": -14,
+      "celkem": 1391.74,
+      "firmaName": "Zdeněk RŮŽIČKA",
+      "emails": [
+        "remontzr@seznam.cz"
+      ],
+      "ic": "10261761",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    },
+    {
+      "cislo": "26FV-0884",
+      "varsym": "260884",
+      "datum": "30. 03. 2026",
+      "splatno": "13. 04. 2026",
+      "splatnoDate": "2026-04-12T22:00:00.000Z",
+      "daysOver": -14,
+      "celkem": 31062.45,
+      "firmaName": "Jakub Krecbach",
+      "emails": [
+        "jakubkrecbach@email.cz"
+      ],
+      "ic": "03284174",
+      "selected": false,
+      "salutation": null,
+      "note": "",
+      "lastSent": null,
+      "noSend": false
+    }
+  ],
+  "updated": "2026-03-30T12:32:39.243Z"
 }
