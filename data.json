@@ -959,9 +959,11 @@
       "daysOver": 208,
       "celkem": 110000,
       "firmaName": "Techtronic Industries Eastern Europe Sp. z o.o.",
-      "emails": [],
+      "emails": [
+        "robert.klat@drozda-naradi.cz"
+      ],
       "ic": "",
-      "selected": false,
+      "selected": true,
       "salutation": null,
       "note": "",
       "lastSent": null,
@@ -6429,5 +6431,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-30T17:44:09.640Z"
+  "updated": "2026-03-30T18:43:57.583Z"
 }
