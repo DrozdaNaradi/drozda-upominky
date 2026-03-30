@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upomínky faktur — Milwaukee Heavy Duty Center</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --red:#C8102E;--red2:#a00d24;--bg:#f0f2f5;--card:#fff;--border:#e2e5ea;
+  --text:#0d1117;--text2:#5a6270;--text3:#9aa0ab;
+  --green:#16a34a;--orange:#d97706;--blue:#2563eb;
+  --radius:14px;--radius-sm:9px;
+  --shadow:0 2px 12px rgba(0,0,0,.07),0 1px 3px rgba(0,0,0,.05);
+}
+body{font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;font-size:14px;line-height:1.5}
+.hidden{display:none!important}
+
+/* LOGIN SCREEN */
+.login-screen{position:fixed;inset:0;background:linear-gradient(135deg,#0d1117 0%,#1a1f2e 100%);display:flex;align-items:center;justify-content:center;z-index:1000}
+.login-box{background:#fff;border-radius:20px;padding:40px;width:360px;text-align:center;box-shadow:0 30px 80px rgba(0,0,0,.4)}
+.login-logo{width:52px;height:52px;background:var(--red);border-radius:14px;display:flex;align-items:center;justify-content:center;margin:0 auto 20px}
+.login-logo svg{width:26px;height:26px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round}
+.login-title{font-size:20px;font-weight:800;letter-spacing:-.4px;margin-bottom:4px}
+.login-sub{font-size:13px;color:var(--text2);margin-bottom:28px}
+.login-input{width:100%;padding:13px 16px;border:1.5px solid var(--border);border-radius:10px;font-size:15px;outline:none;transition:.15s;font-family:inherit;text-align:center;letter-spacing:.1em}
+.login-input:focus{border-color:var(--red);box-shadow:0 0 0 3px rgba(200,16,46,.1)}
+.login-btn{width:100%;margin-top:14px;padding:13px;background:var(--red);color:#fff;border:none;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer;transition:.15s;font-family:inherit}
+.login-btn:hover{background:var(--red2)}
+.login-err{color:#b91c1c;font-size:12px;margin-top:10px;min-height:18px}
+
+/* TOPBAR */
+.topbar{background:#fff;border-bottom:1px solid var(--border);padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-mark{width:32px;height:32px;background:var(--red);border-radius:8px;display:flex;align-items:center;justify-content:center}
+.logo-mark svg{width:18px;height:18px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round}
+.logo-text{font-size:15px;font-weight:700;letter-spacing:-.3px}
+.logo-sub{font-size:11px;color:var(--text2);font-weight:400;margin-top:-2px}
+.topbar-right{display:flex;align-items:center;gap:8px}
+.api-status{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);padding:6px 12px;border:1px solid var(--border);border-radius:20px;cursor:pointer;transition:.15s}
+.api-status:hover{background:var(--bg)}
+.api-dot{width:7px;height:7px;border-radius:50%;background:#d1d5db}
+.api-dot.ok{background:var(--green)}
+.api-dot.warn{background:var(--orange)}
+.gh-status{display:flex;align-items:center;gap:6px;font-size:12px;padding:6px 12px;border:1px solid var(--border);border-radius:20px;background:#f8f9fb}
+.gh-dot{width:7px;height:7px;border-radius:50%;background:#d1d5db}
+.gh-dot.ok{background:var(--green)}
+.gh-dot.saving{background:var(--orange);animation:pulse .8s ease infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+
+/* LAYOUT */
+.main{display:grid;grid-template-columns:300px 1fr;min-height:calc(100vh - 56px)}
+.sidebar{background:#fff;border-right:1px solid var(--border);padding:20px 16px;display:flex;flex-direction:column;gap:16px;overflow-y:auto;max-height:calc(100vh - 56px);position:sticky;top:56px}
+.content{padding:24px;overflow-y:auto}
+
+/* CARDS */
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
+.card-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--text2);margin-bottom:14px;display:flex;align-items:center;gap:6px}
+
+/* UPLOAD */
+.upload-zone{border:2px dashed var(--border);border-radius:var(--radius-sm);padding:22px 16px;text-align:center;cursor:pointer;transition:.2s;background:#fafbfc}
+.upload-zone:hover,.upload-zone.drag{border-color:var(--red);background:#fff8f8}
+.upload-icon{font-size:28px;margin-bottom:6px}
+.upload-zone .uz-title{font-size:13px;font-weight:600;color:var(--text)}
+.upload-zone .uz-sub{font-size:11px;color:var(--text2);margin-top:3px}
+#file-input{display:none}
+.file-loaded{display:flex;align-items:center;gap:8px;padding:9px 12px;background:#f0fdf4;border:1px solid #86efac;border-radius:9px;font-size:12px;color:#15803d;font-weight:600;margin-top:8px}
+
+/* STATS */
+.stats-grid{display:flex;flex-direction:column;gap:8px;margin-top:4px}
+.stat{border-radius:10px;padding:10px 13px;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.stat-left{display:flex;align-items:center;gap:8px}
+.stat-icon{font-size:18px;line-height:1}
+.stat-info{}
+.stat-lbl{font-size:11px;font-weight:600;margin-bottom:1px}
+.stat-val{font-size:22px;font-weight:900;letter-spacing:-.5px;line-height:1}
+.stat-right{text-align:right;flex-shrink:0}
+.stat-amount{font-size:13px;font-weight:800;letter-spacing:-.3px}
+.stat-sublbl{font-size:10px;font-weight:500;margin-top:1px;opacity:.7}
+.stat.neutral{background:#f8f9fb}.stat.neutral .stat-val,.stat.neutral .stat-amount{color:var(--text)}.stat.neutral .stat-lbl,.stat.neutral .stat-sublbl{color:var(--text2)}
+.stat.red{background:#fee2e2}.stat.red .stat-val,.stat.red .stat-amount{color:#b91c1c}.stat.red .stat-lbl,.stat.red .stat-sublbl{color:#b91c1c}
+.stat.orange{background:#fef3c7}.stat.orange .stat-val,.stat.orange .stat-amount{color:#92400e}.stat.orange .stat-lbl,.stat.orange .stat-sublbl{color:#92400e}
+.stat.green{background:#dcfce7}.stat.green .stat-val,.stat.green .stat-amount{color:#15803d}.stat.green .stat-lbl,.stat.green .stat-sublbl{color:#15803d}
+
+/* FILTER */
+.filter-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.filter-label{font-size:12px;color:var(--text2)}
+.num-input{width:60px;padding:7px 10px;border:1.5px solid var(--border);border-radius:7px;font-size:13px;font-weight:700;text-align:center;outline:none;transition:.15s;font-family:inherit}
+.num-input:focus{border-color:var(--red)}
+.filter-hint{font-size:11px;color:var(--text3);margin-top:4px}
+
+/* BUTTONS */
+.btn{padding:10px 18px;border-radius:9px;font-size:13px;font-weight:600;cursor:pointer;transition:.15s;border:none;display:inline-flex;align-items:center;gap:7px;font-family:inherit;line-height:1}
+.btn-red{background:var(--red);color:#fff}
+.btn-red:hover{background:var(--red2)}
+.btn-red:disabled{background:#ccc;cursor:not-allowed}
+.btn-gray{background:#f0f2f5;color:var(--text);border:1px solid var(--border)}
+.btn-gray:hover{background:#e4e7eb}
+.btn-full{width:100%;justify-content:center}
+.btn-sm{padding:7px 12px;font-size:12px;border-radius:7px}
+
+/* TABLE */
+.table-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;gap:12px;flex-wrap:wrap}
+.sel-info{font-size:13px;color:var(--text2)}
+.sel-info strong{color:var(--text);font-weight:700}
+.table-wrap{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:#fff}
+table{width:100%;border-collapse:collapse;table-layout:fixed}
+th{background:#f8f9fb;padding:10px 12px;text-align:left;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--text2);border-bottom:1px solid var(--border);white-space:nowrap}
+td{padding:0 12px;height:46px;border-bottom:1px solid #f0f2f5;font-size:13px;vertical-align:middle;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+tr:last-child td{border-bottom:none}
+tr.selected td{background:#fff8f8}
+tr:hover td{background:#fafbfc}
+tr.selected:hover td{background:#fff0f0}
+tr.nosend-row td{opacity:.45}
+tr.nosend-row:hover td{opacity:.6}
+.cb{width:15px;height:15px;cursor:pointer;accent-color:var(--green)}
+.firma-name{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.amount{font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.days-pill{display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:700;white-space:nowrap}
+.days-high{background:#fee2e2;color:#b91c1c}
+.days-mid{background:#fef3c7;color:#92400e}
+.days-low{background:#dcfce7;color:#15803d}
+.email-cell{font-size:11px;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:150px}
+.no-email{color:#f87171;font-size:11px;font-style:italic}
+.inv-num{font-size:12px;color:var(--text2);font-family:monospace}
+.last-sent{font-size:11px;color:var(--text3);white-space:nowrap}
+.last-sent.has-date{color:var(--green);font-weight:600}
+
+/* NOTE INPUT */
+.note-wrap{display:flex;align-items:center;gap:4px}
+.note-input{border:1px solid transparent;border-radius:6px;padding:4px 7px;font-size:12px;font-family:inherit;background:transparent;color:var(--text);width:100%;transition:.15s;outline:none}
+.note-input:hover{border-color:var(--border);background:#f8f9fb}
+.note-input:focus{border-color:var(--red);background:#fff;box-shadow:0 0 0 2px rgba(200,16,46,.08)}
+
+/* NOSEND TOGGLE */
+.nosend-toggle{text-align:center}
+.nosend-cb{width:15px;height:15px;accent-color:var(--red);cursor:pointer}
+
+/* EMPTY STATE */
+.empty{padding:64px 20px;text-align:center;color:var(--text3)}
+.empty-icon{font-size:48px;margin-bottom:12px;opacity:.5}
+.empty h3{font-size:16px;font-weight:700;color:var(--text2);margin-bottom:6px}
+.empty p{font-size:13px}
+
+/* MODAL */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:200;display:flex;align-items:center;justify-content:center;padding:16px}
+.modal{background:#fff;border-radius:18px;width:540px;max-width:100%;max-height:88vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.2)}
+.modal-head{padding:24px 28px 0}
+.modal-title{font-size:19px;font-weight:800;letter-spacing:-.4px;margin-bottom:4px}
+.modal-sub{font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:18px}
+.modal-body{padding:0 28px}
+.modal-foot{padding:20px 28px 24px;display:flex;gap:10px;justify-content:flex-end}
+
+/* FORM */
+.field{margin-bottom:14px}
+.field label{display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text2);margin-bottom:6px}
+.field input{width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:9px;font-size:14px;outline:none;transition:.15s;font-family:inherit;background:#fff}
+.field input:focus{border-color:var(--red);box-shadow:0 0 0 3px rgba(200,16,46,.08)}
+.field .hint{font-size:11px;color:var(--text3);margin-top:5px}
+
+/* SEND MODAL */
+.send-list{display:flex;flex-direction:column;gap:0}
+.send-row{display:flex;align-items:flex-start;gap:12px;padding:10px 0;border-bottom:1px solid var(--border);flex-wrap:wrap}
+.send-row:last-child{border-bottom:none}
+.send-firma{flex:1;font-size:13px;font-weight:600;min-width:120px}
+.send-email{flex:1;font-size:11px;color:var(--text2);min-width:120px}
+.send-status{width:22px;text-align:center;flex-shrink:0}
+.send-err{flex-basis:100%;font-size:11px;color:#b91c1c;background:#fff5f5;border-radius:6px;padding:5px 9px;margin-top:4px;font-family:monospace;word-break:break-all}
+.spinner{width:16px;height:16px;border:2px solid var(--border);border-top-color:var(--red);border-radius:50%;animation:spin .7s linear infinite;display:inline-block}
+@keyframes spin{to{transform:rotate(360deg)}}
+.progress-wrap{margin:14px 0 4px}
+.progress-bg{background:#f0f2f5;border-radius:99px;height:6px;overflow:hidden}
+.progress-fill{height:100%;background:var(--red);border-radius:99px;transition:width .4s ease}
+.progress-label{display:flex;justify-content:space-between;font-size:12px;color:var(--text2);margin-top:5px}
+
+/* PREVIEW */
+.preview-wrap{display:flex;flex-direction:column;gap:10px;margin-top:16px}
+.preview-item{border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden}
+.preview-head{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#f8f9fb;cursor:pointer;user-select:none}
+.preview-head:hover{background:#f0f2f5}
+.preview-firma{font-weight:700;font-size:13px}
+.preview-amount{font-size:13px;font-weight:700;color:var(--red)}
+.preview-meta{font-size:11px;color:var(--text2);margin-top:2px}
+.preview-chevron{color:var(--text3);transition:.2s;font-size:16px}
+.preview-item.open .preview-chevron{transform:rotate(180deg)}
+.preview-body{display:none;border-top:1px solid var(--border)}
+.preview-item.open .preview-body{display:block}
+.email-html{padding:20px 24px;background:#fff}
+
+/* SETTINGS */
+.settings-section{margin-bottom:20px}
+.settings-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--text3);margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.gh-test-result{margin-top:8px;font-size:12px;padding:8px 12px;border-radius:8px;display:none}
+.gh-test-ok{background:#f0fdf4;color:#15803d;border:1px solid #86efac}
+.gh-test-err{background:#fff5f5;color:#b91c1c;border:1px solid #fca5a5}
+
+/* TOAST */
+.toasts{position:fixed;bottom:24px;right:24px;z-index:500;display:flex;flex-direction:column;gap:8px;pointer-events:none}
+.toast{padding:12px 18px;border-radius:10px;font-size:13px;font-weight:600;box-shadow:0 4px 20px rgba(0,0,0,.2);pointer-events:auto;display:flex;align-items:center;gap:8px;max-width:340px;animation:toastIn .2s ease}
+.toast-info{background:#1a1a1a;color:#fff}
+.toast-ok{background:#15803d;color:#fff}
+.toast-err{background:#b91c1c;color:#fff}
+.toast-warn{background:#d97706;color:#fff}
+@keyframes toastIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+@media(max-width:768px){
+  .main{grid-template-columns:1fr}
+  .sidebar{position:static;max-height:none;border-right:none;border-bottom:1px solid var(--border)}
+}
+</style>
+</head>
+<body>
+
+<!-- LOGIN SCREEN -->
+<div class="login-screen" id="login-screen">
+  <div class="login-box">
+    <div class="login-logo">
+      <svg viewBox="0 0 20 20"><path d="M4 5h12M4 10h12M4 15h7"/><circle cx="16" cy="15" r="3" fill="#fff" stroke="#fff"/></svg>
+    </div>
+    <div class="login-title">Upomínky faktur</div>
+    <div class="login-sub">Milwaukee Heavy Duty Center</div>
+    <input type="password" class="login-input" id="login-input" placeholder="Zadej heslo" onkeydown="if(event.key==='Enter')doLogin()">
+    <button class="login-btn" onclick="doLogin()">Vstoupit</button>
+    <div class="login-err" id="login-err"></div>
+  </div>
+</div>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="logo">
+    <div class="logo-mark">
+      <svg viewBox="0 0 20 20"><path d="M4 5h12M4 10h12M4 15h7"/><circle cx="16" cy="15" r="3" fill="#fff" stroke="#fff"/></svg>
+    </div>
+    <div>
+      <div class="logo-text">Upomínky faktur</div>
+      <div class="logo-sub">Raditona s.r.o. — Milwaukee Heavy Duty Center</div>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <div class="gh-status" id="gh-status">
+      <div class="gh-dot" id="gh-dot"></div>
+      <span id="gh-status-txt">GitHub</span>
+    </div>
+    <div class="api-status" onclick="openSettings()" id="api-status-btn">
+      <div class="api-dot" id="api-dot"></div>
+      <span id="api-status-txt">Nastavení</span>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+
+    <!-- Upload -->
+    <div class="card">
+      <div class="card-title">📂 Nahrát data</div>
+      <div class="upload-zone" id="upload-zone"
+        onclick="document.getElementById('file-input').click()"
+        ondragover="event.preventDefault();this.classList.add('drag')"
+        ondragleave="this.classList.remove('drag')"
+        ondrop="event.preventDefault();this.classList.remove('drag');handleFile(event.dataTransfer.files[0])">
+        <div class="upload-icon">📊</div>
+        <div class="uz-title">FA.xlsx z Pohody</div>
+        <div class="uz-sub">Přidá nová data ke stávajícím</div>
+      </div>
+      <input type="file" id="file-input" accept=".xlsx,.xls" onchange="handleFile(this.files[0])">
+      <div id="file-loaded" class="file-loaded hidden">
+        <span>✓</span><span id="file-name-txt"></span>
+      </div>
+      <button class="btn btn-gray btn-full btn-sm" style="margin-top:8px" onclick="resetAndReload()" title="Smaže data.json na GitHubu a znovu načte z XLSX">
+        🔄 Přepsat data z XLSX
+      </button>
+    </div>
+
+    <!-- Stats -->
+    <div class="card" id="stats-card" style="display:none">
+      <div class="card-title">📈 Přehled</div>
+      <div class="stats-grid">
+        <div class="stat red">
+          <div class="stat-left">
+            <div class="stat-icon">🔴</div>
+            <div class="stat-info">
+              <div class="stat-lbl">Po splatnosti (30+ dní)</div>
+              <div class="stat-val" id="s-overdue">—</div>
+            </div>
+          </div>
+          <div class="stat-right">
+            <div class="stat-amount" id="s-overdue-amt">—</div>
+            <div class="stat-sublbl">celková částka</div>
+          </div>
+        </div>
+        <div class="stat orange">
+          <div class="stat-left">
+            <div class="stat-icon">🟡</div>
+            <div class="stat-info">
+              <div class="stat-lbl">Po splatnosti (8–30 dní)</div>
+              <div class="stat-val" id="s-approaching">—</div>
+            </div>
+          </div>
+          <div class="stat-right">
+            <div class="stat-amount" id="s-approaching-amt">—</div>
+            <div class="stat-sublbl">celková částka</div>
+          </div>
+        </div>
+        <div class="stat green">
+          <div class="stat-left">
+            <div class="stat-icon">🟢</div>
+            <div class="stat-info">
+              <div class="stat-lbl">Po splatnosti (1–7 dní)</div>
+              <div class="stat-val" id="s-ok">—</div>
+            </div>
+          </div>
+          <div class="stat-right">
+            <div class="stat-amount" id="s-ok-amt">—</div>
+            <div class="stat-sublbl">celková částka</div>
+          </div>
+        </div>
+        <div class="stat neutral">
+          <div class="stat-left">
+            <div class="stat-icon">📋</div>
+            <div class="stat-info">
+              <div class="stat-lbl">Celkem faktur</div>
+              <div class="stat-val" id="s-total">—</div>
+            </div>
+          </div>
+          <div class="stat-right">
+            <div class="stat-amount" id="s-selected">0</div>
+            <div class="stat-sublbl">vybráno</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter -->
+    <div class="card" id="filter-card" style="display:none">
+      <div class="card-title">⚙️ Filtr splatnosti</div>
+      <div class="filter-row">
+        <span class="filter-label">Min. dní po splatnosti:</span>
+        <input type="number" class="num-input" id="days-filter" value="1" min="0" max="999" onchange="applyFilter()">
+      </div>
+      <div class="filter-hint" id="filter-hint"></div>
+    </div>
+
+    <!-- Actions -->
+    <div id="actions-card" style="display:none;flex-direction:column;gap:8px">
+      <button class="btn btn-gray btn-full btn-sm" onclick="selectAll()">☑ Vybrat vše</button>
+      <button class="btn btn-gray btn-full btn-sm" onclick="selectNone()">☐ Zrušit výběr</button>
+      <button class="btn btn-red btn-full" id="btn-preview" onclick="showPreview()" disabled>
+        👁 Náhled emailů
+      </button>
+      <button class="btn btn-red btn-full" id="btn-send" onclick="startSend()" disabled style="margin-top:4px">
+        📨 Odeslat upomínky
+      </button>
+    </div>
+
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content" id="content-area">
+    <div class="empty">
+      <div class="empty-icon">⏳</div>
+      <h3>Načítám data z GitHubu…</h3>
+      <p>Připojuji se k úložišti.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SETTINGS MODAL -->
+<div class="overlay hidden" id="settings-modal">
+  <div class="modal">
+    <div class="modal-head">
+      <div class="modal-title">⚙️ Nastavení</div>
+      <div class="modal-sub">Klíče se ukládají v prohlížeči (localStorage).</div>
+    </div>
+    <div class="modal-body">
+      <div class="settings-section">
+        <div class="settings-title">Přístup</div>
+        <div class="field">
+          <label>Heslo aplikace</label>
+          <input type="password" id="s-app-pwd" placeholder="Nové heslo (nechej prázdné = beze změny)">
+          <div class="hint">Změna hesla se projeví po příštím přihlášení</div>
+        </div>
+      </div>
+      <div class="settings-section">
+        <div class="settings-title">GitHub úložiště</div>
+        <div class="field">
+          <label>Personal Access Token</label>
+          <input type="password" id="s-gh-token" placeholder="ghp_...">
+          <div class="hint">github.com → Settings → Developer settings → Tokens (classic) → scope: repo</div>
+        </div>
+        <button class="btn btn-gray btn-sm" onclick="testGitHub()">🔗 Otestovat připojení</button>
+        <div class="gh-test-result" id="gh-test-result"></div>
+      </div>
+      <div class="settings-section">
+        <div class="settings-title">Claude API</div>
+        <div class="field">
+          <label>API Klíč (začíná sk-ant-)</label>
+          <input type="password" id="s-claude-key" placeholder="sk-ant-api03-...">
+          <div class="hint">Pro AI oslovení — firma vs. fyzická osoba</div>
+        </div>
+      </div>
+      <div class="settings-section">
+        <div class="settings-title">EmailJS</div>
+        <div class="field">
+          <label>Public Key</label>
+          <input type="text" id="s-ejs-pub" placeholder="YgjWJK3tmpFBrZK7u">
+        </div>
+        <div class="field">
+          <label>Service ID</label>
+          <input type="text" id="s-ejs-svc" placeholder="service_101hx3h">
+        </div>
+        <div class="field">
+          <label>Template ID</label>
+          <input type="text" id="s-ejs-tpl" placeholder="template_mhhf0hh">
+        </div>
+      </div>
+      <div class="settings-section">
+        <div class="settings-title">Odesílatel</div>
+        <div class="field">
+          <label>Jméno odesílatele</label>
+          <input type="text" id="s-sender-name" placeholder="Robert Klat — Milwaukee Heavy Duty Center">
+        </div>
+        <div class="field">
+          <label>Reply-to email</label>
+          <input type="text" id="s-sender-email" placeholder="info@drozda-naradi.cz">
+        </div>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-gray" onclick="closeSettings()">Zavřít</button>
+      <button class="btn btn-red" onclick="saveSettings()">💾 Uložit</button>
+    </div>
+  </div>
+</div>
+
+<!-- SEND MODAL -->
+<div class="overlay hidden" id="send-modal">
+  <div class="modal">
+    <div class="modal-head">
+      <div class="modal-title" id="send-title">📨 Odesílání upomínek</div>
+      <div class="modal-sub" id="send-sub">Probíhá odesílání, prosím počkej…</div>
+      <div class="progress-wrap" id="progress-wrap">
+        <div class="progress-bg"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+        <div class="progress-label"><span id="progress-txt">0 / 0</span><span id="progress-pct">0%</span></div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="send-list" id="send-list"></div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-gray hidden" id="btn-close-send" onclick="closeSendModal()">Zavřít</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOASTS -->
+<div class="toasts" id="toasts"></div>
+
+<script>
+// ── CONSTANTS ────────────────────────────────────────────────
+const IBAN = 'CZ1020100000002001816748';
+const BIC = 'FIOBCZPPXXX';
+const BANK_NUM = '2001816748/2010';
+const GH_OWNER = 'DrozdaNaradi';
+const GH_REPO = 'drozda-upominky';
+const GH_FILE = 'data.json';
+
+// ── STATE ────────────────────────────────────────────────────
+let allInvoices = [];
+let filtered = [];
+let settings = {};
+let ghFileSha = null; // GitHub file SHA for updates
+let saveTimer = null;
+
+// ── LOGIN ─────────────────────────────────────────────────────
+const PWD_HASH_KEY = 'upominky_pwd_hash';
+const SESSION_KEY  = 'upominky_session';
+
+async function sha256(str) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+
+async function initLogin() {
+  // if no password set yet → skip login
+  const stored = localStorage.getItem(PWD_HASH_KEY);
+  if (!stored) { unlockApp(); return; }
+  // if session still valid (same browser tab session)
+  if (sessionStorage.getItem(SESSION_KEY) === 'ok') { unlockApp(); return; }
+  // show login
+  document.getElementById('login-screen').style.display = 'flex';
+  setTimeout(()=>document.getElementById('login-input').focus(), 100);
+}
+
+async function doLogin() {
+  const pwd = document.getElementById('login-input').value;
+  const stored = localStorage.getItem(PWD_HASH_KEY);
+  if (!stored) { unlockApp(); return; }
+  const hash = await sha256(pwd);
+  if (hash === stored) {
+    sessionStorage.setItem(SESSION_KEY, 'ok');
+    unlockApp();
+  } else {
+    document.getElementById('login-err').textContent = 'Špatné heslo';
+    document.getElementById('login-input').select();
+  }
+}
+
+function unlockApp() {
+  document.getElementById('login-screen').style.display = 'none';
+  initApp();
+}
+
+// ── INIT ─────────────────────────────────────────────────────
+async function initApp() {
+  loadSettings();
+  updateApiStatus();
+  await loadFromGitHub();
+}
+
+window.addEventListener('DOMContentLoaded', initLogin);
+
+// ── SETTINGS ──────────────────────────────────────────────────
+function loadSettings() {
+  const def = {
+    claudeKey: '',
+    ejsPub: 'YgjWJK3tmpFBrZK7u',
+    ejsSvc: 'service_101hx3h',
+    ejsTpl: 'template_mhhf0hh',
+    senderName: 'Robert Klat — Milwaukee Heavy Duty Center',
+    senderEmail: 'info@drozda-naradi.cz',
+    ghToken: ''
+  };
+  try { settings = {...def, ...JSON.parse(localStorage.getItem('upominky_settings') || '{}')}; }
+  catch(e) { settings = def; }
+}
+
+function openSettings() {
+  document.getElementById('s-app-pwd').value = '';
+  document.getElementById('s-gh-token').value = settings.ghToken || '';
+  document.getElementById('s-claude-key').value = settings.claudeKey || '';
+  document.getElementById('s-ejs-pub').value = settings.ejsPub || '';
+  document.getElementById('s-ejs-svc').value = settings.ejsSvc || '';
+  document.getElementById('s-ejs-tpl').value = settings.ejsTpl || '';
+  document.getElementById('s-sender-name').value = settings.senderName || '';
+  document.getElementById('s-sender-email').value = settings.senderEmail || '';
+  document.getElementById('gh-test-result').style.display = 'none';
+  document.getElementById('settings-modal').classList.remove('hidden');
+}
+
+async function saveSettings() {
+  const newPwd = document.getElementById('s-app-pwd').value.trim();
+  if (newPwd) {
+    const hash = await sha256(newPwd);
+    localStorage.setItem(PWD_HASH_KEY, hash);
+    sessionStorage.setItem(SESSION_KEY, 'ok');
+  }
+  settings.ghToken = document.getElementById('s-gh-token').value.trim();
+  settings.claudeKey = document.getElementById('s-claude-key').value.trim();
+  settings.ejsPub = document.getElementById('s-ejs-pub').value.trim();
+  settings.ejsSvc = document.getElementById('s-ejs-svc').value.trim();
+  settings.ejsTpl = document.getElementById('s-ejs-tpl').value.trim();
+  settings.senderName = document.getElementById('s-sender-name').value.trim();
+  settings.senderEmail = document.getElementById('s-sender-email').value.trim();
+  localStorage.setItem('upominky_settings', JSON.stringify(settings));
+  updateApiStatus();
+  closeSettings();
+  toast('Nastavení uloženo ✓', 'ok');
+}
+
+function closeSettings() { document.getElementById('settings-modal').classList.add('hidden'); }
+
+function updateApiStatus() {
+  const ejsOk = settings.ejsPub && settings.ejsSvc && settings.ejsTpl;
+  document.getElementById('api-dot').className = 'api-dot' + (ejsOk ? ' ok' : '');
+  document.getElementById('api-status-txt').textContent = ejsOk ? 'EmailJS ✓' : 'Nastavení';
+}
+
+function setGhStatus(state, txt) {
+  const dot = document.getElementById('gh-dot');
+  dot.className = 'gh-dot' + (state === 'ok' ? ' ok' : state === 'saving' ? ' saving' : '');
+  document.getElementById('gh-status-txt').textContent = txt;
+}
+
+// ── GITHUB API ────────────────────────────────────────────────
+function ghHeaders() {
+  return {
+    'Authorization': `token ${settings.ghToken}`,
+    'Accept': 'application/vnd.github.v3+json',
+    'Content-Type': 'application/json'
+  };
+}
+
+async function testGitHub() {
+  const token = document.getElementById('s-gh-token').value.trim();
+  if (!token) { showGhTestResult(false, 'Zadej token'); return; }
+  const btn = document.querySelector('.modal-body button');
+  btn.textContent = '⏳ Testuji…';
+  try {
+    const r = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}`, {
+      headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
+    });
+    if (r.ok) {
+      const d = await r.json();
+      showGhTestResult(true, `✓ Připojeno: ${d.full_name}`);
+    } else {
+      showGhTestResult(false, `Chyba ${r.status}: ${r.statusText}`);
+    }
+  } catch(e) {
+    showGhTestResult(false, e.message);
+  }
+  btn.textContent = '🔗 Otestovat připojení';
+}
+
+function showGhTestResult(ok, msg) {
+  const el = document.getElementById('gh-test-result');
+  el.className = 'gh-test-result ' + (ok ? 'gh-test-ok' : 'gh-test-err');
+  el.textContent = msg;
+  el.style.display = 'block';
+}
+
+async function loadFromGitHub() {
+  if (!settings.ghToken) {
+    setGhStatus('', 'Není token');
+    showEmpty();
+    return;
+  }
+  setGhStatus('saving', 'Načítám…');
+  try {
+    const r = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_FILE}`, {
+      headers: ghHeaders()
+    });
+    if (r.status === 404) {
+      // soubor ještě neexistuje — prázdný stav
+      setGhStatus('ok', 'GitHub ✓');
+      showEmpty();
+      return;
+    }
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const meta = await r.json();
+    ghFileSha = meta.sha;
+    const bytes = Uint8Array.from(atob(meta.content.replace(/\n/g,'')), c => c.charCodeAt(0));
+    const content = JSON.parse(new TextDecoder('utf-8').decode(bytes));
+    allInvoices = content.invoices || [];
+    // Přepočítat daysOver
+    recalcDaysOver();
+    applyFilter();
+    updateStats();
+    showDataUI();
+    setGhStatus('ok', `GitHub ✓`);
+    toast(`Načteno ${allInvoices.length} záznamů z GitHubu`, 'ok');
+  } catch(e) {
+    setGhStatus('', 'Chyba');
+    toast('GitHub: ' + e.message, 'err');
+    showEmpty();
+  }
+}
+
+async function saveToGitHub() {
+  if (!settings.ghToken) return;
+  setGhStatus('saving', 'Ukládám…');
+  try {
+    // Pokud nemáme SHA, zkusíme ho nejdřív načíst
+    if (!ghFileSha) {
+      try {
+        const check = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_FILE}`, {
+          headers: ghHeaders()
+        });
+        if (check.ok) {
+          const meta = await check.json();
+          ghFileSha = meta.sha;
+        }
+      } catch(e) {}
+    }
+    const jsonStr = JSON.stringify({ invoices: allInvoices, updated: new Date().toISOString() }, null, 2);
+    const encoded = btoa(unescape(encodeURIComponent(jsonStr)));
+    const body = {
+      message: `Aktualizace dat ${new Date().toLocaleString('cs-CZ')}`,
+      content: encoded,
+      ...(ghFileSha ? { sha: ghFileSha } : {})
+    };
+    const r = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_FILE}`, {
+      method: 'PUT',
+      headers: ghHeaders(),
+      body: JSON.stringify(body)
+    });
+    if (r.status === 409) {
+      // Konflikt SHA — znovu načti a zkus
+      ghFileSha = null;
+      await saveToGitHub();
+      return;
+    }
+    if (!r.ok) {
+      const err = await r.json();
+      throw new Error(err.message || `HTTP ${r.status}`);
+    }
+    const d = await r.json();
+    ghFileSha = d.content.sha;
+    setGhStatus('ok', 'GitHub ✓');
+  } catch(e) {
+    setGhStatus('', 'Chyba uložení');
+    toast('GitHub uložení selhalo: ' + e.message, 'err');
+  }
+}
+
+// Debounced save — nevolat GitHub při každém stisku klávesy
+function scheduleSave() {
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(() => saveToGitHub(), 1500);
+}
+
+function showEmpty() {
+  const area = document.getElementById('content-area');
+  if (!settings.ghToken) {
+    area.innerHTML = `<div class="empty">
+      <div class="empty-icon">🔑</div>
+      <h3>Nastav GitHub token</h3>
+      <p>Klikni na <strong>Nastavení</strong> vpravo nahoře<br>a zadej Personal Access Token.</p>
+    </div>`;
+  } else {
+    area.innerHTML = `<div class="empty">
+      <div class="empty-icon">📋</div>
+      <h3>Žádná data</h3>
+      <p>Nahraj FA.xlsx z Pohody a data<br>se uloží na GitHub.</p>
+    </div>`;
+  }
+}
+
+function showDataUI() {
+  document.getElementById('stats-card').style.display = 'block';
+  document.getElementById('filter-card').style.display = 'block';
+  document.getElementById('actions-card').style.display = 'flex';
+}
+
+// ── FILE HANDLING ─────────────────────────────────────────────
+function handleFile(file) {
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const wb = XLSX.read(e.target.result, {type:'array', cellDates:true});
+      const ws = wb.Sheets[wb.SheetNames[0]];
+      const data = XLSX.utils.sheet_to_json(ws, {defval:null});
+      mergeData(data);
+      document.getElementById('file-name-txt').textContent = file.name;
+      document.getElementById('file-loaded').classList.remove('hidden');
+    } catch(err) {
+      toast('Chyba při čtení souboru: ' + err.message, 'err');
+    }
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+function recalcDaysOver() {
+  const today = new Date(); today.setHours(0,0,0,0);
+  allInvoices.forEach(inv => {
+    if (inv.splatnoDate) {
+      const d = new Date(inv.splatnoDate);
+      d.setHours(0,0,0,0);
+      inv.daysOver = Math.floor((today - d) / 86400000);
+    }
+  });
+}
+
+function mergeData(data) {
+  const today = new Date(); today.setHours(0,0,0,0);
+  let added = 0, updated = 0;
+
+  data.filter(r => (parseFloat(r['K likvidaci']) || 0) > 0).forEach(r => {
+    const cislo = (r['Číslo'] || '').toString().trim();
+    if (!cislo) return;
+
+    const splatnoRaw = r['Splatno'] ? new Date(r['Splatno']) : null;
+    if (splatnoRaw) splatnoRaw.setHours(0,0,0,0);
+    const daysOver = splatnoRaw ? Math.floor((today - splatnoRaw) / 86400000) : 0;
+    const rawEmail = (r['E-mail'] || '').toString().trim();
+    const emails = rawEmail ? rawEmail.split(/[;,]/).map(e=>e.trim()).filter(Boolean) : [];
+    const firmaName = (r['Firma (dod)'] || r['Firma'] || r['Jméno'] || '').toString().trim();
+
+    const existing = allInvoices.find(i => i.cislo === cislo);
+    if (existing) {
+      // Aktualizuj čísla, zachovej poznámky, nosend, lastSent
+      existing.celkem = parseFloat(r['K likvidaci']) || 0;
+      existing.daysOver = daysOver;
+      existing.splatnoDate = splatnoRaw ? splatnoRaw.toISOString() : null;
+      existing.splatno = splatnoRaw ? formatDate(splatnoRaw) : '';
+      existing.firmaName = firmaName;
+      if (emails.length) existing.emails = emails;
+      updated++;
+    } else {
+      allInvoices.push({
+        cislo,
+        varsym: r['Varsym'] ? String(Math.round(r['Varsym'])) : '',
+        datum: r['Datum'] ? formatDate(new Date(r['Datum'])) : '',
+        splatno: splatnoRaw ? formatDate(splatnoRaw) : '',
+        splatnoDate: splatnoRaw ? splatnoRaw.toISOString() : null,
+        daysOver,
+        celkem: parseFloat(r['K likvidaci']) || 0,
+        firmaName,
+        emails,
+        ic: (r['IČ'] || '').toString().trim(),
+        selected: false,
+        salutation: null,
+        // Nová perzistentní pole
+        note: '',
+        lastSent: null,
+        noSend: false,
+      });
+      added++;
+    }
+  });
+
+  applyFilter();
+  updateStats();
+  showDataUI();
+  toast(`Přidáno ${added} nových, aktualizováno ${updated} faktur`, 'ok');
+  saveToGitHub();
+}
+
+// ── FILTER & STATS ────────────────────────────────────────────
+function applyFilter() {
+  const minDays = parseInt(document.getElementById('days-filter')?.value) || 0;
+  filtered = allInvoices.filter(inv => inv.daysOver >= minDays);
+  document.getElementById('filter-hint').textContent =
+    `Zobrazeno ${filtered.length} faktur (min. ${minDays} dní po splatnosti)`;
+  renderTable();
+  updateStats();
+  updateButtons();
+}
+
+function updateStats() {
+  // Shodné s barvami pills v tabulce
+  const redList    = allInvoices.filter(i => i.daysOver > 30);   // červená > 30 dní
+  const orangeList = allInvoices.filter(i => i.daysOver > 7 && i.daysOver <= 30); // žlutá 8–30 dní
+  const greenList  = allInvoices.filter(i => i.daysOver > 0 && i.daysOver <= 7);  // zelená 1–7 dní
+  const sel        = filtered.filter(i => i.selected).length;
+
+  document.getElementById('s-overdue').textContent         = redList.length;
+  document.getElementById('s-overdue-amt').textContent     = formatKc(redList.reduce((s,i)=>s+i.celkem,0));
+  document.getElementById('s-approaching').textContent     = orangeList.length;
+  document.getElementById('s-approaching-amt').textContent = formatKc(orangeList.reduce((s,i)=>s+i.celkem,0));
+  document.getElementById('s-ok').textContent              = greenList.length;
+  document.getElementById('s-ok-amt').textContent          = formatKc(greenList.reduce((s,i)=>s+i.celkem,0));
+  document.getElementById('s-total').textContent           = allInvoices.length;
+  document.getElementById('s-selected').textContent        = sel;
+}
+
+function updateButtons() {
+  const sel = filtered.filter(i => i.selected && !i.noSend);
+  document.getElementById('btn-preview').disabled = sel.length === 0;
+  document.getElementById('btn-send').disabled = sel.length === 0 || !sel.some(i=>i.emails.length>0);
+}
+
+// ── TABLE ─────────────────────────────────────────────────────
+function renderTable() {
+  const area = document.getElementById('content-area');
+  if (!allInvoices.length) { showEmpty(); return; }
+  if (!filtered.length) {
+    area.innerHTML = `<div class="empty"><div class="empty-icon">🎉</div><h3>Žádné faktury</h3><p>Nesplňují aktuální filtr.</p></div>`;
+    return;
+  }
+
+  const rows = filtered.map((inv, i) => {
+    const dp = inv.daysOver;
+    const pillClass = dp > 30 ? 'days-high' : dp > 7 ? 'days-mid' : 'days-low';
+    const pillTxt = dp > 0 ? `${dp} dní` : dp === 0 ? 'Dnes' : `za ${Math.abs(dp)} dní`;
+
+    const emailHtml = inv.emails.length
+      ? `<div style="display:flex;align-items:center;gap:5px">
+           <span class="email-cell" title="${esc(inv.emails.join(', '))}">${esc(inv.emails[0])}${inv.emails.length>1?` +${inv.emails.length-1}`:''}</span>
+           <span onclick="event.stopPropagation();editEmail(${i})" style="cursor:pointer;color:var(--text3);font-size:11px;flex-shrink:0" title="Upravit">✏️</span>
+         </div>`
+      : `<div style="display:flex;align-items:center;gap:5px">
+           <span class="no-email">⚠ Chybí</span>
+           <button onclick="event.stopPropagation();editEmail(${i})" style="padding:2px 7px;font-size:11px;background:var(--red);color:#fff;border:none;border-radius:5px;cursor:pointer;font-weight:600">+</button>
+         </div>`;
+
+    const lastSentHtml = inv.lastSent
+      ? `<span class="last-sent has-date" title="Naposledy odesláno">✓ ${inv.lastSent}</span>`
+      : `<span class="last-sent">—</span>`;
+
+    const noteVal = esc(inv.note || '');
+    const rowClass = (inv.noSend ? 'nosend-row ' : '') + (inv.selected ? 'selected' : '');
+
+    return `<tr class="${rowClass}" onclick="if(!window.getSelection().toString())toggleRow(${i})">
+      <td><input type="checkbox" class="cb" ${inv.selected?'checked':''} onclick="event.stopPropagation();toggleRow(${i})"></td>
+      <td onclick="event.stopPropagation()" class="nosend-toggle" title="${inv.noSend?'Neposílat':'Klikni pro vypnutí'}">
+        <input type="checkbox" class="nosend-cb" ${inv.noSend?'checked':''} title="Neposílat upomínku"
+          onchange="toggleNoSend(${i},this.checked)">
+      </td>
+      <td><div class="firma-name" title="${esc(inv.firmaName)}">${esc(inv.firmaName)}</div></td>
+      <td><div class="inv-num">${esc(inv.cislo)}</div></td>
+      <td><div class="amount" style="color:${dp>30?'var(--red)':dp>7?'var(--orange)':'var(--green)'}">${formatKcFull(inv.celkem)}</div></td>
+      <td><span class="days-pill ${pillClass}">${pillTxt}</span></td>
+      <td>${esc(inv.splatno)}</td>
+      <td>${emailHtml}</td>
+      <td>${lastSentHtml}</td>
+      <td onclick="event.stopPropagation()">
+        <div class="note-wrap">
+          <input class="note-input" type="text" value="${noteVal}" placeholder="Poznámka…"
+            data-idx="${i}"
+            onchange="saveNote(${i},this.value)"
+            onblur="saveNote(${i},this.value)"
+            title="${noteVal}">
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+
+  area.innerHTML = `
+    <div class="table-bar">
+      <div class="sel-info">Faktury po splatnosti — <strong>${filtered.length}</strong> záznamů</div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr>
+          <th style="width:36px"><input type="checkbox" class="cb" id="cb-all" onchange="toggleAll(this.checked)"></th>
+          <th style="width:40px" title="Neposílat">🚫</th>
+          <th style="width:18%">Firma / Jméno</th>
+          <th style="width:90px">Faktura</th>
+          <th style="width:110px">Částka</th>
+          <th style="width:80px">Splatnost</th>
+          <th style="width:96px">Datum splat.</th>
+          <th style="width:16%">Email</th>
+          <th style="width:96px">Odesláno</th>
+          <th>Poznámka</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+    <div id="preview-wrap" class="preview-wrap"></div>
+  `;
+}
+
+// ── ROW ACTIONS ───────────────────────────────────────────────
+function toggleRow(i) {
+  if (filtered[i].noSend) return; // neposílat = nejde vybrat
+  filtered[i].selected = !filtered[i].selected;
+  renderTable();
+  updateStats();
+  updateButtons();
+  const cbAll = document.getElementById('cb-all');
+  if (cbAll) cbAll.checked = filtered.filter(r=>!r.noSend).every(r=>r.selected);
+}
+
+function toggleAll(checked) {
+  filtered.forEach(r => { if (!r.noSend) r.selected = checked; });
+  renderTable(); updateStats(); updateButtons();
+}
+
+function selectAll()  { toggleAll(true);  }
+function selectNone() { toggleAll(false); }
+
+function saveNote(i, value) {
+  filtered[i].note = value.trim();
+  scheduleSave();
+}
+
+function toggleNoSend(i, checked) {
+  filtered[i].noSend = checked;
+  if (checked) filtered[i].selected = false;
+  renderTable(); updateStats(); updateButtons();
+  scheduleSave();
+}
+
+function editEmail(i) {
+  const inv = filtered[i];
+  const val = prompt(`Email pro: ${inv.firmaName}\n\nZadej emailovou adresu (více odděluj čárkou):`, inv.emails.join(', '));
+  if (val === null) return;
+  filtered[i].emails = val.split(/[;,]/).map(e=>e.trim()).filter(Boolean);
+  renderTable(); updateButtons();
+  scheduleSave();
+  if (filtered[i].emails.length) toast(`Email uložen: ${filtered[i].emails[0]}`, 'ok');
+}
+
+// ── AI SALUTATION ─────────────────────────────────────────────
+async function getSalutation(inv) {
+  if (!settings.claudeKey) return guessSalutation(inv.firmaName);
+  try {
+    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': settings.claudeKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 80,
+        messages: [{role:'user',content:`Jsi asistent pro českou firmu. Na základě názvu urči oslovení pro email s upomínkou faktury.
+Název: "${inv.firmaName}"
+IČ: "${inv.ic}"
+Odpověz POUZE jednou větou oslovení v češtině. Pravidla:
+- Pokud je to firma (s.r.o., a.s., spol., GROUP, service, elektro, atd.) → "Vážení obchodní partneři,"
+- Pokud je to fyzická osoba (jméno + příjmení) → "Vážený pane [příjmení]," nebo "Vážená paní [příjmení],"
+- Pokud nevíš pohlaví → "Vážený zákazníku,"
+Nic jiného nepřidávej.`}]
+      })
+    });
+    const d = await resp.json();
+    return d.content?.[0]?.text?.trim() || guessSalutation(inv.firmaName);
+  } catch(e) { return guessSalutation(inv.firmaName); }
+}
+
+function guessSalutation(name) {
+  if (/s\.r\.o\.|a\.s\.|spol\.|group|service|elektro|stavby|tech|servis|centrum|trade|holding|team|plus|system|cz|s\.p\./i.test(name))
+    return 'Vážení obchodní partneři,';
+  if (name.trim().split(/\s+/).length >= 2) return 'Vážený zákazníku,';
+  return 'Dobrý den,';
+}
+
+// ── QR CODE ───────────────────────────────────────────────────
+function generateQRUrl(inv) {
+  const amount = inv.celkem.toFixed(2);
+  const spd = `SPD*1.0*ACC:${IBAN}*AM:${amount}*CC:CZK*MSG:Faktura ${inv.cislo}*X-VS:${inv.varsym}*X-SS:0308`;
+  return `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${encodeURIComponent(spd)}`;
+}
+async function generateQR(inv) { return generateQRUrl(inv); }
+
+// ── EMAIL BODY ────────────────────────────────────────────────
+async function buildEmailBody(inv, salutation) {
+  const totalStr = formatKcFull(inv.celkem);
+  const qrUrl = generateQRUrl(inv);
+  return `<div style="font-family:Arial,Helvetica,sans-serif;max-width:620px;margin:0 auto;color:#1a1a1a">
+  <div style="background:#C8102E;padding:22px 30px 18px;border-radius:10px 10px 0 0">
+    <div style="color:#fff;font-size:18px;font-weight:900;letter-spacing:-.2px;margin-bottom:3px">Drozda Nářadí &mdash; MILWAUKEE HEAVY DUTY CENTER</div>
+    <div style="color:rgba(255,255,255,.8);font-size:13px">Masarykova 1483, 252 19 Rudná u Prahy</div>
+  </div>
+  <div style="background:#fff;padding:30px;border:1px solid #dde1e7;border-top:none;border-radius:0 0 10px 10px">
+    <p style="font-size:17px;font-weight:700;margin-bottom:12px;color:#0d1117">${salutation}</p>
+    <p style="margin-bottom:10px;line-height:1.8;color:#333;font-size:15px">dovolujeme si Vás upozornit, že evidujeme po splatnosti níže uvedenou fakturu. Prosíme o její úhradu v co nejkratším termínu.</p>
+    <p style="margin-bottom:10px;line-height:1.8;color:#444;font-size:15px">Pokud již byla faktura uhrazena, omlouváme se za tuto zprávu a prosíme o její ignorování.</p>
+    <p style="margin-bottom:10px;line-height:1.8;color:#444;font-size:15px">V případě, že nedojde k úhradě, budeme nuceni přistoupit k jejímu vymáhání v souladu s platnou legislativou, včetně případného uplatnění zákonných úroků z prodlení a dalších nákladů.</p>
+    <p style="margin-bottom:22px;line-height:1.8;color:#444;font-size:15px">V případě dotazů nebo potřeby domluvy nás neváhejte kontaktovat.</p>
+    <table style="width:100%;border-collapse:collapse;margin:0 0 24px;font-size:15px">
+      <tr style="border-bottom:1px solid #e4e7ec">
+        <td style="padding:11px 0;color:#666;width:180px;font-size:14px">Číslo faktury</td>
+        <td style="padding:11px 0;font-weight:700;color:#0d1117">${esc(inv.cislo)}</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e4e7ec">
+        <td style="padding:11px 0;color:#666;font-size:14px">Variabilní symbol</td>
+        <td style="padding:11px 0;font-weight:700;color:#0d1117">${esc(inv.varsym)}</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e4e7ec">
+        <td style="padding:11px 0;color:#666;font-size:14px">Datum splatnosti</td>
+        <td style="padding:11px 0;font-weight:700;color:#b91c1c;font-size:15px">${esc(inv.splatno)}</td>
+      </tr>
+      <tr style="border-bottom:2px solid #C8102E">
+        <td style="padding:13px 0;color:#666;font-size:14px">Dlužná částka</td>
+        <td style="padding:13px 0;font-size:22px;font-weight:900;color:#C8102E;letter-spacing:-.5px">${totalStr}</td>
+      </tr>
+    </table>
+    <div style="background:#f7f8fa;border-radius:10px;padding:22px 24px;margin-bottom:24px">
+      <div style="font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#888;margin-bottom:16px">Platební údaje</div>
+      <table style="border-collapse:collapse;font-size:14px;width:100%">
+        <tr><td style="padding:6px 14px 6px 0;color:#666;white-space:nowrap;width:120px">Číslo účtu</td><td style="padding:6px 0;font-weight:700;color:#0d1117">2001816748/2010</td></tr>
+        <tr><td style="padding:6px 14px 6px 0;color:#666;white-space:nowrap">Banka</td><td style="padding:6px 0;font-weight:600;color:#0d1117">Fio banka, a.s.</td></tr>
+        <tr><td style="padding:6px 14px 6px 0;color:#666;white-space:nowrap">IBAN</td><td style="padding:6px 0;font-weight:700;color:#0d1117;font-family:monospace;font-size:13px">CZ10 2010 0000 0020 0181 6748</td></tr>
+        <tr><td style="padding:6px 14px 6px 0;color:#666;white-space:nowrap">BIC / SWIFT</td><td style="padding:6px 0;font-weight:700;color:#0d1117;font-family:monospace;font-size:13px">FIOBCZPPXXX</td></tr>
+        <tr><td style="padding:6px 14px 6px 0;color:#666;white-space:nowrap">Var. symbol</td><td style="padding:6px 0;font-weight:700;color:#C8102E">${esc(inv.varsym)}</td></tr>
+        <tr><td style="padding:6px 14px 6px 0;color:#666;white-space:nowrap">Částka</td><td style="padding:6px 0;font-weight:700;color:#C8102E">${totalStr}</td></tr>
+      </table>
+      <div style="margin-top:18px;text-align:center;padding-top:16px;border-top:1px solid #e4e7ec">
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#888;margin-bottom:10px">QR platba — naskenuj mobilní bankou</div>
+        <img src="${qrUrl}" alt="QR platba" width="160" height="160" style="border:1px solid #dde1e7;border-radius:8px;padding:8px;background:#fff">
+      </div>
+    </div>
+    <div style="border-top:2px solid #e4e7ec;padding-top:18px;margin-top:4px">
+      <div style="font-size:15px;font-weight:800;color:#0d1117;margin-bottom:6px">Drozda Nářadí — Milwaukee Heavy Duty Center</div>
+      <div style="font-size:13px;color:#555;line-height:1.8">
+        📞 +420 724 731 915 &nbsp; ✉ <a href="mailto:info@drozda-naradi.cz" style="color:#C8102E;text-decoration:none">info@drozda-naradi.cz</a> &nbsp; 🌐 <a href="https://www.drozda-naradi.cz" style="color:#C8102E;text-decoration:none">www.drozda-naradi.cz</a>
+      </div>
+      <div style="font-size:12px;color:#999;margin-top:10px;line-height:1.7;border-top:1px solid #eee;padding-top:10px">
+        <strong style="color:#777">Raditona s.r.o.</strong> | Zvonková 242, Chýně, 253 03 | IČO: 08960917 | DIČ: CZ08960917
+      </div>
+    </div>
+  </div>
+</div>`;
+}
+
+// ── PREVIEW ───────────────────────────────────────────────────
+async function showPreview() {
+  const sel = filtered.filter(i => i.selected && !i.noSend && i.emails.length > 0);
+  if (!sel.length) { toast('Žádné faktury k náhledu', 'warn'); return; }
+  const pw = document.getElementById('preview-wrap');
+  pw.innerHTML = '<div style="text-align:center;padding:20px;color:var(--text2)">⏳ Generuji náhledy…</div>';
+  pw.scrollIntoView({behavior:'smooth', block:'start'});
+  const items = await Promise.all(sel.map(async (inv, i) => {
+    if (!inv.salutation) inv.salutation = await getSalutation(inv);
+    const body = await buildEmailBody(inv, inv.salutation);
+    return `<div class="preview-item" id="pi-${i}">
+      <div class="preview-head" onclick="togglePreview(${i})">
+        <div>
+          <div class="preview-firma">${esc(inv.firmaName)}</div>
+          <div class="preview-meta">${esc(inv.cislo)} · ${esc(inv.emails[0])}</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px">
+          <span class="preview-amount">${formatKcFull(inv.celkem)}</span>
+          <span class="preview-chevron">▾</span>
+        </div>
+      </div>
+      <div class="preview-body">
+        <div class="email-html">${body}</div>
+      </div>
+    </div>`;
+  }));
+  pw.innerHTML = items.join('');
+}
+
+function togglePreview(i) {
+  document.getElementById('pi-'+i)?.classList.toggle('open');
+}
+
+// ── SEND ──────────────────────────────────────────────────────
+async function startSend() {
+  const sel = filtered.filter(i => i.selected && !i.noSend && i.emails.length > 0);
+  if (!sel.length) { toast('Žádné faktury s emailem nejsou vybrány', 'err'); return; }
+  if (!settings.ejsPub || !settings.ejsSvc || !settings.ejsTpl) {
+    toast('Nejprve nastav EmailJS klíče v Nastavení', 'err'); openSettings(); return;
+  }
+  emailjs.init(settings.ejsPub);
+
+  const listHtml = sel.map((inv,i) => `
+    <div class="send-row" id="sr-${i}">
+      <div class="send-firma">${esc(inv.firmaName)}</div>
+      <div class="send-email">${inv.emails.join(', ')}</div>
+      <div class="send-status" id="ss-${i}"><span>—</span></div>
+    </div>`).join('');
+
+  document.getElementById('send-list').innerHTML = listHtml;
+  document.getElementById('send-title').textContent = `📨 Odesílání — ${sel.length} upomínek`;
+  document.getElementById('send-sub').textContent = 'Probíhá odesílání, prosím počkej…';
+  document.getElementById('progress-wrap').style.display = 'block';
+  document.getElementById('btn-close-send').classList.add('hidden');
+  document.getElementById('send-modal').classList.remove('hidden');
+
+  let ok = 0, fail = 0;
+  const results = [];
+  const now = new Date().toLocaleDateString('cs-CZ');
+
+  for (let i = 0; i < sel.length; i++) {
+    const inv = sel[i];
+    document.getElementById('ss-'+i).innerHTML = '<div class="spinner"></div>';
+    try {
+      if (!inv.salutation) inv.salutation = await getSalutation(inv);
+      const body = await buildEmailBody(inv, inv.salutation);
+      await emailjs.send(settings.ejsSvc, settings.ejsTpl, {
+        to_email: inv.emails.join(','),
+        cislo_faktury: inv.cislo,
+        email_body: body
+      });
+      document.getElementById('ss-'+i).innerHTML = '<span style="color:var(--green);font-size:18px">✓</span>';
+      // Zapiš datum odeslání
+      inv.lastSent = now;
+      ok++;
+      results.push('ok');
+    } catch(e) {
+      const errMsg = e?.text || e?.message || String(e);
+      document.getElementById('ss-'+i).innerHTML = '<span style="color:var(--red);font-size:18px">✗</span>';
+      const row = document.getElementById('sr-'+i);
+      if (row) {
+        const errEl = document.createElement('div');
+        errEl.className = 'send-err';
+        errEl.textContent = '⚠ ' + errMsg;
+        row.appendChild(errEl);
+      }
+      fail++;
+      results.push('fail');
+    }
+    const done = i + 1;
+    const pct = Math.round(done / sel.length * 100);
+    document.getElementById('progress-fill').style.width = pct + '%';
+    document.getElementById('progress-txt').textContent = `${done} / ${sel.length}`;
+    document.getElementById('progress-pct').textContent = pct + '%';
+    if (i < sel.length - 1) await sleep(600);
+  }
+
+  document.getElementById('send-sub').textContent =
+    fail > 0 ? `Hotovo: ${ok} odesláno, ${fail} selhalo ⚠️` : `Hotovo: ${ok} odesláno 🎉`;
+  document.getElementById('btn-close-send').classList.remove('hidden');
+  toast(ok + ' upomínek odesláno' + (fail ? `, ${fail} selhalo` : ''), ok > 0 ? 'ok' : 'err');
+
+  // Ulož datumy odeslání na GitHub
+  if (ok > 0) {
+    renderTable();
+    await saveToGitHub();
+  }
+}
+
+function closeSendModal() {
+  document.getElementById('send-modal').classList.add('hidden');
+}
+
+// ── RESET ────────────────────────────────────────────────
+async function resetAndReload() {
+  if (!confirm('Toto smaže všechna uložená data (poznámky, datumy odeslání, příznaky) a nahradí je daty z posledního XLSX. Pokračovat?')) return;
+  allInvoices = [];
+  ghFileSha = null;
+  // Smazat data.json na GitHubu — pošleme prázdný JSON
+  await saveToGitHub();
+  toast('Data vymazána. Nahraj XLSX pro nové načtení.', 'warn');
+  renderTable();
+}
+
+// ── HELPERS ───────────────────────────────────────────────────
+function formatDate(d) {
+  if (!d || isNaN(d)) return '';
+  return d.toLocaleDateString('cs-CZ', {day:'2-digit', month:'2-digit', year:'numeric'});
+}
+function formatKc(n) {
+  if (n >= 1000000) return (n/1000000).toFixed(1) + ' M';
+  if (n >= 1000) return Math.round(n/1000) + ' tis.';
+  return Math.round(n) + ' Kč';
+}
+function formatKcFull(n) {
+  return n.toLocaleString('cs-CZ', {minimumFractionDigits:2, maximumFractionDigits:2}) + ' Kč';
+}
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+function toast(msg, type='info') {
+  const el = document.createElement('div');
+  el.className = `toast toast-${type}`;
+  el.textContent = msg;
+  document.getElementById('toasts').appendChild(el);
+  setTimeout(() => el.remove(), 4000);
+}
+
+// Drag & drop global
+document.addEventListener('dragover', e => e.preventDefault());
+document.addEventListener('drop', e => {
+  e.preventDefault();
+  const f = e.dataTransfer.files[0];
+  if (f && (f.name.endsWith('.xlsx') || f.name.endsWith('.xls'))) handleFile(f);
+});
+</script>
+</body>
+</html>
