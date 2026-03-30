@@ -14,7 +14,7 @@
         "fakturace@sosdekorace.cz"
       ],
       "ic": "27119432",
-      "selected": false,
+      "selected": true,
       "salutation": null,
       "note": "",
       "lastSent": null,
@@ -6223,5 +6223,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-30T11:26:50.664Z"
+  "updated": "2026-03-30T11:34:31.442Z"
 }
