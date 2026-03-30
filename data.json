@@ -92,7 +92,7 @@
       ],
       "ic": "04319371",
       "selected": true,
-      "salutation": "Vážení obchodní partneři,",
+      "salutation": "VÃ¡Å¾enÃ­ obchodnÃ­ partneÅi,",
       "note": "test popisku",
       "lastSent": "30. 3. 2026",
       "noSend": false
@@ -124,7 +124,7 @@
       "splatnoDate": "2023-08-15T22:00:00.000Z",
       "daysOver": 957,
       "celkem": 16069.78,
-      "firmaName": "Martin Janoš",
+      "firmaName": "Martin JanoÅ¡",
       "emails": [],
       "ic": "61495395",
       "selected": false,
@@ -141,7 +141,7 @@
       "splatnoDate": "2023-08-21T22:00:00.000Z",
       "daysOver": 951,
       "celkem": 53493.82,
-      "firmaName": "Dřevěná výstavba s.r.o.",
+      "firmaName": "DÅevÄnÃ¡ vÃ½stavba s.r.o.",
       "emails": [
         "drevena.vystavba@seznam.cz"
       ],
@@ -160,7 +160,7 @@
       "splatnoDate": "2023-09-10T22:00:00.000Z",
       "daysOver": 931,
       "celkem": 9182.85,
-      "firmaName": "Dřevěná výstavba s.r.o.",
+      "firmaName": "DÅevÄnÃ¡ vÃ½stavba s.r.o.",
       "emails": [
         "drevena.vystavba@seznam.cz"
       ],
@@ -179,7 +179,7 @@
       "splatnoDate": "2023-09-12T22:00:00.000Z",
       "daysOver": 929,
       "celkem": 11719.38,
-      "firmaName": "Dřevěná výstavba s.r.o.",
+      "firmaName": "DÅevÄnÃ¡ vÃ½stavba s.r.o.",
       "emails": [
         "drevena.vystavba@seznam.cz"
       ],
@@ -198,7 +198,7 @@
       "splatnoDate": "2024-01-03T23:00:00.000Z",
       "daysOver": 815,
       "celkem": 3785.89,
-      "firmaName": "Winkler Jiří",
+      "firmaName": "Winkler JiÅÃ­",
       "emails": [
         "fallout2@email.cz"
       ],
@@ -217,7 +217,7 @@
       "splatnoDate": "2024-01-18T23:00:00.000Z",
       "daysOver": 800,
       "celkem": 339.97,
-      "firmaName": "Václav Vaněk",
+      "firmaName": "VÃ¡clav VanÄk",
       "emails": [
         "info@zamecnictvi-vanek.cz"
       ],
@@ -572,7 +572,7 @@
       "splatnoDate": "2025-03-27T23:00:00.000Z",
       "daysOver": 366,
       "celkem": 12948.79,
-      "firmaName": "SVP půjčovna, s.r.o.",
+      "firmaName": "SVP pÅ¯jÄovna, s.r.o.",
       "emails": [
         "jcerny@svp.cz",
         "svitakova@svp.cz"
@@ -711,7 +711,7 @@
       "splatnoDate": "2025-06-18T22:00:00.000Z",
       "daysOver": 284,
       "celkem": 2250.02,
-      "firmaName": "ŽIŽKOFF s.r.o.",
+      "firmaName": "Å½IÅ½KOFF s.r.o.",
       "emails": [
         "dan@mathaus.cz"
       ],
@@ -730,7 +730,7 @@
       "splatnoDate": "2025-06-23T22:00:00.000Z",
       "daysOver": 279,
       "celkem": 12021.78,
-      "firmaName": "PNEU PROCHÁZKA s.r.o.",
+      "firmaName": "PNEU PROCHÃZKA s.r.o.",
       "emails": [
         "hornof@pneuprochazka.cz"
       ],
@@ -865,7 +865,7 @@
       "splatnoDate": "2025-07-30T22:00:00.000Z",
       "daysOver": 242,
       "celkem": 0.1,
-      "firmaName": "ONDŘEJ ŽAHOUR",
+      "firmaName": "ONDÅEJ Å½AHOUR",
       "emails": [
         "Ondrej.zahour@gmail.com"
       ],
@@ -884,7 +884,7 @@
       "splatnoDate": "2025-07-30T22:00:00.000Z",
       "daysOver": 242,
       "celkem": 2,
-      "firmaName": "Tomáš Horký",
+      "firmaName": "TomÃ¡Å¡ HorkÃ½",
       "emails": [
         "horky.formal@seznam.cz"
       ],
@@ -903,7 +903,7 @@
       "splatnoDate": "2025-08-07T22:00:00.000Z",
       "daysOver": 234,
       "celkem": 32608.86,
-      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "firmaName": "PapÃ­rnÃ­k elektroinstalace s.r.o.",
       "emails": [
         "papirnik.elektro@gmail.com"
       ],
@@ -941,7 +941,7 @@
       "splatnoDate": "2025-08-11T22:00:00.000Z",
       "daysOver": 230,
       "celkem": 2,
-      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "firmaName": "SERVIS VESELÃ s.r.o.",
       "emails": [
         "servisvesely@seznam.cz"
       ],
@@ -997,7 +997,7 @@
       "splatnoDate": "2025-08-25T22:00:00.000Z",
       "daysOver": 216,
       "celkem": 2,
-      "firmaName": "Michaela Hlaváčková",
+      "firmaName": "Michaela HlavÃ¡ÄkovÃ¡",
       "emails": [
         "kokonek@seznam.cz"
       ],
@@ -1113,7 +1113,7 @@
       "splatnoDate": "2025-09-14T22:00:00.000Z",
       "daysOver": 196,
       "celkem": 6525.32,
-      "firmaName": "Petr Hrabánek",
+      "firmaName": "Petr HrabÃ¡nek",
       "emails": [],
       "ic": "87163951",
       "selected": false,
@@ -1149,7 +1149,7 @@
       "splatnoDate": "2025-09-22T22:00:00.000Z",
       "daysOver": 188,
       "celkem": 4480.29,
-      "firmaName": "Společnost T.A.Q. s.r.o.",
+      "firmaName": "SpoleÄnost T.A.Q. s.r.o.",
       "emails": [
         "jiri.brozik@taq.cz"
       ],
@@ -1168,7 +1168,7 @@
       "splatnoDate": "2025-09-22T22:00:00.000Z",
       "daysOver": 188,
       "celkem": 2491.64,
-      "firmaName": "Společnost T.A.Q. s.r.o.",
+      "firmaName": "SpoleÄnost T.A.Q. s.r.o.",
       "emails": [
         "jiri.brozik@taq.cz"
       ],
@@ -1187,7 +1187,7 @@
       "splatnoDate": "2025-09-23T22:00:00.000Z",
       "daysOver": 187,
       "celkem": 9170,
-      "firmaName": "Jaroslav Fleišer",
+      "firmaName": "Jaroslav FleiÅ¡er",
       "emails": [
         "fleiserjaroslav@seznam.cz"
       ],
@@ -1263,7 +1263,7 @@
       "splatnoDate": "2025-09-30T22:00:00.000Z",
       "daysOver": 180,
       "celkem": 2081.87,
-      "firmaName": "Petr Hrabánek",
+      "firmaName": "Petr HrabÃ¡nek",
       "emails": [
         "info@inteligentnidomyabyty.cz"
       ],
@@ -1341,7 +1341,7 @@
       "splatnoDate": "2025-10-05T22:00:00.000Z",
       "daysOver": 175,
       "celkem": 25269,
-      "firmaName": "SAŠ GLASS s.r.o.",
+      "firmaName": "SAÅ  GLASS s.r.o.",
       "emails": [
         "nikola@sasglass.cz"
       ],
@@ -1379,7 +1379,7 @@
       "splatnoDate": "2025-10-09T22:00:00.000Z",
       "daysOver": 171,
       "celkem": 16327.12,
-      "firmaName": "Petr Hrabánek",
+      "firmaName": "Petr HrabÃ¡nek",
       "emails": [
         "info@inteligentnidomyabyty.cz"
       ],
@@ -1398,7 +1398,7 @@
       "splatnoDate": "2025-10-09T22:00:00.000Z",
       "daysOver": 171,
       "celkem": 503.97,
-      "firmaName": "Petr Hrabánek",
+      "firmaName": "Petr HrabÃ¡nek",
       "emails": [
         "info@inteligentnidomyabyty.cz"
       ],
@@ -1496,7 +1496,7 @@
       "splatnoDate": "2025-10-28T23:00:00.000Z",
       "daysOver": 151,
       "celkem": 1034.55,
-      "firmaName": "SAŠ GLASS s.r.o.",
+      "firmaName": "SAÅ  GLASS s.r.o.",
       "emails": [
         "nikola@sasglass.cz"
       ],
@@ -1515,7 +1515,7 @@
       "splatnoDate": "2025-11-03T23:00:00.000Z",
       "daysOver": 145,
       "celkem": 6206,
-      "firmaName": "J.P.Trans Fišer, s.r.o.",
+      "firmaName": "J.P.Trans FiÅ¡er, s.r.o.",
       "emails": [
         "j.p.transfiser@seznam.cz"
       ],
@@ -1534,7 +1534,7 @@
       "splatnoDate": "2025-11-11T23:00:00.000Z",
       "daysOver": 137,
       "celkem": 286.77,
-      "firmaName": "Ivo Kulhánek",
+      "firmaName": "Ivo KulhÃ¡nek",
       "emails": [
         "ivo.2010@seznam.cz"
       ],
@@ -1553,7 +1553,7 @@
       "splatnoDate": "2025-11-06T23:00:00.000Z",
       "daysOver": 142,
       "celkem": 8746.42,
-      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "firmaName": "PapÃ­rnÃ­k elektroinstalace s.r.o.",
       "emails": [
         "papirnik.elektro@gmail.com"
       ],
@@ -1687,7 +1687,7 @@
       "splatnoDate": "2025-11-18T23:00:00.000Z",
       "daysOver": 130,
       "celkem": 10474,
-      "firmaName": "Tomáš Weigl",
+      "firmaName": "TomÃ¡Å¡ Weigl",
       "emails": [
         "tomas.weigl@email.cz"
       ],
@@ -1803,7 +1803,7 @@
       "splatnoDate": "2025-11-24T23:00:00.000Z",
       "daysOver": 124,
       "celkem": 8092.55,
-      "firmaName": "Zahradní a parková spol. s r.o.",
+      "firmaName": "ZahradnÃ­ a parkovÃ¡ spol. s r.o.",
       "emails": [
         "vostal@zahradaml.cz"
       ],
@@ -1822,7 +1822,7 @@
       "splatnoDate": "2025-11-24T23:00:00.000Z",
       "daysOver": 124,
       "celkem": 6040.81,
-      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "firmaName": "PapÃ­rnÃ­k elektroinstalace s.r.o.",
       "emails": [
         "papirnik.elektro@gmail.com"
       ],
@@ -1841,7 +1841,7 @@
       "splatnoDate": "2025-11-24T23:00:00.000Z",
       "daysOver": 124,
       "celkem": 2359.67,
-      "firmaName": "Společnost T.A.Q. s.r.o.",
+      "firmaName": "SpoleÄnost T.A.Q. s.r.o.",
       "emails": [
         "jiri.brozik@taq.cz"
       ],
@@ -1860,7 +1860,7 @@
       "splatnoDate": "2025-11-24T23:00:00.000Z",
       "daysOver": 124,
       "celkem": 422.53,
-      "firmaName": "Václav Tůma",
+      "firmaName": "VÃ¡clav TÅ¯ma",
       "emails": [
         "instalaterstvituma@seznam.cz"
       ],
@@ -1879,7 +1879,7 @@
       "splatnoDate": "2025-11-27T23:00:00.000Z",
       "daysOver": 121,
       "celkem": 6816,
-      "firmaName": "Tomáš Vít",
+      "firmaName": "TomÃ¡Å¡ VÃ­t",
       "emails": [
         "tomik@zoomboom.cz"
       ],
@@ -1918,7 +1918,7 @@
       "splatnoDate": "2025-12-04T23:00:00.000Z",
       "daysOver": 114,
       "celkem": 609,
-      "firmaName": "Roman LEDINSKÝ",
+      "firmaName": "Roman LEDINSKÃ",
       "emails": [],
       "ic": "62942841",
       "selected": false,
@@ -1935,7 +1935,7 @@
       "splatnoDate": "2025-12-07T23:00:00.000Z",
       "daysOver": 111,
       "celkem": 2763,
-      "firmaName": "Pavel Macháček",
+      "firmaName": "Pavel MachÃ¡Äek",
       "emails": [
         "pavel.machacek25@gmail.com"
       ],
@@ -1954,7 +1954,7 @@
       "splatnoDate": "2025-12-07T23:00:00.000Z",
       "daysOver": 111,
       "celkem": 1742,
-      "firmaName": "Martin Mokroš",
+      "firmaName": "Martin MokroÅ¡",
       "emails": [
         "vtpinstalatermokros@gmail.com"
       ],
@@ -1973,7 +1973,7 @@
       "splatnoDate": "2025-12-09T23:00:00.000Z",
       "daysOver": 109,
       "celkem": 3230.16,
-      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "firmaName": "PapÃ­rnÃ­k elektroinstalace s.r.o.",
       "emails": [
         "papirnik.elektro@gmail.com"
       ],
@@ -2028,7 +2028,7 @@
       "splatnoDate": "2025-12-10T23:00:00.000Z",
       "daysOver": 108,
       "celkem": 0.01,
-      "firmaName": "Stavební geologie - Geosan, s.r.o.",
+      "firmaName": "StavebnÃ­ geologie - Geosan, s.r.o.",
       "emails": [
         "blaha@sggeosan.cz"
       ],
@@ -2068,7 +2068,7 @@
       "splatnoDate": "2025-12-11T23:00:00.000Z",
       "daysOver": 107,
       "celkem": 2613,
-      "firmaName": "Martin Mokroš",
+      "firmaName": "Martin MokroÅ¡",
       "emails": [
         "vtpinstalatermokros@gmail.com"
       ],
@@ -2274,7 +2274,7 @@
       "splatnoDate": "2025-12-29T23:00:00.000Z",
       "daysOver": 89,
       "celkem": 3501.5,
-      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "firmaName": "PapÃ­rnÃ­k elektroinstalace s.r.o.",
       "emails": [
         "papirnik.elektro@gmail.com"
       ],
@@ -2293,7 +2293,7 @@
       "splatnoDate": "2025-12-29T23:00:00.000Z",
       "daysOver": 89,
       "celkem": 357.19,
-      "firmaName": "Dřevosprint P+B s.r.o.",
+      "firmaName": "DÅevosprint P+B s.r.o.",
       "emails": [
         "brada@drevosprint.cz"
       ],
@@ -2369,7 +2369,7 @@
       "splatnoDate": "2026-01-04T23:00:00.000Z",
       "daysOver": 83,
       "celkem": 50759.5,
-      "firmaName": "Petr Palička",
+      "firmaName": "Petr PaliÄka",
       "emails": [
         "paldapal@gmail.com",
         "paldaman.office@gmail.com"
@@ -2428,7 +2428,7 @@
       "splatnoDate": "2026-01-20T23:00:00.000Z",
       "daysOver": 67,
       "celkem": 14278,
-      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "firmaName": "SERVIS VESELÃ s.r.o.",
       "emails": [
         "servisvesely@seznam.cz"
       ],
@@ -2468,7 +2468,7 @@
       "splatnoDate": "2026-01-27T23:00:00.000Z",
       "daysOver": 60,
       "celkem": 8332.37,
-      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "firmaName": "PapÃ­rnÃ­k elektroinstalace s.r.o.",
       "emails": [
         "papirnik.elektro@gmail.com"
       ],
@@ -2487,7 +2487,7 @@
       "splatnoDate": "2026-01-27T23:00:00.000Z",
       "daysOver": 60,
       "celkem": 35440.18,
-      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "firmaName": "SERVIS VESELÃ s.r.o.",
       "emails": [
         "servisvesely@seznam.cz"
       ],
@@ -2506,7 +2506,7 @@
       "splatnoDate": "2026-01-27T23:00:00.000Z",
       "daysOver": 60,
       "celkem": 24175.8,
-      "firmaName": "Papírník elektroinstalace s.r.o.",
+      "firmaName": "PapÃ­rnÃ­k elektroinstalace s.r.o.",
       "emails": [
         "papirnik.elektro@gmail.com"
       ],
@@ -2525,7 +2525,7 @@
       "splatnoDate": "2026-01-28T23:00:00.000Z",
       "daysOver": 59,
       "celkem": 7203.74,
-      "firmaName": "Ondřej Klimeš",
+      "firmaName": "OndÅej KlimeÅ¡",
       "emails": [
         "info@klimes-servis.cz"
       ],
@@ -2544,7 +2544,7 @@
       "splatnoDate": "2026-01-29T23:00:00.000Z",
       "daysOver": 58,
       "celkem": 528.3,
-      "firmaName": "Ondřej Klimeš",
+      "firmaName": "OndÅej KlimeÅ¡",
       "emails": [
         "info@klimes-servis.cz"
       ],
@@ -2563,7 +2563,7 @@
       "splatnoDate": "2026-02-02T23:00:00.000Z",
       "daysOver": 54,
       "celkem": 3280.43,
-      "firmaName": "Ondřej Klimeš",
+      "firmaName": "OndÅej KlimeÅ¡",
       "emails": [
         "info@klimes-servis.cz"
       ],
@@ -2582,7 +2582,7 @@
       "splatnoDate": "2026-02-08T23:00:00.000Z",
       "daysOver": 48,
       "celkem": 6391.1,
-      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "firmaName": "SERVIS VESELÃ s.r.o.",
       "emails": [
         "servisvesely@seznam.cz"
       ],
@@ -2601,7 +2601,7 @@
       "splatnoDate": "2026-02-10T23:00:00.000Z",
       "daysOver": 46,
       "celkem": 13320.45,
-      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "firmaName": "SERVIS VESELÃ s.r.o.",
       "emails": [
         "servisvesely@seznam.cz"
       ],
@@ -2640,7 +2640,7 @@
       "splatnoDate": "2026-02-12T23:00:00.000Z",
       "daysOver": 44,
       "celkem": 15778.09,
-      "firmaName": "Vápenka Čertovy schody a.s.",
+      "firmaName": "VÃ¡penka Äertovy schody a.s.",
       "emails": [
         "CZ03.invoices@lhoist.com",
         "robert.stochl@lhoist.com"
@@ -2738,7 +2738,7 @@
       "splatnoDate": "2026-02-22T23:00:00.000Z",
       "daysOver": 34,
       "celkem": 16877.08,
-      "firmaName": "KLIMASERVIS SŮVA, spol. s r.o.",
+      "firmaName": "KLIMASERVIS SÅ®VA, spol. s r.o.",
       "emails": [
         "fakturace@klimaservis-suva.cz",
         "bromova@klimaservis-suva.cz"
@@ -2777,7 +2777,7 @@
       "splatnoDate": "2026-02-24T23:00:00.000Z",
       "daysOver": 32,
       "celkem": 2383.7,
-      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "firmaName": "SERVIS VESELÃ s.r.o.",
       "emails": [
         "servisvesely@seznam.cz"
       ],
@@ -2796,7 +2796,7 @@
       "splatnoDate": "2026-02-24T23:00:00.000Z",
       "daysOver": 32,
       "celkem": 11080.27,
-      "firmaName": "Ondřej Klimeš",
+      "firmaName": "OndÅej KlimeÅ¡",
       "emails": [
         "info@klimes-servis.cz"
       ],
@@ -2835,7 +2835,7 @@
       "splatnoDate": "2026-02-26T23:00:00.000Z",
       "daysOver": 30,
       "celkem": 7223.7,
-      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "firmaName": "SERVIS VESELÃ s.r.o.",
       "emails": [
         "servisvesely@seznam.cz"
       ],
@@ -2873,7 +2873,7 @@
       "splatnoDate": "2026-02-26T23:00:00.000Z",
       "daysOver": 30,
       "celkem": 118022.37,
-      "firmaName": "Petr Palička",
+      "firmaName": "Petr PaliÄka",
       "emails": [
         "paldapal@gmail.com",
         "paldaman.office@gmail.com"
@@ -2893,7 +2893,7 @@
       "splatnoDate": "2026-03-01T23:00:00.000Z",
       "daysOver": 27,
       "celkem": 15952.9,
-      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "firmaName": "SERVIS VESELÃ s.r.o.",
       "emails": [
         "servisvesely@seznam.cz"
       ],
@@ -2992,7 +2992,7 @@
       "splatnoDate": "2026-03-24T23:00:00.000Z",
       "daysOver": 4,
       "celkem": 3440.15,
-      "firmaName": "CH vodní stavby a.s.",
+      "firmaName": "CH vodnÃ­ stavby a.s.",
       "emails": [
         "vitezslav.matejka@chvs.cz",
         "faktury@chvs.cz"
@@ -3012,7 +3012,7 @@
       "splatnoDate": "2026-03-08T23:00:00.000Z",
       "daysOver": 20,
       "celkem": 13248.58,
-      "firmaName": "Petr Palička",
+      "firmaName": "Petr PaliÄka",
       "emails": [
         "paldapal@gmail.com",
         "paldaman.office@gmail.com"
@@ -3129,7 +3129,7 @@
       "splatnoDate": "2026-03-10T23:00:00.000Z",
       "daysOver": 18,
       "celkem": 5445,
-      "firmaName": "KLIMASERVIS SŮVA, spol. s r.o.",
+      "firmaName": "KLIMASERVIS SÅ®VA, spol. s r.o.",
       "emails": [
         "fakturace@klimaservis-suva.cz",
         "bromova@klimaservis-suva.cz"
@@ -3187,7 +3187,7 @@
       "splatnoDate": "2026-03-28T23:00:00.000Z",
       "daysOver": 0,
       "celkem": 3343.23,
-      "firmaName": "CH vodní stavby a.s.",
+      "firmaName": "CH vodnÃ­ stavby a.s.",
       "emails": [
         "vitezslav.matejka@chvs.cz",
         "faktury@chvs.cz"
@@ -3283,7 +3283,7 @@
       "splatnoDate": "2026-03-15T23:00:00.000Z",
       "daysOver": 13,
       "celkem": 8438.66,
-      "firmaName": "Vladimír Duben",
+      "firmaName": "VladimÃ­r Duben",
       "emails": [],
       "ic": "15936252",
       "selected": false,
@@ -3300,7 +3300,7 @@
       "splatnoDate": "2026-03-15T23:00:00.000Z",
       "daysOver": 13,
       "celkem": 1012.81,
-      "firmaName": "Dřevosprint P+B s.r.o.",
+      "firmaName": "DÅevosprint P+B s.r.o.",
       "emails": [
         "brada@drevosprint.cz"
       ],
@@ -3319,7 +3319,7 @@
       "splatnoDate": "2026-03-15T23:00:00.000Z",
       "daysOver": 13,
       "celkem": 1825,
-      "firmaName": "Jiří Flaks",
+      "firmaName": "JiÅÃ­ Flaks",
       "emails": [
         "j.flaks@seznam.cz"
       ],
@@ -3456,7 +3456,7 @@
       "splatnoDate": "2026-03-15T23:00:00.000Z",
       "daysOver": 13,
       "celkem": 7158.54,
-      "firmaName": "Tomáš Vorel",
+      "firmaName": "TomÃ¡Å¡ Vorel",
       "emails": [
         "vorlos@volny.cz"
       ],
@@ -3645,7 +3645,7 @@
       "splatnoDate": "2026-03-19T23:00:00.000Z",
       "daysOver": 9,
       "celkem": 3768,
-      "firmaName": "Petr Tichý",
+      "firmaName": "Petr TichÃ½",
       "emails": [
         "tichyp@hotmail.cz"
       ],
@@ -3702,7 +3702,7 @@
       "splatnoDate": "2026-03-22T23:00:00.000Z",
       "daysOver": 6,
       "celkem": 310.85,
-      "firmaName": "Petr Šimon",
+      "firmaName": "Petr Å imon",
       "emails": [
         "petr.simonjn@seznam.cz"
       ],
@@ -3776,7 +3776,7 @@
       "splatnoDate": "2026-04-08T22:00:00.000Z",
       "daysOver": -10,
       "celkem": 13704.46,
-      "firmaName": "APB - PLZEŇ a.s.",
+      "firmaName": "APB - PLZEÅ a.s.",
       "emails": [
         "masatova.lucie@apb-plzen.cz"
       ],
@@ -3814,7 +3814,7 @@
       "splatnoDate": "2026-03-24T23:00:00.000Z",
       "daysOver": 4,
       "celkem": 8183.29,
-      "firmaName": "Stavební geologie - Geosan, s.r.o.",
+      "firmaName": "StavebnÃ­ geologie - Geosan, s.r.o.",
       "emails": [
         "blaha@sggeosan.cz"
       ],
@@ -3862,7 +3862,7 @@
       "salutation": null,
       "note": "",
       "lastSent": null,
-      "noSend": false
+      "noSend": true
     },
     {
       "cislo": "26FV-0650",
@@ -3872,7 +3872,7 @@
       "splatnoDate": "2026-03-24T23:00:00.000Z",
       "daysOver": 4,
       "celkem": 2407.9,
-      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "firmaName": "SERVIS VESELÃ s.r.o.",
       "emails": [
         "servisvesely@seznam.cz"
       ],
@@ -3910,7 +3910,7 @@
       "splatnoDate": "2026-03-24T23:00:00.000Z",
       "daysOver": 4,
       "celkem": 1540.93,
-      "firmaName": "AL Stavby Míkovec s.r.o.",
+      "firmaName": "AL Stavby MÃ­kovec s.r.o.",
       "emails": [
         "info@alsm.cz"
       ],
@@ -3929,7 +3929,7 @@
       "splatnoDate": "2026-04-09T22:00:00.000Z",
       "daysOver": -11,
       "celkem": 28530.59,
-      "firmaName": "CH vodní stavby a.s.",
+      "firmaName": "CH vodnÃ­ stavby a.s.",
       "emails": [
         "vitezslav.matejka@chvs.cz",
         "faktury@chvs.cz"
@@ -3949,7 +3949,7 @@
       "splatnoDate": "2026-03-25T23:00:00.000Z",
       "daysOver": 3,
       "celkem": 6889,
-      "firmaName": "Lukáš Hovorka",
+      "firmaName": "LukÃ¡Å¡ Hovorka",
       "emails": [
         "Lukas.Hovorka@seznam.cz"
       ],
@@ -3968,7 +3968,7 @@
       "splatnoDate": "2026-03-25T23:00:00.000Z",
       "daysOver": 3,
       "celkem": 1622.26,
-      "firmaName": "Róbert Malinovský",
+      "firmaName": "RÃ³bert MalinovskÃ½",
       "emails": [
         "tesarstvi.malinovsky@seznam.cz"
       ],
@@ -4026,7 +4026,7 @@
       "splatnoDate": "2026-03-26T23:00:00.000Z",
       "daysOver": 2,
       "celkem": 4855.13,
-      "firmaName": "ELKOV Jaroměř s.r.o.",
+      "firmaName": "ELKOV JaromÄÅ s.r.o.",
       "emails": [
         "elkov.jaromer@seznam.cz"
       ],
@@ -4045,7 +4045,7 @@
       "splatnoDate": "2026-03-26T23:00:00.000Z",
       "daysOver": 2,
       "celkem": 401.72,
-      "firmaName": "ELKOV Jaroměř s.r.o.",
+      "firmaName": "ELKOV JaromÄÅ s.r.o.",
       "emails": [
         "elkov.jaromer@seznam.cz"
       ],
@@ -4064,7 +4064,7 @@
       "splatnoDate": "2026-03-26T23:00:00.000Z",
       "daysOver": 2,
       "celkem": 15816.15,
-      "firmaName": "David Drábek",
+      "firmaName": "David DrÃ¡bek",
       "emails": [
         "daviddrabek@seznam.cz"
       ],
@@ -4123,7 +4123,7 @@
       "splatnoDate": "2026-03-29T22:00:00.000Z",
       "daysOver": 0,
       "celkem": 2270,
-      "firmaName": "Adam Staněk",
+      "firmaName": "Adam StanÄk",
       "emails": [
         "adamstanek86@seznam.cz"
       ],
@@ -4161,7 +4161,7 @@
       "splatnoDate": "2026-03-29T22:00:00.000Z",
       "daysOver": 0,
       "celkem": 19098.4,
-      "firmaName": "Petr Palička",
+      "firmaName": "Petr PaliÄka",
       "emails": [
         "paldapal@gmail.com",
         "paldaman.office@gmail.com"
@@ -4219,7 +4219,7 @@
       "splatnoDate": "2026-03-29T22:00:00.000Z",
       "daysOver": 0,
       "celkem": 2104.52,
-      "firmaName": "Vápenka Čertovy schody a.s.",
+      "firmaName": "VÃ¡penka Äertovy schody a.s.",
       "emails": [
         "CZ03.invoices@lhoist.com",
         "robert.stochl@lhoist.com"
@@ -4275,7 +4275,7 @@
       "splatnoDate": "2026-03-30T22:00:00.000Z",
       "daysOver": -1,
       "celkem": 11459,
-      "firmaName": "Róbert Janek",
+      "firmaName": "RÃ³bert Janek",
       "emails": [
         "janek.fkblsany@tiscali.cz"
       ],
@@ -4294,7 +4294,7 @@
       "splatnoDate": "2026-03-29T22:00:00.000Z",
       "daysOver": 0,
       "celkem": 1008.92,
-      "firmaName": "František Macháč",
+      "firmaName": "FrantiÅ¡ek MachÃ¡Ä",
       "emails": [
         "trtek89@seznam.cz"
       ],
@@ -4372,7 +4372,7 @@
       "splatnoDate": "2026-04-15T22:00:00.000Z",
       "daysOver": -17,
       "celkem": 2063.49,
-      "firmaName": "CH vodní stavby a.s.",
+      "firmaName": "CH vodnÃ­ stavby a.s.",
       "emails": [
         "vitezslav.matejka@chvs.cz",
         "faktury@chvs.cz"
@@ -4392,7 +4392,7 @@
       "splatnoDate": "2026-03-31T22:00:00.000Z",
       "daysOver": -2,
       "celkem": 1571,
-      "firmaName": "Michal Šujak",
+      "firmaName": "Michal Å ujak",
       "emails": [
         "majkl7777@seznam.cz"
       ],
@@ -4431,7 +4431,7 @@
       "splatnoDate": "2026-03-31T22:00:00.000Z",
       "daysOver": -2,
       "celkem": 1069,
-      "firmaName": "Němec Zdeněk",
+      "firmaName": "NÄmec ZdenÄk",
       "emails": [
         "zdenek.21@seznam.cz"
       ],
@@ -4450,7 +4450,7 @@
       "splatnoDate": "2026-03-31T22:00:00.000Z",
       "daysOver": -2,
       "celkem": 4336,
-      "firmaName": "Josef Snášel",
+      "firmaName": "Josef SnÃ¡Å¡el",
       "emails": [
         "snaselovi@email.cz"
       ],
@@ -4562,7 +4562,7 @@
       "splatnoDate": "2026-03-31T22:00:00.000Z",
       "daysOver": -2,
       "celkem": 5872.98,
-      "firmaName": "Václav Tůma",
+      "firmaName": "VÃ¡clav TÅ¯ma",
       "emails": [
         "instalaterstvituma@seznam.cz"
       ],
@@ -4617,7 +4617,7 @@
       "splatnoDate": "2026-04-01T22:00:00.000Z",
       "daysOver": -3,
       "celkem": 6488.33,
-      "firmaName": "DKF systém s.r.o.",
+      "firmaName": "DKF systÃ©m s.r.o.",
       "emails": [
         "dkfs@email.cz"
       ],
@@ -4636,7 +4636,7 @@
       "splatnoDate": "2026-04-01T22:00:00.000Z",
       "daysOver": -3,
       "celkem": 718.74,
-      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "firmaName": "SERVIS VESELÃ s.r.o.",
       "emails": [
         "servisvesely@seznam.cz"
       ],
@@ -4674,7 +4674,7 @@
       "splatnoDate": "2026-04-02T22:00:00.000Z",
       "daysOver": -4,
       "celkem": 18068.66,
-      "firmaName": "Tomáš Vorel",
+      "firmaName": "TomÃ¡Å¡ Vorel",
       "emails": [
         "vorlos@volny.cz"
       ],
@@ -4693,7 +4693,7 @@
       "splatnoDate": "2026-04-02T22:00:00.000Z",
       "daysOver": -4,
       "celkem": 15062.09,
-      "firmaName": "Petr Palička",
+      "firmaName": "Petr PaliÄka",
       "emails": [
         "paldapal@gmail.com",
         "paldaman.office@gmail.com"
@@ -4768,7 +4768,7 @@
       "splatnoDate": "2026-04-02T22:00:00.000Z",
       "daysOver": -4,
       "celkem": 13540.05,
-      "firmaName": "AL Stavby Míkovec s.r.o.",
+      "firmaName": "AL Stavby MÃ­kovec s.r.o.",
       "emails": [
         "info@alsm.cz"
       ],
@@ -4939,7 +4939,7 @@
       "splatnoDate": "2026-04-05T22:00:00.000Z",
       "daysOver": -7,
       "celkem": 388.2,
-      "firmaName": "Miroslav Kuča",
+      "firmaName": "Miroslav KuÄa",
       "emails": [
         "neomedic@seznam.cz"
       ],
@@ -4958,7 +4958,7 @@
       "splatnoDate": "2026-04-21T22:00:00.000Z",
       "daysOver": -23,
       "celkem": 16422.12,
-      "firmaName": "CH vodní stavby a.s.",
+      "firmaName": "CH vodnÃ­ stavby a.s.",
       "emails": [
         "vitezslav.matejka@chvs.cz",
         "faktury@chvs.cz"
@@ -4995,7 +4995,7 @@
       "splatnoDate": "2026-04-05T22:00:00.000Z",
       "daysOver": -7,
       "celkem": 8445.8,
-      "firmaName": "SERVIS VESELÝ s.r.o.",
+      "firmaName": "SERVIS VESELÃ s.r.o.",
       "emails": [
         "servisvesely@seznam.cz"
       ],
@@ -5014,7 +5014,7 @@
       "splatnoDate": "2026-04-21T22:00:00.000Z",
       "daysOver": -23,
       "celkem": 728.54,
-      "firmaName": "CH vodní stavby a.s.",
+      "firmaName": "CH vodnÃ­ stavby a.s.",
       "emails": [
         "vitezslav.matejka@chvs.cz",
         "faktury@chvs.cz"
@@ -5034,7 +5034,7 @@
       "splatnoDate": "2026-04-05T22:00:00.000Z",
       "daysOver": -7,
       "celkem": 522,
-      "firmaName": "HEFA-PROTIPOŽÁRNÍ SYSTÉMY, v.o.s.",
+      "firmaName": "HEFA-PROTIPOÅ½ÃRNÃ SYSTÃMY, v.o.s.",
       "emails": [
         "hefa.vos@seznam.cz"
       ],
@@ -5053,7 +5053,7 @@
       "splatnoDate": "2026-04-05T22:00:00.000Z",
       "daysOver": -7,
       "celkem": 3461.93,
-      "firmaName": "Stavitelství Vlček s.r.o.",
+      "firmaName": "StavitelstvÃ­ VlÄek s.r.o.",
       "emails": [
         "petr@stavitelstvi-vlcek.cz"
       ],
@@ -5131,7 +5131,7 @@
       "splatnoDate": "2026-04-05T22:00:00.000Z",
       "daysOver": -7,
       "celkem": 6163,
-      "firmaName": "Libuše Sedláková",
+      "firmaName": "LibuÅ¡e SedlÃ¡kovÃ¡",
       "emails": [
         "milos.sedlak.ml@centrum.cz"
       ],
@@ -5150,7 +5150,7 @@
       "splatnoDate": "2026-04-05T22:00:00.000Z",
       "daysOver": -7,
       "celkem": 5554.99,
-      "firmaName": "Jakub Šimka",
+      "firmaName": "Jakub Å imka",
       "emails": [
         "d.z.o.n@seznam.cz"
       ],
@@ -5246,7 +5246,7 @@
       "splatnoDate": "2026-04-06T22:00:00.000Z",
       "daysOver": -8,
       "celkem": 3338.65,
-      "firmaName": "Lukáš Vydra",
+      "firmaName": "LukÃ¡Å¡ Vydra",
       "emails": [
         "vydryseek@email.cz"
       ],
@@ -5265,7 +5265,7 @@
       "splatnoDate": "2026-04-06T22:00:00.000Z",
       "daysOver": -8,
       "celkem": 2,
-      "firmaName": "Záchranná služba Asociace samaritánů České republiky Praha-západ  z.s.",
+      "firmaName": "ZÃ¡chrannÃ¡ sluÅ¾ba Asociace samaritÃ¡nÅ¯ ÄeskÃ© republiky Praha-zÃ¡pad  z.s.",
       "emails": [
         "pavel.jarkovsky@gmail.com"
       ],
@@ -5284,7 +5284,7 @@
       "splatnoDate": "2026-04-06T22:00:00.000Z",
       "daysOver": -8,
       "celkem": 18166.58,
-      "firmaName": "Tomáš Gorgoň",
+      "firmaName": "TomÃ¡Å¡ GorgoÅ",
       "emails": [
         "tomaaasek1@seznam.cz"
       ],
@@ -5303,7 +5303,7 @@
       "splatnoDate": "2026-04-06T22:00:00.000Z",
       "daysOver": -8,
       "celkem": 1491.94,
-      "firmaName": "Záchranná služba Asociace samaritánů České republiky Praha-západ  z.s.",
+      "firmaName": "ZÃ¡chrannÃ¡ sluÅ¾ba Asociace samaritÃ¡nÅ¯ ÄeskÃ© republiky Praha-zÃ¡pad  z.s.",
       "emails": [
         "pavel.jarkovsky@gmail.com"
       ],
@@ -5356,7 +5356,7 @@
       "splatnoDate": "2026-04-06T22:00:00.000Z",
       "daysOver": -8,
       "celkem": 3599.75,
-      "firmaName": "SPOJmat Hýskov s.r.o.",
+      "firmaName": "SPOJmat HÃ½skov s.r.o.",
       "emails": [
         "petra.smejkalova@spojmat-hyskov.cz"
       ],
@@ -5375,7 +5375,7 @@
       "splatnoDate": "2026-04-06T22:00:00.000Z",
       "daysOver": -8,
       "celkem": 2379,
-      "firmaName": "Martin Müller",
+      "firmaName": "Martin MÃ¼ller",
       "emails": [
         "kmotr.x@email.cz"
       ],
@@ -5394,7 +5394,7 @@
       "splatnoDate": "2026-04-06T22:00:00.000Z",
       "daysOver": -8,
       "celkem": 2653.29,
-      "firmaName": "Ing. Josef Mašek",
+      "firmaName": "Ing. Josef MaÅ¡ek",
       "emails": [
         "masek2050@gmail.com"
       ],
@@ -5471,7 +5471,7 @@
       "splatnoDate": "2026-04-07T22:00:00.000Z",
       "daysOver": -9,
       "celkem": 8539,
-      "firmaName": "Aleš Krchňavý",
+      "firmaName": "AleÅ¡ KrchÅavÃ½",
       "emails": [
         "ales.krchnavy@seznam.cz"
       ],
@@ -5509,7 +5509,7 @@
       "splatnoDate": "2026-04-07T22:00:00.000Z",
       "daysOver": -9,
       "celkem": 910.3,
-      "firmaName": "Ondrej Veselý",
+      "firmaName": "Ondrej VeselÃ½",
       "emails": [
         "serus007@seznam.cz"
       ],
@@ -5528,7 +5528,7 @@
       "splatnoDate": "2026-04-07T22:00:00.000Z",
       "daysOver": -9,
       "celkem": 2592.48,
-      "firmaName": "Dřevosprint P+B s.r.o.",
+      "firmaName": "DÅevosprint P+B s.r.o.",
       "emails": [
         "brada@drevosprint.cz"
       ],
@@ -5566,7 +5566,7 @@
       "splatnoDate": "2026-04-07T22:00:00.000Z",
       "daysOver": -9,
       "celkem": 2482.92,
-      "firmaName": "ROTHLEHNER pracovní plošiny s.r.o.",
+      "firmaName": "ROTHLEHNER pracovnÃ­ ploÅ¡iny s.r.o.",
       "emails": [
         "junek@rothlehner.cz"
       ],
@@ -5679,7 +5679,7 @@
       "splatnoDate": "2026-04-07T22:00:00.000Z",
       "daysOver": -9,
       "celkem": 9661.24,
-      "firmaName": "Ing. František Kuba",
+      "firmaName": "Ing. FrantiÅ¡ek Kuba",
       "emails": [
         "franta.kuba@zfk.cz"
       ],
@@ -5698,7 +5698,7 @@
       "splatnoDate": "2026-04-07T22:00:00.000Z",
       "daysOver": -9,
       "celkem": 6103.36,
-      "firmaName": "Radek Dvořák",
+      "firmaName": "Radek DvoÅÃ¡k",
       "emails": [
         "radek@radocom.cz"
       ],
@@ -5756,7 +5756,7 @@
       "splatnoDate": "2026-04-08T22:00:00.000Z",
       "daysOver": -10,
       "celkem": 468.45,
-      "firmaName": "Kýhos Ladislav",
+      "firmaName": "KÃ½hos Ladislav",
       "emails": [
         "la.ky62@icloud.com"
       ],
@@ -5775,7 +5775,7 @@
       "splatnoDate": "2026-04-08T22:00:00.000Z",
       "daysOver": -10,
       "celkem": 2448.07,
-      "firmaName": "Záchranná služba Asociace samaritánů České republiky Praha-západ  z.s.",
+      "firmaName": "ZÃ¡chrannÃ¡ sluÅ¾ba Asociace samaritÃ¡nÅ¯ ÄeskÃ© republiky Praha-zÃ¡pad  z.s.",
       "emails": [
         "pavel.jarkovsky@gmail.com"
       ],
@@ -5926,7 +5926,7 @@
       "splatnoDate": "2026-04-08T22:00:00.000Z",
       "daysOver": -10,
       "celkem": 8433.85,
-      "firmaName": "Ivo Kulhánek",
+      "firmaName": "Ivo KulhÃ¡nek",
       "emails": [
         "ivo.2010@seznam.cz"
       ],
@@ -5962,7 +5962,7 @@
       "splatnoDate": "2026-04-08T22:00:00.000Z",
       "daysOver": -10,
       "celkem": 2213.57,
-      "firmaName": "Jaroslav PROCHÁZKA",
+      "firmaName": "Jaroslav PROCHÃZKA",
       "emails": [],
       "ic": "69310122",
       "selected": false,
@@ -6038,7 +6038,7 @@
       "splatnoDate": "2026-04-09T22:00:00.000Z",
       "daysOver": -11,
       "celkem": 1727,
-      "firmaName": "ÚSOVSKO AGRO s.r.o.",
+      "firmaName": "ÃSOVSKO AGRO s.r.o.",
       "emails": [
         "benda@usovsko.cz"
       ],
@@ -6057,7 +6057,7 @@
       "splatnoDate": "2026-04-09T22:00:00.000Z",
       "daysOver": -11,
       "celkem": 918.75,
-      "firmaName": "František Živčák",
+      "firmaName": "FrantiÅ¡ek Å½ivÄÃ¡k",
       "emails": [
         "f.zivcak@seznam.cz"
       ],
@@ -6112,7 +6112,7 @@
       "splatnoDate": "2026-04-09T22:00:00.000Z",
       "daysOver": -11,
       "celkem": 22687.5,
-      "firmaName": "KLIMASERVIS SŮVA, spol. s r.o.",
+      "firmaName": "KLIMASERVIS SÅ®VA, spol. s r.o.",
       "emails": [
         "fakturace@klimaservis-suva.cz",
         "bromova@klimaservis-suva.cz"
@@ -6132,7 +6132,7 @@
       "splatnoDate": "2026-04-09T22:00:00.000Z",
       "daysOver": -11,
       "celkem": 1089,
-      "firmaName": "ZRUP Příbram a.s.",
+      "firmaName": "ZRUP PÅÃ­bram a.s.",
       "emails": [
         "krizan@zrup.cz",
         "mtz@zrup.cz",
@@ -6223,5 +6223,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-30T10:30:33.713Z"
+  "updated": "2026-03-30T11:12:59.978Z"
 }
