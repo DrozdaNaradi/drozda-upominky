@@ -91,10 +91,10 @@
         "robert.klat@drozda-naradi.cz"
       ],
       "ic": "04319371",
-      "selected": false,
-      "salutation": null,
+      "selected": true,
+      "salutation": "Vážení obchodní partneři,",
       "note": "test popisku",
-      "lastSent": null,
+      "lastSent": "30. 3. 2026",
       "noSend": false
     },
     {
@@ -6223,5 +6223,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-30T10:30:17.854Z"
+  "updated": "2026-03-30T10:30:33.713Z"
 }
