@@ -1791,7 +1791,7 @@
       "ic": "05800510",
       "selected": false,
       "salutation": null,
-      "note": "",
+      "note": "Uz ma zaplaceno",
       "lastSent": null,
       "noSend": false
     },
@@ -6431,5 +6431,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-30T12:41:43.804Z"
+  "updated": "2026-03-30T12:43:39.222Z"
 }
