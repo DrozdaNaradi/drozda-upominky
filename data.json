@@ -91,7 +91,7 @@
       "ic": "04319371",
       "selected": false,
       "salutation": null,
-      "note": "",
+      "note": "test popisku",
       "lastSent": null,
       "noSend": false
     },
@@ -6221,5 +6221,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-30T10:29:52.676Z"
+  "updated": "2026-03-30T10:29:58.675Z"
 }
