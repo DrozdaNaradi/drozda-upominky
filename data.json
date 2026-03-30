@@ -87,7 +87,9 @@
       "daysOver": 1004,
       "celkem": 233.49,
       "firmaName": "Cheznet servis s.r.o.",
-      "emails": [],
+      "emails": [
+        "robert.klat@drozda-naradi.cz"
+      ],
       "ic": "04319371",
       "selected": false,
       "salutation": null,
@@ -6221,5 +6223,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-30T10:29:58.675Z"
+  "updated": "2026-03-30T10:30:17.854Z"
 }
