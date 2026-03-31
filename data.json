@@ -16,7 +16,7 @@
       "ic": "27119432",
       "selected": false,
       "salutation": null,
-      "note": "",
+      "note": "TEST",
       "lastSent": null,
       "noSend": false
     },
@@ -34,9 +34,9 @@
         "fakturace@sosdekorace.cz"
       ],
       "ic": "27119432",
-      "selected": false,
+      "selected": true,
       "salutation": null,
-      "note": "",
+      "note": "test",
       "lastSent": null,
       "noSend": false
     },
@@ -57,7 +57,7 @@
       "salutation": null,
       "note": "",
       "lastSent": null,
-      "noSend": false
+      "noSend": true
     },
     {
       "cislo": "23FV-0564",
@@ -770,10 +770,10 @@
       "firmaName": "...",
       "emails": [],
       "ic": "",
-      "selected": false,
-      "salutation": null,
+      "selected": true,
+      "salutation": "Dobrý den,",
       "note": "",
-      "lastSent": null,
+      "lastSent": "30. 3. 2026",
       "noSend": false
     },
     {
@@ -959,9 +959,11 @@
       "daysOver": 209,
       "celkem": 110000,
       "firmaName": "Techtronic Industries Eastern Europe Sp. z o.o.",
-      "emails": [],
+      "emails": [
+        "robert.klat@drozda-naradi.cz"
+      ],
       "ic": "",
-      "selected": false,
+      "selected": true,
       "salutation": null,
       "note": "",
       "lastSent": null,
@@ -1789,9 +1791,9 @@
       "ic": "05800510",
       "selected": false,
       "salutation": null,
-      "note": "",
+      "note": "Uz ma zaplaceno",
       "lastSent": null,
-      "noSend": false
+      "noSend": true
     },
     {
       "cislo": "25FV-2335",
@@ -4049,7 +4051,7 @@
       ],
       "ic": "27485471",
       "selected": false,
-      "salutation": null,
+      "salutation": "Vážení obchodní partneři,",
       "note": "",
       "lastSent": null,
       "noSend": false
@@ -6429,5 +6431,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-31T07:01:57.800Z"
+  "updated": "2026-03-31T07:02:06.303Z"
 }
