@@ -6,7 +6,7 @@
       "datum": "06. 03. 2023",
       "splatno": "05. 04. 2023",
       "splatnoDate": "2023-04-04T22:00:00.000Z",
-      "daysOver": 1090,
+      "daysOver": 1091,
       "celkem": 1034.55,
       "firmaName": "S.O.S. - DEKORACE, s.r.o.",
       "emails": [
@@ -16,7 +16,7 @@
       "ic": "27119432",
       "selected": false,
       "salutation": null,
-      "note": "",
+      "note": "TEST",
       "lastSent": null,
       "noSend": false
     },
@@ -26,7 +26,7 @@
       "datum": "05. 05. 2023",
       "splatno": "04. 06. 2023",
       "splatnoDate": "2023-06-03T22:00:00.000Z",
-      "daysOver": 1030,
+      "daysOver": 1031,
       "celkem": 2594.24,
       "firmaName": "S.O.S. - DEKORACE, s.r.o.",
       "emails": [
@@ -46,7 +46,7 @@
       "datum": "17. 05. 2023",
       "splatno": "31. 05. 2023",
       "splatnoDate": "2023-05-30T22:00:00.000Z",
-      "daysOver": 1034,
+      "daysOver": 1035,
       "celkem": 1034.55,
       "firmaName": "S.O.S - DEKORACE s.r.o.",
       "emails": [
@@ -65,7 +65,7 @@
       "datum": "08. 06. 2023",
       "splatno": "22. 06. 2023",
       "splatnoDate": "2023-06-21T22:00:00.000Z",
-      "daysOver": 1012,
+      "daysOver": 1013,
       "celkem": 706.64,
       "firmaName": "EKOGRILL, s.r.o.",
       "emails": [
@@ -84,7 +84,7 @@
       "datum": "30. 06. 2023",
       "splatno": "30. 06. 2023",
       "splatnoDate": "2023-06-29T22:00:00.000Z",
-      "daysOver": 1004,
+      "daysOver": 1005,
       "celkem": 233.49,
       "firmaName": "Cheznet servis s.r.o.",
       "emails": [],
@@ -101,7 +101,7 @@
       "datum": "10. 07. 2023",
       "splatno": "24. 07. 2023",
       "splatnoDate": "2023-07-23T22:00:00.000Z",
-      "daysOver": 980,
+      "daysOver": 981,
       "celkem": 9792.52,
       "firmaName": "...",
       "emails": [
@@ -120,7 +120,7 @@
       "datum": "02. 08. 2023",
       "splatno": "16. 08. 2023",
       "splatnoDate": "2023-08-15T22:00:00.000Z",
-      "daysOver": 957,
+      "daysOver": 958,
       "celkem": 16069.78,
       "firmaName": "Martin Janoš",
       "emails": [],
@@ -137,7 +137,7 @@
       "datum": "08. 08. 2023",
       "splatno": "22. 08. 2023",
       "splatnoDate": "2023-08-21T22:00:00.000Z",
-      "daysOver": 951,
+      "daysOver": 952,
       "celkem": 53493.82,
       "firmaName": "Dřevěná výstavba s.r.o.",
       "emails": [
@@ -156,7 +156,7 @@
       "datum": "28. 08. 2023",
       "splatno": "11. 09. 2023",
       "splatnoDate": "2023-09-10T22:00:00.000Z",
-      "daysOver": 931,
+      "daysOver": 932,
       "celkem": 9182.85,
       "firmaName": "Dřevěná výstavba s.r.o.",
       "emails": [
@@ -175,7 +175,7 @@
       "datum": "30. 08. 2023",
       "splatno": "13. 09. 2023",
       "splatnoDate": "2023-09-12T22:00:00.000Z",
-      "daysOver": 929,
+      "daysOver": 930,
       "celkem": 11719.38,
       "firmaName": "Dřevěná výstavba s.r.o.",
       "emails": [
@@ -194,7 +194,7 @@
       "datum": "21. 12. 2023",
       "splatno": "04. 01. 2024",
       "splatnoDate": "2024-01-03T23:00:00.000Z",
-      "daysOver": 815,
+      "daysOver": 816,
       "celkem": 3785.89,
       "firmaName": "Winkler Jiří",
       "emails": [
@@ -213,7 +213,7 @@
       "datum": "05. 01. 2024",
       "splatno": "19. 01. 2024",
       "splatnoDate": "2024-01-18T23:00:00.000Z",
-      "daysOver": 800,
+      "daysOver": 801,
       "celkem": 339.97,
       "firmaName": "Václav Vaněk",
       "emails": [
@@ -232,7 +232,7 @@
       "datum": "04. 03. 2024",
       "splatno": "18. 03. 2024",
       "splatnoDate": "2024-03-17T23:00:00.000Z",
-      "daysOver": 741,
+      "daysOver": 742,
       "celkem": 63.76,
       "firmaName": "SOREX s.r.o.",
       "emails": [
@@ -251,7 +251,7 @@
       "datum": "15. 03. 2024",
       "splatno": "29. 03. 2024",
       "splatnoDate": "2024-03-28T23:00:00.000Z",
-      "daysOver": 730,
+      "daysOver": 731,
       "celkem": 13310,
       "firmaName": "Black pmc s.r.o.",
       "emails": [
@@ -270,7 +270,7 @@
       "datum": "15. 03. 2024",
       "splatno": "29. 03. 2024",
       "splatnoDate": "2024-03-28T23:00:00.000Z",
-      "daysOver": 730,
+      "daysOver": 731,
       "celkem": 627.99,
       "firmaName": "...",
       "emails": [],
@@ -287,7 +287,7 @@
       "datum": "20. 03. 2024",
       "splatno": "03. 04. 2024",
       "splatnoDate": "2024-04-02T22:00:00.000Z",
-      "daysOver": 726,
+      "daysOver": 727,
       "celkem": 349.34,
       "firmaName": "Marek Gabriel",
       "emails": [],
@@ -304,7 +304,7 @@
       "datum": "21. 03. 2024",
       "splatno": "04. 04. 2024",
       "splatnoDate": "2024-04-03T22:00:00.000Z",
-      "daysOver": 725,
+      "daysOver": 726,
       "celkem": 827.1,
       "firmaName": "...",
       "emails": [],
@@ -321,7 +321,7 @@
       "datum": "24. 07. 2024",
       "splatno": "07. 08. 2024",
       "splatnoDate": "2024-08-06T22:00:00.000Z",
-      "daysOver": 600,
+      "daysOver": 601,
       "celkem": 379,
       "firmaName": "...",
       "emails": [],
@@ -338,7 +338,7 @@
       "datum": "10. 09. 2024",
       "splatno": "24. 09. 2024",
       "splatnoDate": "2024-09-23T22:00:00.000Z",
-      "daysOver": 552,
+      "daysOver": 553,
       "celkem": 5763.35,
       "firmaName": "IVPS Group s.r.o.",
       "emails": [
@@ -359,7 +359,7 @@
       "datum": "22. 10. 2024",
       "splatno": "05. 11. 2024",
       "splatnoDate": "2024-11-04T23:00:00.000Z",
-      "daysOver": 509,
+      "daysOver": 510,
       "celkem": 140,
       "firmaName": "NEW-WIN CZ s.r.o.",
       "emails": [
@@ -378,7 +378,7 @@
       "datum": "14. 11. 2024",
       "splatno": "28. 11. 2024",
       "splatnoDate": "2024-11-27T23:00:00.000Z",
-      "daysOver": 486,
+      "daysOver": 487,
       "celkem": 744,
       "firmaName": "Jungrest, s.r.o.",
       "emails": [
@@ -397,7 +397,7 @@
       "datum": "27. 11. 2024",
       "splatno": "11. 12. 2024",
       "splatnoDate": "2024-12-10T23:00:00.000Z",
-      "daysOver": 473,
+      "daysOver": 474,
       "celkem": 2601,
       "firmaName": "KSO, s.r.o.",
       "emails": [
@@ -416,7 +416,7 @@
       "datum": "02. 12. 2024",
       "splatno": "16. 12. 2024",
       "splatnoDate": "2024-12-15T23:00:00.000Z",
-      "daysOver": 468,
+      "daysOver": 469,
       "celkem": 1342.22,
       "firmaName": "Generator Store s.r.o.",
       "emails": [
@@ -435,7 +435,7 @@
       "datum": "09. 12. 2024",
       "splatno": "23. 12. 2024",
       "splatnoDate": "2024-12-22T23:00:00.000Z",
-      "daysOver": 461,
+      "daysOver": 462,
       "celkem": 1222.22,
       "firmaName": "Generator Store s.r.o.",
       "emails": [
@@ -454,7 +454,7 @@
       "datum": "19. 12. 2024",
       "splatno": "02. 01. 2025",
       "splatnoDate": "2025-01-01T23:00:00.000Z",
-      "daysOver": 451,
+      "daysOver": 452,
       "celkem": 24141.61,
       "firmaName": "SH-TEC Energies s.r.o.",
       "emails": [
@@ -473,7 +473,7 @@
       "datum": "20. 12. 2024",
       "splatno": "03. 01. 2025",
       "splatnoDate": "2025-01-02T23:00:00.000Z",
-      "daysOver": 450,
+      "daysOver": 451,
       "celkem": 43954.65,
       "firmaName": "OPM-System s.r.o.",
       "emails": [
@@ -492,7 +492,7 @@
       "datum": "20. 12. 2024",
       "splatno": "03. 01. 2025",
       "splatnoDate": "2025-01-02T23:00:00.000Z",
-      "daysOver": 450,
+      "daysOver": 451,
       "celkem": 28223.51,
       "firmaName": "OPM-System s.r.o.",
       "emails": [
@@ -511,7 +511,7 @@
       "datum": "22. 01. 2025",
       "splatno": "05. 02. 2025",
       "splatnoDate": "2025-02-04T23:00:00.000Z",
-      "daysOver": 417,
+      "daysOver": 418,
       "celkem": 0.05,
       "firmaName": "Yaru adventure s.r.o.",
       "emails": [
@@ -530,7 +530,7 @@
       "datum": "28. 01. 2025",
       "splatno": "11. 02. 2025",
       "splatnoDate": "2025-02-10T23:00:00.000Z",
-      "daysOver": 411,
+      "daysOver": 412,
       "celkem": 1424.27,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -549,7 +549,7 @@
       "datum": "12. 02. 2025",
       "splatno": "26. 02. 2025",
       "splatnoDate": "2025-02-25T23:00:00.000Z",
-      "daysOver": 396,
+      "daysOver": 397,
       "celkem": 4034.75,
       "firmaName": "HAAD Company s.r.o.",
       "emails": [
@@ -568,7 +568,7 @@
       "datum": "14. 03. 2025",
       "splatno": "28. 03. 2025",
       "splatnoDate": "2025-03-27T23:00:00.000Z",
-      "daysOver": 366,
+      "daysOver": 367,
       "celkem": 12948.79,
       "firmaName": "SVP půjčovna, s.r.o.",
       "emails": [
@@ -588,7 +588,7 @@
       "datum": "02. 04. 2025",
       "splatno": "16. 04. 2025",
       "splatnoDate": "2025-04-15T22:00:00.000Z",
-      "daysOver": 348,
+      "daysOver": 349,
       "celkem": 0.04,
       "firmaName": "MITEL a.s.",
       "emails": [
@@ -608,7 +608,7 @@
       "datum": "28. 03. 2025",
       "splatno": "27. 04. 2025",
       "splatnoDate": "2025-04-26T22:00:00.000Z",
-      "daysOver": 337,
+      "daysOver": 338,
       "celkem": 4779.98,
       "firmaName": "Techtronic Industries Czech s.r.o.",
       "emails": [
@@ -627,7 +627,7 @@
       "datum": "09. 04. 2025",
       "splatno": "23. 04. 2025",
       "splatnoDate": "2025-04-22T22:00:00.000Z",
-      "daysOver": 341,
+      "daysOver": 342,
       "celkem": 0.02,
       "firmaName": "MITEL a.s.",
       "emails": [
@@ -647,7 +647,7 @@
       "datum": "15. 05. 2025",
       "splatno": "13. 08. 2025",
       "splatnoDate": "2025-08-12T22:00:00.000Z",
-      "daysOver": 229,
+      "daysOver": 230,
       "celkem": 11637.89,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -667,7 +667,7 @@
       "datum": "02. 06. 2025",
       "splatno": "16. 06. 2025",
       "splatnoDate": "2025-06-15T22:00:00.000Z",
-      "daysOver": 287,
+      "daysOver": 288,
       "celkem": 301,
       "firmaName": "Ivan Popovych",
       "emails": [
@@ -686,7 +686,7 @@
       "datum": "04. 06. 2025",
       "splatno": "18. 06. 2025",
       "splatnoDate": "2025-06-17T22:00:00.000Z",
-      "daysOver": 285,
+      "daysOver": 286,
       "celkem": 7137.79,
       "firmaName": "STARP Home s.r.o.",
       "emails": [
@@ -707,7 +707,7 @@
       "datum": "05. 06. 2025",
       "splatno": "19. 06. 2025",
       "splatnoDate": "2025-06-18T22:00:00.000Z",
-      "daysOver": 284,
+      "daysOver": 285,
       "celkem": 2250.02,
       "firmaName": "ŽIŽKOFF s.r.o.",
       "emails": [
@@ -726,7 +726,7 @@
       "datum": "10. 06. 2025",
       "splatno": "24. 06. 2025",
       "splatnoDate": "2025-06-23T22:00:00.000Z",
-      "daysOver": 279,
+      "daysOver": 280,
       "celkem": 12021.78,
       "firmaName": "PNEU PROCHÁZKA s.r.o.",
       "emails": [
@@ -745,7 +745,7 @@
       "datum": "17. 06. 2025",
       "splatno": "01. 07. 2025",
       "splatnoDate": "2025-06-30T22:00:00.000Z",
-      "daysOver": 272,
+      "daysOver": 273,
       "celkem": 2582.33,
       "firmaName": "4 COILS TECH s.r.o.",
       "emails": [
@@ -765,7 +765,7 @@
       "datum": "27. 06. 2025",
       "splatno": "11. 07. 2025",
       "splatnoDate": "2025-07-10T22:00:00.000Z",
-      "daysOver": 262,
+      "daysOver": 263,
       "celkem": 1324,
       "firmaName": "...",
       "emails": [],
@@ -782,7 +782,7 @@
       "datum": "30. 06. 2025",
       "splatno": "14. 07. 2025",
       "splatnoDate": "2025-07-13T22:00:00.000Z",
-      "daysOver": 259,
+      "daysOver": 260,
       "celkem": 0.02,
       "firmaName": "MITEL a.s.",
       "emails": [
@@ -802,7 +802,7 @@
       "datum": "04. 07. 2025",
       "splatno": "18. 07. 2025",
       "splatnoDate": "2025-07-17T22:00:00.000Z",
-      "daysOver": 255,
+      "daysOver": 256,
       "celkem": 1196.16,
       "firmaName": "aeqoom technologies s.r.o.",
       "emails": [
@@ -822,7 +822,7 @@
       "datum": "10. 07. 2025",
       "splatno": "24. 07. 2025",
       "splatnoDate": "2025-07-23T22:00:00.000Z",
-      "daysOver": 249,
+      "daysOver": 250,
       "celkem": 22256.74,
       "firmaName": "Jan Vrba",
       "emails": [
@@ -841,7 +841,7 @@
       "datum": "15. 07. 2025",
       "splatno": "29. 07. 2025",
       "splatnoDate": "2025-07-28T22:00:00.000Z",
-      "daysOver": 244,
+      "daysOver": 245,
       "celkem": 1497.59,
       "firmaName": "Andres a Vild, spol. s r.o.",
       "emails": [
@@ -861,7 +861,7 @@
       "datum": "17. 07. 2025",
       "splatno": "31. 07. 2025",
       "splatnoDate": "2025-07-30T22:00:00.000Z",
-      "daysOver": 242,
+      "daysOver": 243,
       "celkem": 0.1,
       "firmaName": "ONDŘEJ ŽAHOUR",
       "emails": [
@@ -880,7 +880,7 @@
       "datum": "17. 07. 2025",
       "splatno": "31. 07. 2025",
       "splatnoDate": "2025-07-30T22:00:00.000Z",
-      "daysOver": 242,
+      "daysOver": 243,
       "celkem": 2,
       "firmaName": "Tomáš Horký",
       "emails": [
@@ -899,7 +899,7 @@
       "datum": "25. 07. 2025",
       "splatno": "08. 08. 2025",
       "splatnoDate": "2025-08-07T22:00:00.000Z",
-      "daysOver": 234,
+      "daysOver": 235,
       "celkem": 32608.86,
       "firmaName": "Papírník elektroinstalace s.r.o.",
       "emails": [
@@ -918,7 +918,7 @@
       "datum": "28. 07. 2025",
       "splatno": "11. 08. 2025",
       "splatnoDate": "2025-08-10T22:00:00.000Z",
-      "daysOver": 231,
+      "daysOver": 232,
       "celkem": 677.69,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -937,7 +937,7 @@
       "datum": "29. 07. 2025",
       "splatno": "12. 08. 2025",
       "splatnoDate": "2025-08-11T22:00:00.000Z",
-      "daysOver": 230,
+      "daysOver": 231,
       "celkem": 2,
       "firmaName": "SERVIS VESELÝ s.r.o.",
       "emails": [
@@ -956,7 +956,7 @@
       "datum": "04. 08. 2025",
       "splatno": "03. 09. 2025",
       "splatnoDate": "2025-09-02T22:00:00.000Z",
-      "daysOver": 208,
+      "daysOver": 209,
       "celkem": 110000,
       "firmaName": "Techtronic Industries Eastern Europe Sp. z o.o.",
       "emails": [
@@ -975,7 +975,7 @@
       "datum": "05. 08. 2025",
       "splatno": "19. 08. 2025",
       "splatnoDate": "2025-08-18T22:00:00.000Z",
-      "daysOver": 223,
+      "daysOver": 224,
       "celkem": 0.01,
       "firmaName": "MITEL a.s.",
       "emails": [
@@ -995,7 +995,7 @@
       "datum": "12. 08. 2025",
       "splatno": "26. 08. 2025",
       "splatnoDate": "2025-08-25T22:00:00.000Z",
-      "daysOver": 216,
+      "daysOver": 217,
       "celkem": 2,
       "firmaName": "Michaela Hlaváčková",
       "emails": [
@@ -1014,7 +1014,7 @@
       "datum": "13. 08. 2025",
       "splatno": "27. 08. 2025",
       "splatnoDate": "2025-08-26T22:00:00.000Z",
-      "daysOver": 215,
+      "daysOver": 216,
       "celkem": 5454.85,
       "firmaName": "Andres a Vild, spol. s r.o.",
       "emails": [
@@ -1034,7 +1034,7 @@
       "datum": "18. 08. 2025",
       "splatno": "01. 09. 2025",
       "splatnoDate": "2025-08-31T22:00:00.000Z",
-      "daysOver": 210,
+      "daysOver": 211,
       "celkem": 17768.3,
       "firmaName": "SOREX s.r.o.",
       "emails": [
@@ -1053,7 +1053,7 @@
       "datum": "21. 08. 2025",
       "splatno": "04. 09. 2025",
       "splatnoDate": "2025-09-03T22:00:00.000Z",
-      "daysOver": 207,
+      "daysOver": 208,
       "celkem": 1,
       "firmaName": "Gear Power s.r.o.",
       "emails": [
@@ -1072,7 +1072,7 @@
       "datum": "26. 08. 2025",
       "splatno": "09. 09. 2025",
       "splatnoDate": "2025-09-08T22:00:00.000Z",
-      "daysOver": 202,
+      "daysOver": 203,
       "celkem": 2069.1,
       "firmaName": "SOREX s.r.o.",
       "emails": [
@@ -1091,7 +1091,7 @@
       "datum": "29. 08. 2025",
       "splatno": "27. 11. 2025",
       "splatnoDate": "2025-11-26T23:00:00.000Z",
-      "daysOver": 122,
+      "daysOver": 123,
       "celkem": 27421.28,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -1111,7 +1111,7 @@
       "datum": "01. 09. 2025",
       "splatno": "15. 09. 2025",
       "splatnoDate": "2025-09-14T22:00:00.000Z",
-      "daysOver": 196,
+      "daysOver": 197,
       "celkem": 6525.32,
       "firmaName": "Petr Hrabánek",
       "emails": [],
@@ -1128,7 +1128,7 @@
       "datum": "08. 09. 2025",
       "splatno": "22. 09. 2025",
       "splatnoDate": "2025-09-21T22:00:00.000Z",
-      "daysOver": 189,
+      "daysOver": 190,
       "celkem": 2132,
       "firmaName": "Milan BERAN",
       "emails": [
@@ -1147,7 +1147,7 @@
       "datum": "09. 09. 2025",
       "splatno": "23. 09. 2025",
       "splatnoDate": "2025-09-22T22:00:00.000Z",
-      "daysOver": 188,
+      "daysOver": 189,
       "celkem": 4480.29,
       "firmaName": "Společnost T.A.Q. s.r.o.",
       "emails": [
@@ -1166,7 +1166,7 @@
       "datum": "09. 09. 2025",
       "splatno": "23. 09. 2025",
       "splatnoDate": "2025-09-22T22:00:00.000Z",
-      "daysOver": 188,
+      "daysOver": 189,
       "celkem": 2491.64,
       "firmaName": "Společnost T.A.Q. s.r.o.",
       "emails": [
@@ -1185,7 +1185,7 @@
       "datum": "10. 09. 2025",
       "splatno": "24. 09. 2025",
       "splatnoDate": "2025-09-23T22:00:00.000Z",
-      "daysOver": 187,
+      "daysOver": 188,
       "celkem": 9170,
       "firmaName": "Jaroslav Fleišer",
       "emails": [
@@ -1204,7 +1204,7 @@
       "datum": "11. 09. 2025",
       "splatno": "25. 09. 2025",
       "splatnoDate": "2025-09-24T22:00:00.000Z",
-      "daysOver": 186,
+      "daysOver": 187,
       "celkem": 3695.53,
       "firmaName": "ZASO Landa s.r.o.",
       "emails": [
@@ -1223,7 +1223,7 @@
       "datum": "11. 09. 2025",
       "splatno": "25. 09. 2025",
       "splatnoDate": "2025-09-24T22:00:00.000Z",
-      "daysOver": 186,
+      "daysOver": 187,
       "celkem": 915.85,
       "firmaName": "Unostav s.r.o.",
       "emails": [
@@ -1242,7 +1242,7 @@
       "datum": "16. 09. 2025",
       "splatno": "30. 09. 2025",
       "splatnoDate": "2025-09-29T22:00:00.000Z",
-      "daysOver": 181,
+      "daysOver": 182,
       "celkem": 9825,
       "firmaName": "El Horis s.r.o.",
       "emails": [
@@ -1261,7 +1261,7 @@
       "datum": "17. 09. 2025",
       "splatno": "01. 10. 2025",
       "splatnoDate": "2025-09-30T22:00:00.000Z",
-      "daysOver": 180,
+      "daysOver": 181,
       "celkem": 2081.87,
       "firmaName": "Petr Hrabánek",
       "emails": [
@@ -1280,7 +1280,7 @@
       "datum": "17. 09. 2025",
       "splatno": "01. 10. 2025",
       "splatnoDate": "2025-09-30T22:00:00.000Z",
-      "daysOver": 180,
+      "daysOver": 181,
       "celkem": 1844.65,
       "firmaName": "PSP - BAU s.r.o.",
       "emails": [
@@ -1299,7 +1299,7 @@
       "datum": "23. 09. 2025",
       "splatno": "07. 10. 2025",
       "splatnoDate": "2025-10-06T22:00:00.000Z",
-      "daysOver": 174,
+      "daysOver": 175,
       "celkem": 4256.96,
       "firmaName": "LiftTowers s.r.o.",
       "emails": [
@@ -1319,7 +1319,7 @@
       "datum": "22. 09. 2025",
       "splatno": "06. 10. 2025",
       "splatnoDate": "2025-10-05T22:00:00.000Z",
-      "daysOver": 175,
+      "daysOver": 176,
       "celkem": 7292,
       "firmaName": "Gerad Elektro s.r.o.",
       "emails": [
@@ -1339,7 +1339,7 @@
       "datum": "22. 09. 2025",
       "splatno": "06. 10. 2025",
       "splatnoDate": "2025-10-05T22:00:00.000Z",
-      "daysOver": 175,
+      "daysOver": 176,
       "celkem": 25269,
       "firmaName": "SAŠ GLASS s.r.o.",
       "emails": [
@@ -1358,7 +1358,7 @@
       "datum": "24. 09. 2025",
       "splatno": "08. 10. 2025",
       "splatnoDate": "2025-10-07T22:00:00.000Z",
-      "daysOver": 173,
+      "daysOver": 174,
       "celkem": 30176.19,
       "firmaName": "RECIMA GROUP s.r.o.",
       "emails": [
@@ -1377,7 +1377,7 @@
       "datum": "26. 09. 2025",
       "splatno": "10. 10. 2025",
       "splatnoDate": "2025-10-09T22:00:00.000Z",
-      "daysOver": 171,
+      "daysOver": 172,
       "celkem": 16327.12,
       "firmaName": "Petr Hrabánek",
       "emails": [
@@ -1396,7 +1396,7 @@
       "datum": "26. 09. 2025",
       "splatno": "10. 10. 2025",
       "splatnoDate": "2025-10-09T22:00:00.000Z",
-      "daysOver": 171,
+      "daysOver": 172,
       "celkem": 503.97,
       "firmaName": "Petr Hrabánek",
       "emails": [
@@ -1415,7 +1415,7 @@
       "datum": "01. 10. 2025",
       "splatno": "15. 10. 2025",
       "splatnoDate": "2025-10-14T22:00:00.000Z",
-      "daysOver": 166,
+      "daysOver": 167,
       "celkem": 1686.86,
       "firmaName": "Josef PETRUS",
       "emails": [
@@ -1434,7 +1434,7 @@
       "datum": "03. 10. 2025",
       "splatno": "17. 10. 2025",
       "splatnoDate": "2025-10-16T22:00:00.000Z",
-      "daysOver": 164,
+      "daysOver": 165,
       "celkem": 37887.52,
       "firmaName": "KASKO-BLINDS a.s.",
       "emails": [
@@ -1454,7 +1454,7 @@
       "datum": "06. 10. 2025",
       "splatno": "20. 10. 2025",
       "splatnoDate": "2025-10-19T22:00:00.000Z",
-      "daysOver": 161,
+      "daysOver": 162,
       "celkem": 6923.14,
       "firmaName": "KASKO-BLINDS a.s.",
       "emails": [
@@ -1474,7 +1474,7 @@
       "datum": "09. 10. 2025",
       "splatno": "23. 10. 2025",
       "splatnoDate": "2025-10-22T22:00:00.000Z",
-      "daysOver": 158,
+      "daysOver": 159,
       "celkem": 5321.07,
       "firmaName": "LOGOSIGN a.s.",
       "emails": [
@@ -1494,7 +1494,7 @@
       "datum": "15. 10. 2025",
       "splatno": "29. 10. 2025",
       "splatnoDate": "2025-10-28T23:00:00.000Z",
-      "daysOver": 151,
+      "daysOver": 152,
       "celkem": 1034.55,
       "firmaName": "SAŠ GLASS s.r.o.",
       "emails": [
@@ -1513,7 +1513,7 @@
       "datum": "21. 10. 2025",
       "splatno": "04. 11. 2025",
       "splatnoDate": "2025-11-03T23:00:00.000Z",
-      "daysOver": 145,
+      "daysOver": 146,
       "celkem": 6206,
       "firmaName": "J.P.Trans Fišer, s.r.o.",
       "emails": [
@@ -1532,7 +1532,7 @@
       "datum": "29. 10. 2025",
       "splatno": "12. 11. 2025",
       "splatnoDate": "2025-11-11T23:00:00.000Z",
-      "daysOver": 137,
+      "daysOver": 138,
       "celkem": 286.77,
       "firmaName": "Ivo Kulhánek",
       "emails": [
@@ -1551,7 +1551,7 @@
       "datum": "24. 10. 2025",
       "splatno": "07. 11. 2025",
       "splatnoDate": "2025-11-06T23:00:00.000Z",
-      "daysOver": 142,
+      "daysOver": 143,
       "celkem": 8746.42,
       "firmaName": "Papírník elektroinstalace s.r.o.",
       "emails": [
@@ -1570,7 +1570,7 @@
       "datum": "30. 10. 2025",
       "splatno": "13. 11. 2025",
       "splatnoDate": "2025-11-12T23:00:00.000Z",
-      "daysOver": 136,
+      "daysOver": 137,
       "celkem": 5942.31,
       "firmaName": "Benalix spol. s r.o.",
       "emails": [
@@ -1589,7 +1589,7 @@
       "datum": "31. 10. 2025",
       "splatno": "14. 11. 2025",
       "splatnoDate": "2025-11-13T23:00:00.000Z",
-      "daysOver": 135,
+      "daysOver": 136,
       "celkem": 2185.56,
       "firmaName": "Karavan Point s.r.o.",
       "emails": [
@@ -1608,7 +1608,7 @@
       "datum": "31. 10. 2025",
       "splatno": "14. 11. 2025",
       "splatnoDate": "2025-11-13T23:00:00.000Z",
-      "daysOver": 135,
+      "daysOver": 136,
       "celkem": 7989,
       "firmaName": "Antikor CZ s.r.o.",
       "emails": [
@@ -1627,7 +1627,7 @@
       "datum": "03. 11. 2025",
       "splatno": "17. 11. 2025",
       "splatnoDate": "2025-11-16T23:00:00.000Z",
-      "daysOver": 132,
+      "daysOver": 133,
       "celkem": 12699.71,
       "firmaName": "SEKELA CZ s.r.o.",
       "emails": [
@@ -1646,7 +1646,7 @@
       "datum": "04. 11. 2025",
       "splatno": "18. 11. 2025",
       "splatnoDate": "2025-11-17T23:00:00.000Z",
-      "daysOver": 131,
+      "daysOver": 132,
       "celkem": 4867.83,
       "firmaName": "Andres a Vild, spol. s r.o.",
       "emails": [
@@ -1666,7 +1666,7 @@
       "datum": "10. 11. 2025",
       "splatno": "24. 11. 2025",
       "splatnoDate": "2025-11-23T23:00:00.000Z",
-      "daysOver": 125,
+      "daysOver": 126,
       "celkem": 0.3,
       "firmaName": "JL servis s.r.o.",
       "emails": [
@@ -1685,7 +1685,7 @@
       "datum": "05. 11. 2025",
       "splatno": "19. 11. 2025",
       "splatnoDate": "2025-11-18T23:00:00.000Z",
-      "daysOver": 130,
+      "daysOver": 131,
       "celkem": 10474,
       "firmaName": "Tomáš Weigl",
       "emails": [
@@ -1704,7 +1704,7 @@
       "datum": "05. 11. 2025",
       "splatno": "19. 11. 2025",
       "splatnoDate": "2025-11-18T23:00:00.000Z",
-      "daysOver": 130,
+      "daysOver": 131,
       "celkem": 22869.38,
       "firmaName": "SCARPA Works s.r.o.",
       "emails": [
@@ -1723,7 +1723,7 @@
       "datum": "05. 11. 2025",
       "splatno": "19. 11. 2025",
       "splatnoDate": "2025-11-18T23:00:00.000Z",
-      "daysOver": 130,
+      "daysOver": 131,
       "celkem": 42079.94,
       "firmaName": "VP Construction Development s.r.o.",
       "emails": [
@@ -1743,7 +1743,7 @@
       "datum": "06. 11. 2025",
       "splatno": "20. 11. 2025",
       "splatnoDate": "2025-11-19T23:00:00.000Z",
-      "daysOver": 129,
+      "daysOver": 130,
       "celkem": 10424.82,
       "firmaName": "JEZL ELEKTRO s.r.o.",
       "emails": [
@@ -1762,7 +1762,7 @@
       "datum": "06. 11. 2025",
       "splatno": "20. 11. 2025",
       "splatnoDate": "2025-11-19T23:00:00.000Z",
-      "daysOver": 129,
+      "daysOver": 130,
       "celkem": 10424.82,
       "firmaName": "VP Construction Development s.r.o.",
       "emails": [
@@ -1782,7 +1782,7 @@
       "datum": "06. 11. 2025",
       "splatno": "20. 11. 2025",
       "splatnoDate": "2025-11-19T23:00:00.000Z",
-      "daysOver": 129,
+      "daysOver": 130,
       "celkem": 19118.7,
       "firmaName": "HUMAT-TEX.INVEST s.r.o.",
       "emails": [
@@ -1801,7 +1801,7 @@
       "datum": "11. 11. 2025",
       "splatno": "25. 11. 2025",
       "splatnoDate": "2025-11-24T23:00:00.000Z",
-      "daysOver": 124,
+      "daysOver": 125,
       "celkem": 8092.55,
       "firmaName": "Zahradní a parková spol. s r.o.",
       "emails": [
@@ -1820,7 +1820,7 @@
       "datum": "11. 11. 2025",
       "splatno": "25. 11. 2025",
       "splatnoDate": "2025-11-24T23:00:00.000Z",
-      "daysOver": 124,
+      "daysOver": 125,
       "celkem": 6040.81,
       "firmaName": "Papírník elektroinstalace s.r.o.",
       "emails": [
@@ -1839,7 +1839,7 @@
       "datum": "11. 11. 2025",
       "splatno": "25. 11. 2025",
       "splatnoDate": "2025-11-24T23:00:00.000Z",
-      "daysOver": 124,
+      "daysOver": 125,
       "celkem": 2359.67,
       "firmaName": "Společnost T.A.Q. s.r.o.",
       "emails": [
@@ -1858,7 +1858,7 @@
       "datum": "11. 11. 2025",
       "splatno": "25. 11. 2025",
       "splatnoDate": "2025-11-24T23:00:00.000Z",
-      "daysOver": 124,
+      "daysOver": 125,
       "celkem": 422.53,
       "firmaName": "Václav Tůma",
       "emails": [
@@ -1877,7 +1877,7 @@
       "datum": "14. 11. 2025",
       "splatno": "28. 11. 2025",
       "splatnoDate": "2025-11-27T23:00:00.000Z",
-      "daysOver": 121,
+      "daysOver": 122,
       "celkem": 6816,
       "firmaName": "Tomáš Vít",
       "emails": [
@@ -1896,7 +1896,7 @@
       "datum": "18. 11. 2025",
       "splatno": "02. 12. 2025",
       "splatnoDate": "2025-12-01T23:00:00.000Z",
-      "daysOver": 117,
+      "daysOver": 118,
       "celkem": 27869.51,
       "firmaName": "LOGOSIGN a.s.",
       "emails": [
@@ -1916,7 +1916,7 @@
       "datum": "21. 11. 2025",
       "splatno": "05. 12. 2025",
       "splatnoDate": "2025-12-04T23:00:00.000Z",
-      "daysOver": 114,
+      "daysOver": 115,
       "celkem": 609,
       "firmaName": "Roman LEDINSKÝ",
       "emails": [],
@@ -1933,7 +1933,7 @@
       "datum": "24. 11. 2025",
       "splatno": "08. 12. 2025",
       "splatnoDate": "2025-12-07T23:00:00.000Z",
-      "daysOver": 111,
+      "daysOver": 112,
       "celkem": 2763,
       "firmaName": "Pavel Macháček",
       "emails": [
@@ -1952,7 +1952,7 @@
       "datum": "24. 11. 2025",
       "splatno": "08. 12. 2025",
       "splatnoDate": "2025-12-07T23:00:00.000Z",
-      "daysOver": 111,
+      "daysOver": 112,
       "celkem": 1742,
       "firmaName": "Martin Mokroš",
       "emails": [
@@ -1971,7 +1971,7 @@
       "datum": "26. 11. 2025",
       "splatno": "10. 12. 2025",
       "splatnoDate": "2025-12-09T23:00:00.000Z",
-      "daysOver": 109,
+      "daysOver": 110,
       "celkem": 3230.16,
       "firmaName": "Papírník elektroinstalace s.r.o.",
       "emails": [
@@ -1990,7 +1990,7 @@
       "datum": "26. 11. 2025",
       "splatno": "10. 12. 2025",
       "splatnoDate": "2025-12-09T23:00:00.000Z",
-      "daysOver": 109,
+      "daysOver": 110,
       "celkem": 200000,
       "firmaName": "Techtronic Industries Eastern Europe Sp. z o.o.",
       "emails": [],
@@ -2007,7 +2007,7 @@
       "datum": "27. 11. 2025",
       "splatno": "11. 12. 2025",
       "splatnoDate": "2025-12-10T23:00:00.000Z",
-      "daysOver": 108,
+      "daysOver": 109,
       "celkem": 22147,
       "firmaName": "Vasyl Kolochavyn",
       "emails": [
@@ -2026,7 +2026,7 @@
       "datum": "27. 11. 2025",
       "splatno": "11. 12. 2025",
       "splatnoDate": "2025-12-10T23:00:00.000Z",
-      "daysOver": 108,
+      "daysOver": 109,
       "celkem": 0.01,
       "firmaName": "Stavební geologie - Geosan, s.r.o.",
       "emails": [
@@ -2045,7 +2045,7 @@
       "datum": "28. 11. 2025",
       "splatno": "12. 12. 2025",
       "splatnoDate": "2025-12-11T23:00:00.000Z",
-      "daysOver": 107,
+      "daysOver": 108,
       "celkem": 8725.07,
       "firmaName": "Mercator s.r.o.",
       "emails": [
@@ -2066,7 +2066,7 @@
       "datum": "28. 11. 2025",
       "splatno": "12. 12. 2025",
       "splatnoDate": "2025-12-11T23:00:00.000Z",
-      "daysOver": 107,
+      "daysOver": 108,
       "celkem": 2613,
       "firmaName": "Martin Mokroš",
       "emails": [
@@ -2085,7 +2085,7 @@
       "datum": "01. 12. 2025",
       "splatno": "01. 03. 2026",
       "splatnoDate": "2026-02-28T23:00:00.000Z",
-      "daysOver": 28,
+      "daysOver": 29,
       "celkem": 24435.41,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -2105,7 +2105,7 @@
       "datum": "01. 12. 2025",
       "splatno": "15. 12. 2025",
       "splatnoDate": "2025-12-14T23:00:00.000Z",
-      "daysOver": 104,
+      "daysOver": 105,
       "celkem": 2098,
       "firmaName": "KIMICAR CZ s. r. o.",
       "emails": [
@@ -2124,7 +2124,7 @@
       "datum": "01. 12. 2025",
       "splatno": "15. 12. 2025",
       "splatnoDate": "2025-12-14T23:00:00.000Z",
-      "daysOver": 104,
+      "daysOver": 105,
       "celkem": 23286.35,
       "firmaName": "LOGOSIGN a.s.",
       "emails": [
@@ -2144,7 +2144,7 @@
       "datum": "05. 12. 2025",
       "splatno": "19. 12. 2025",
       "splatnoDate": "2025-12-18T23:00:00.000Z",
-      "daysOver": 100,
+      "daysOver": 101,
       "celkem": 4175,
       "firmaName": "PROFI-INVEST, a.s.",
       "emails": [],
@@ -2161,7 +2161,7 @@
       "datum": "09. 12. 2025",
       "splatno": "23. 12. 2025",
       "splatnoDate": "2025-12-22T23:00:00.000Z",
-      "daysOver": 96,
+      "daysOver": 97,
       "celkem": 2783,
       "firmaName": "SCARPA Works s.r.o.",
       "emails": [
@@ -2180,7 +2180,7 @@
       "datum": "10. 12. 2025",
       "splatno": "24. 12. 2025",
       "splatnoDate": "2025-12-23T23:00:00.000Z",
-      "daysOver": 95,
+      "daysOver": 96,
       "celkem": 2033,
       "firmaName": "...",
       "emails": [],
@@ -2197,7 +2197,7 @@
       "datum": "12. 12. 2025",
       "splatno": "26. 12. 2025",
       "splatnoDate": "2025-12-25T23:00:00.000Z",
-      "daysOver": 93,
+      "daysOver": 94,
       "celkem": 11373.64,
       "firmaName": "Volvo Group Czech Republic, s.r.o.",
       "emails": [
@@ -2216,7 +2216,7 @@
       "datum": "12. 12. 2025",
       "splatno": "26. 12. 2025",
       "splatnoDate": "2025-12-25T23:00:00.000Z",
-      "daysOver": 93,
+      "daysOver": 94,
       "celkem": 29370.51,
       "firmaName": "WYMA EUROPE s.r.o.",
       "emails": [
@@ -2235,7 +2235,7 @@
       "datum": "12. 12. 2025",
       "splatno": "26. 12. 2025",
       "splatnoDate": "2025-12-25T23:00:00.000Z",
-      "daysOver": 93,
+      "daysOver": 94,
       "celkem": 3442,
       "firmaName": "...",
       "emails": [],
@@ -2252,7 +2252,7 @@
       "datum": "15. 12. 2025",
       "splatno": "29. 12. 2025",
       "splatnoDate": "2025-12-28T23:00:00.000Z",
-      "daysOver": 90,
+      "daysOver": 91,
       "celkem": 2878.11,
       "firmaName": "SOME CZ, s.r.o.",
       "emails": [
@@ -2272,7 +2272,7 @@
       "datum": "16. 12. 2025",
       "splatno": "30. 12. 2025",
       "splatnoDate": "2025-12-29T23:00:00.000Z",
-      "daysOver": 89,
+      "daysOver": 90,
       "celkem": 3501.5,
       "firmaName": "Papírník elektroinstalace s.r.o.",
       "emails": [
@@ -2291,7 +2291,7 @@
       "datum": "16. 12. 2025",
       "splatno": "30. 12. 2025",
       "splatnoDate": "2025-12-29T23:00:00.000Z",
-      "daysOver": 89,
+      "daysOver": 90,
       "celkem": 357.19,
       "firmaName": "Dřevosprint P+B s.r.o.",
       "emails": [
@@ -2310,7 +2310,7 @@
       "datum": "30. 12. 2025",
       "splatno": "13. 01. 2026",
       "splatnoDate": "2026-01-12T23:00:00.000Z",
-      "daysOver": 75,
+      "daysOver": 76,
       "celkem": 35402.81,
       "firmaName": "SOREX s.r.o.",
       "emails": [
@@ -2329,7 +2329,7 @@
       "datum": "30. 12. 2025",
       "splatno": "13. 01. 2026",
       "splatnoDate": "2026-01-12T23:00:00.000Z",
-      "daysOver": 75,
+      "daysOver": 76,
       "celkem": 22822.89,
       "firmaName": "SOREX s.r.o.",
       "emails": [
@@ -2348,7 +2348,7 @@
       "datum": "19. 12. 2025",
       "splatno": "02. 01. 2026",
       "splatnoDate": "2026-01-01T23:00:00.000Z",
-      "daysOver": 86,
+      "daysOver": 87,
       "celkem": 977.92,
       "firmaName": "Jandaservis s.r.o.",
       "emails": [
@@ -2367,7 +2367,7 @@
       "datum": "22. 12. 2025",
       "splatno": "05. 01. 2026",
       "splatnoDate": "2026-01-04T23:00:00.000Z",
-      "daysOver": 83,
+      "daysOver": 84,
       "celkem": 50759.5,
       "firmaName": "Petr Palička",
       "emails": [
@@ -2387,7 +2387,7 @@
       "datum": "30. 12. 2025",
       "splatno": "13. 01. 2026",
       "splatnoDate": "2026-01-12T23:00:00.000Z",
-      "daysOver": 75,
+      "daysOver": 76,
       "celkem": 66830,
       "firmaName": "Alois Eiselt",
       "emails": [
@@ -2406,7 +2406,7 @@
       "datum": "07. 01. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 6458.62,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -2426,7 +2426,7 @@
       "datum": "07. 01. 2026",
       "splatno": "21. 01. 2026",
       "splatnoDate": "2026-01-20T23:00:00.000Z",
-      "daysOver": 67,
+      "daysOver": 68,
       "celkem": 14278,
       "firmaName": "SERVIS VESELÝ s.r.o.",
       "emails": [
@@ -2445,7 +2445,7 @@
       "datum": "12. 01. 2026",
       "splatno": "26. 01. 2026",
       "splatnoDate": "2026-01-25T23:00:00.000Z",
-      "daysOver": 62,
+      "daysOver": 63,
       "celkem": 3933.47,
       "firmaName": "Mercator s.r.o.",
       "emails": [
@@ -2466,7 +2466,7 @@
       "datum": "14. 01. 2026",
       "splatno": "28. 01. 2026",
       "splatnoDate": "2026-01-27T23:00:00.000Z",
-      "daysOver": 60,
+      "daysOver": 61,
       "celkem": 8332.37,
       "firmaName": "Papírník elektroinstalace s.r.o.",
       "emails": [
@@ -2485,7 +2485,7 @@
       "datum": "14. 01. 2026",
       "splatno": "28. 01. 2026",
       "splatnoDate": "2026-01-27T23:00:00.000Z",
-      "daysOver": 60,
+      "daysOver": 61,
       "celkem": 35440.18,
       "firmaName": "SERVIS VESELÝ s.r.o.",
       "emails": [
@@ -2504,7 +2504,7 @@
       "datum": "14. 01. 2026",
       "splatno": "28. 01. 2026",
       "splatnoDate": "2026-01-27T23:00:00.000Z",
-      "daysOver": 60,
+      "daysOver": 61,
       "celkem": 24175.8,
       "firmaName": "Papírník elektroinstalace s.r.o.",
       "emails": [
@@ -2523,7 +2523,7 @@
       "datum": "15. 01. 2026",
       "splatno": "29. 01. 2026",
       "splatnoDate": "2026-01-28T23:00:00.000Z",
-      "daysOver": 59,
+      "daysOver": 60,
       "celkem": 7203.74,
       "firmaName": "Ondřej Klimeš",
       "emails": [
@@ -2542,7 +2542,7 @@
       "datum": "16. 01. 2026",
       "splatno": "30. 01. 2026",
       "splatnoDate": "2026-01-29T23:00:00.000Z",
-      "daysOver": 58,
+      "daysOver": 59,
       "celkem": 528.3,
       "firmaName": "Ondřej Klimeš",
       "emails": [
@@ -2561,7 +2561,7 @@
       "datum": "20. 01. 2026",
       "splatno": "03. 02. 2026",
       "splatnoDate": "2026-02-02T23:00:00.000Z",
-      "daysOver": 54,
+      "daysOver": 55,
       "celkem": 3280.43,
       "firmaName": "Ondřej Klimeš",
       "emails": [
@@ -2580,7 +2580,7 @@
       "datum": "26. 01. 2026",
       "splatno": "09. 02. 2026",
       "splatnoDate": "2026-02-08T23:00:00.000Z",
-      "daysOver": 48,
+      "daysOver": 49,
       "celkem": 6391.1,
       "firmaName": "SERVIS VESELÝ s.r.o.",
       "emails": [
@@ -2599,7 +2599,7 @@
       "datum": "28. 01. 2026",
       "splatno": "11. 02. 2026",
       "splatnoDate": "2026-02-10T23:00:00.000Z",
-      "daysOver": 46,
+      "daysOver": 47,
       "celkem": 13320.45,
       "firmaName": "SERVIS VESELÝ s.r.o.",
       "emails": [
@@ -2618,7 +2618,7 @@
       "datum": "29. 01. 2026",
       "splatno": "12. 02. 2026",
       "splatnoDate": "2026-02-11T23:00:00.000Z",
-      "daysOver": 45,
+      "daysOver": 46,
       "celkem": 6941.35,
       "firmaName": "Iveco Truck Centrum, s.r.o.",
       "emails": [
@@ -2638,7 +2638,7 @@
       "datum": "30. 01. 2026",
       "splatno": "13. 02. 2026",
       "splatnoDate": "2026-02-12T23:00:00.000Z",
-      "daysOver": 44,
+      "daysOver": 45,
       "celkem": 15778.09,
       "firmaName": "Vápenka Čertovy schody a.s.",
       "emails": [
@@ -2658,7 +2658,7 @@
       "datum": "30. 01. 2026",
       "splatno": "30. 04. 2026",
       "splatnoDate": "2026-04-29T22:00:00.000Z",
-      "daysOver": -31,
+      "daysOver": -30,
       "celkem": 4992.28,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -2678,7 +2678,7 @@
       "datum": "30. 01. 2026",
       "splatno": "13. 02. 2026",
       "splatnoDate": "2026-02-12T23:00:00.000Z",
-      "daysOver": 44,
+      "daysOver": 45,
       "celkem": 9109.83,
       "firmaName": "LOGOSIGN a.s.",
       "emails": [
@@ -2698,7 +2698,7 @@
       "datum": "03. 02. 2026",
       "splatno": "17. 02. 2026",
       "splatnoDate": "2026-02-16T23:00:00.000Z",
-      "daysOver": 40,
+      "daysOver": 41,
       "celkem": 22580.03,
       "firmaName": "Frigotop s.r.o.",
       "emails": [
@@ -2717,7 +2717,7 @@
       "datum": "05. 02. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 123501,
       "firmaName": "SKV s.r.o.",
       "emails": [
@@ -2736,7 +2736,7 @@
       "datum": "09. 02. 2026",
       "splatno": "23. 02. 2026",
       "splatnoDate": "2026-02-22T23:00:00.000Z",
-      "daysOver": 34,
+      "daysOver": 35,
       "celkem": 16877.08,
       "firmaName": "KLIMASERVIS SŮVA, spol. s r.o.",
       "emails": [
@@ -2756,7 +2756,7 @@
       "datum": "09. 02. 2026",
       "splatno": "23. 02. 2026",
       "splatnoDate": "2026-02-22T23:00:00.000Z",
-      "daysOver": 34,
+      "daysOver": 35,
       "celkem": 47807.42,
       "firmaName": "YAMP s.r.o.",
       "emails": [
@@ -2775,7 +2775,7 @@
       "datum": "11. 02. 2026",
       "splatno": "25. 02. 2026",
       "splatnoDate": "2026-02-24T23:00:00.000Z",
-      "daysOver": 32,
+      "daysOver": 33,
       "celkem": 2383.7,
       "firmaName": "SERVIS VESELÝ s.r.o.",
       "emails": [
@@ -2794,7 +2794,7 @@
       "datum": "11. 02. 2026",
       "splatno": "25. 02. 2026",
       "splatnoDate": "2026-02-24T23:00:00.000Z",
-      "daysOver": 32,
+      "daysOver": 33,
       "celkem": 11080.27,
       "firmaName": "Ondřej Klimeš",
       "emails": [
@@ -2813,7 +2813,7 @@
       "datum": "13. 02. 2026",
       "splatno": "14. 05. 2026",
       "splatnoDate": "2026-05-13T22:00:00.000Z",
-      "daysOver": -45,
+      "daysOver": -44,
       "celkem": 29628.97,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -2833,7 +2833,7 @@
       "datum": "13. 02. 2026",
       "splatno": "27. 02. 2026",
       "splatnoDate": "2026-02-26T23:00:00.000Z",
-      "daysOver": 30,
+      "daysOver": 31,
       "celkem": 7223.7,
       "firmaName": "SERVIS VESELÝ s.r.o.",
       "emails": [
@@ -2852,7 +2852,7 @@
       "datum": "13. 02. 2026",
       "splatno": "21. 03. 2026",
       "splatnoDate": "2026-03-20T23:00:00.000Z",
-      "daysOver": 8,
+      "daysOver": 9,
       "celkem": 50554.69,
       "firmaName": "SWIETELSKY Rail CZ s.r.o.",
       "emails": [
@@ -2871,7 +2871,7 @@
       "datum": "13. 02. 2026",
       "splatno": "27. 02. 2026",
       "splatnoDate": "2026-02-26T23:00:00.000Z",
-      "daysOver": 30,
+      "daysOver": 31,
       "celkem": 118022.37,
       "firmaName": "Petr Palička",
       "emails": [
@@ -2891,7 +2891,7 @@
       "datum": "16. 02. 2026",
       "splatno": "02. 03. 2026",
       "splatnoDate": "2026-03-01T23:00:00.000Z",
-      "daysOver": 27,
+      "daysOver": 28,
       "celkem": 15952.9,
       "firmaName": "SERVIS VESELÝ s.r.o.",
       "emails": [
@@ -2910,7 +2910,7 @@
       "datum": "17. 02. 2026",
       "splatno": "19. 03. 2026",
       "splatnoDate": "2026-03-18T23:00:00.000Z",
-      "daysOver": 10,
+      "daysOver": 11,
       "celkem": 18813.22,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -2929,7 +2929,7 @@
       "datum": "19. 02. 2026",
       "splatno": "05. 03. 2026",
       "splatnoDate": "2026-03-04T23:00:00.000Z",
-      "daysOver": 24,
+      "daysOver": 25,
       "celkem": 2246.86,
       "firmaName": "Andres a Vild, spol. s r.o.",
       "emails": [
@@ -2949,7 +2949,7 @@
       "datum": "19. 02. 2026",
       "splatno": "05. 03. 2026",
       "splatnoDate": "2026-03-04T23:00:00.000Z",
-      "daysOver": 24,
+      "daysOver": 25,
       "celkem": 2361.92,
       "firmaName": "Mercator s.r.o.",
       "emails": [
@@ -2970,7 +2970,7 @@
       "datum": "20. 02. 2026",
       "splatno": "21. 05. 2026",
       "splatnoDate": "2026-05-20T22:00:00.000Z",
-      "daysOver": -52,
+      "daysOver": -51,
       "celkem": 3695.34,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -2990,7 +2990,7 @@
       "datum": "23. 02. 2026",
       "splatno": "25. 03. 2026",
       "splatnoDate": "2026-03-24T23:00:00.000Z",
-      "daysOver": 4,
+      "daysOver": 5,
       "celkem": 3440.15,
       "firmaName": "CH vodní stavby a.s.",
       "emails": [
@@ -3010,7 +3010,7 @@
       "datum": "23. 02. 2026",
       "splatno": "09. 03. 2026",
       "splatnoDate": "2026-03-08T23:00:00.000Z",
-      "daysOver": 20,
+      "daysOver": 21,
       "celkem": 13248.58,
       "firmaName": "Petr Palička",
       "emails": [
@@ -3030,7 +3030,7 @@
       "datum": "25. 02. 2026",
       "splatno": "11. 03. 2026",
       "splatnoDate": "2026-03-10T23:00:00.000Z",
-      "daysOver": 18,
+      "daysOver": 19,
       "celkem": 1561.62,
       "firmaName": "YAMP s.r.o.",
       "emails": [
@@ -3049,7 +3049,7 @@
       "datum": "25. 02. 2026",
       "splatno": "26. 05. 2026",
       "splatnoDate": "2026-05-25T22:00:00.000Z",
-      "daysOver": -57,
+      "daysOver": -56,
       "celkem": 1561.62,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -3069,7 +3069,7 @@
       "datum": "25. 02. 2026",
       "splatno": "27. 03. 2026",
       "splatnoDate": "2026-03-26T23:00:00.000Z",
-      "daysOver": 2,
+      "daysOver": 3,
       "celkem": 7848.89,
       "firmaName": "workman s.r.o.",
       "emails": [
@@ -3088,7 +3088,7 @@
       "datum": "25. 02. 2026",
       "splatno": "11. 03. 2026",
       "splatnoDate": "2026-03-10T23:00:00.000Z",
-      "daysOver": 18,
+      "daysOver": 19,
       "celkem": 2002.67,
       "firmaName": "ROCK SALT, s.r.o.",
       "emails": [
@@ -3107,7 +3107,7 @@
       "datum": "25. 02. 2026",
       "splatno": "11. 03. 2026",
       "splatnoDate": "2026-03-10T23:00:00.000Z",
-      "daysOver": 18,
+      "daysOver": 19,
       "celkem": 12697.11,
       "firmaName": "4 COILS TECH s.r.o.",
       "emails": [
@@ -3127,7 +3127,7 @@
       "datum": "25. 02. 2026",
       "splatno": "11. 03. 2026",
       "splatnoDate": "2026-03-10T23:00:00.000Z",
-      "daysOver": 18,
+      "daysOver": 19,
       "celkem": 5445,
       "firmaName": "KLIMASERVIS SŮVA, spol. s r.o.",
       "emails": [
@@ -3147,7 +3147,7 @@
       "datum": "26. 02. 2026",
       "splatno": "12. 03. 2026",
       "splatnoDate": "2026-03-11T23:00:00.000Z",
-      "daysOver": 17,
+      "daysOver": 18,
       "celkem": 23518.65,
       "firmaName": "CARACAL MACHINES s.r.o.",
       "emails": [
@@ -3166,7 +3166,7 @@
       "datum": "26. 02. 2026",
       "splatno": "12. 03. 2026",
       "splatnoDate": "2026-03-11T23:00:00.000Z",
-      "daysOver": 17,
+      "daysOver": 18,
       "celkem": 885.36,
       "firmaName": "CARACAL MACHINES s.r.o.",
       "emails": [
@@ -3185,7 +3185,7 @@
       "datum": "27. 02. 2026",
       "splatno": "29. 03. 2026",
       "splatnoDate": "2026-03-28T23:00:00.000Z",
-      "daysOver": 0,
+      "daysOver": 1,
       "celkem": 3343.23,
       "firmaName": "CH vodní stavby a.s.",
       "emails": [
@@ -3205,7 +3205,7 @@
       "datum": "02. 03. 2026",
       "splatno": "31. 05. 2026",
       "splatnoDate": "2026-05-30T22:00:00.000Z",
-      "daysOver": -62,
+      "daysOver": -61,
       "celkem": 15506.76,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -3225,7 +3225,7 @@
       "datum": "02. 03. 2026",
       "splatno": "31. 05. 2026",
       "splatnoDate": "2026-05-30T22:00:00.000Z",
-      "daysOver": -62,
+      "daysOver": -61,
       "celkem": 1945.68,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -3245,7 +3245,7 @@
       "datum": "02. 03. 2026",
       "splatno": "16. 03. 2026",
       "splatnoDate": "2026-03-15T23:00:00.000Z",
-      "daysOver": 13,
+      "daysOver": 14,
       "celkem": 12765.98,
       "firmaName": "DD PNEU s.r.o.",
       "emails": [],
@@ -3262,7 +3262,7 @@
       "datum": "02. 03. 2026",
       "splatno": "16. 03. 2026",
       "splatnoDate": "2026-03-15T23:00:00.000Z",
-      "daysOver": 13,
+      "daysOver": 14,
       "celkem": 24188,
       "firmaName": "ProTelco s.r.o.",
       "emails": [
@@ -3281,7 +3281,7 @@
       "datum": "02. 03. 2026",
       "splatno": "16. 03. 2026",
       "splatnoDate": "2026-03-15T23:00:00.000Z",
-      "daysOver": 13,
+      "daysOver": 14,
       "celkem": 8438.66,
       "firmaName": "Vladimír Duben",
       "emails": [],
@@ -3298,7 +3298,7 @@
       "datum": "02. 03. 2026",
       "splatno": "16. 03. 2026",
       "splatnoDate": "2026-03-15T23:00:00.000Z",
-      "daysOver": 13,
+      "daysOver": 14,
       "celkem": 1012.81,
       "firmaName": "Dřevosprint P+B s.r.o.",
       "emails": [
@@ -3317,7 +3317,7 @@
       "datum": "02. 03. 2026",
       "splatno": "16. 03. 2026",
       "splatnoDate": "2026-03-15T23:00:00.000Z",
-      "daysOver": 13,
+      "daysOver": 14,
       "celkem": 1825,
       "firmaName": "Jiří Flaks",
       "emails": [
@@ -3336,7 +3336,7 @@
       "datum": "02. 03. 2026",
       "splatno": "16. 03. 2026",
       "splatnoDate": "2026-03-15T23:00:00.000Z",
-      "daysOver": 13,
+      "daysOver": 14,
       "celkem": 23232.72,
       "firmaName": "VP Construction Development s.r.o.",
       "emails": [
@@ -3356,7 +3356,7 @@
       "datum": "02. 03. 2026",
       "splatno": "16. 03. 2026",
       "splatnoDate": "2026-03-15T23:00:00.000Z",
-      "daysOver": 13,
+      "daysOver": 14,
       "celkem": 43858.87,
       "firmaName": "VP Construction Development s.r.o.",
       "emails": [
@@ -3376,7 +3376,7 @@
       "datum": "02. 03. 2026",
       "splatno": "16. 03. 2026",
       "splatnoDate": "2026-03-15T23:00:00.000Z",
-      "daysOver": 13,
+      "daysOver": 14,
       "celkem": 27833.81,
       "firmaName": "VP Construction Development s.r.o.",
       "emails": [
@@ -3396,7 +3396,7 @@
       "datum": "02. 03. 2026",
       "splatno": "16. 03. 2026",
       "splatnoDate": "2026-03-15T23:00:00.000Z",
-      "daysOver": 13,
+      "daysOver": 14,
       "celkem": 47133.26,
       "firmaName": "VP Construction Development s.r.o.",
       "emails": [
@@ -3416,7 +3416,7 @@
       "datum": "02. 03. 2026",
       "splatno": "01. 04. 2026",
       "splatnoDate": "2026-03-31T22:00:00.000Z",
-      "daysOver": -2,
+      "daysOver": -1,
       "celkem": 7105.71,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -3435,7 +3435,7 @@
       "datum": "02. 03. 2026",
       "splatno": "01. 04. 2026",
       "splatnoDate": "2026-03-31T22:00:00.000Z",
-      "daysOver": -2,
+      "daysOver": -1,
       "celkem": 174.24,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -3454,7 +3454,7 @@
       "datum": "02. 03. 2026",
       "splatno": "16. 03. 2026",
       "splatnoDate": "2026-03-15T23:00:00.000Z",
-      "daysOver": 13,
+      "daysOver": 14,
       "celkem": 7158.54,
       "firmaName": "Tomáš Vorel",
       "emails": [
@@ -3473,7 +3473,7 @@
       "datum": "03. 03. 2026",
       "splatno": "17. 03. 2026",
       "splatnoDate": "2026-03-16T23:00:00.000Z",
-      "daysOver": 12,
+      "daysOver": 13,
       "celkem": 4719,
       "firmaName": "FM servis Praha CZ s.r.o.",
       "emails": [
@@ -3492,7 +3492,7 @@
       "datum": "03. 03. 2026",
       "splatno": "02. 04. 2026",
       "splatnoDate": "2026-04-01T22:00:00.000Z",
-      "daysOver": -3,
+      "daysOver": -2,
       "celkem": 45471.16,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -3511,7 +3511,7 @@
       "datum": "04. 03. 2026",
       "splatno": "18. 03. 2026",
       "splatnoDate": "2026-03-17T23:00:00.000Z",
-      "daysOver": 11,
+      "daysOver": 12,
       "celkem": 8524.69,
       "firmaName": "4 COILS TECH s.r.o.",
       "emails": [
@@ -3531,7 +3531,7 @@
       "datum": "04. 03. 2026",
       "splatno": "18. 03. 2026",
       "splatnoDate": "2026-03-17T23:00:00.000Z",
-      "daysOver": 11,
+      "daysOver": 12,
       "celkem": 8989.59,
       "firmaName": "...",
       "emails": [
@@ -3550,7 +3550,7 @@
       "datum": "04. 03. 2026",
       "splatno": "18. 03. 2026",
       "splatnoDate": "2026-03-17T23:00:00.000Z",
-      "daysOver": 11,
+      "daysOver": 12,
       "celkem": 374.95,
       "firmaName": "BSRoman s.r.o.",
       "emails": [
@@ -3569,7 +3569,7 @@
       "datum": "05. 03. 2026",
       "splatno": "04. 04. 2026",
       "splatnoDate": "2026-04-03T22:00:00.000Z",
-      "daysOver": -5,
+      "daysOver": -4,
       "celkem": 1415.46,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -3588,7 +3588,7 @@
       "datum": "05. 03. 2026",
       "splatno": "19. 03. 2026",
       "splatnoDate": "2026-03-18T23:00:00.000Z",
-      "daysOver": 10,
+      "daysOver": 11,
       "celkem": 4587.46,
       "firmaName": "KarlDom s.r.o.",
       "emails": [
@@ -3607,7 +3607,7 @@
       "datum": "05. 03. 2026",
       "splatno": "19. 03. 2026",
       "splatnoDate": "2026-03-18T23:00:00.000Z",
-      "daysOver": 10,
+      "daysOver": 11,
       "celkem": 642.75,
       "firmaName": "...",
       "emails": [],
@@ -3624,7 +3624,7 @@
       "datum": "06. 03. 2026",
       "splatno": "20. 03. 2026",
       "splatnoDate": "2026-03-19T23:00:00.000Z",
-      "daysOver": 9,
+      "daysOver": 10,
       "celkem": 7465.7,
       "firmaName": "BSRoman s.r.o.",
       "emails": [
@@ -3643,7 +3643,7 @@
       "datum": "06. 03. 2026",
       "splatno": "20. 03. 2026",
       "splatnoDate": "2026-03-19T23:00:00.000Z",
-      "daysOver": 9,
+      "daysOver": 10,
       "celkem": 3768,
       "firmaName": "Petr Tichý",
       "emails": [
@@ -3662,7 +3662,7 @@
       "datum": "06. 03. 2026",
       "splatno": "05. 04. 2026",
       "splatnoDate": "2026-04-04T22:00:00.000Z",
-      "daysOver": -6,
+      "daysOver": -5,
       "celkem": 51279.82,
       "firmaName": "Peter Schmidt",
       "emails": [
@@ -3681,7 +3681,7 @@
       "datum": "09. 03. 2026",
       "splatno": "23. 03. 2026",
       "splatnoDate": "2026-03-22T23:00:00.000Z",
-      "daysOver": 6,
+      "daysOver": 7,
       "celkem": 4535.3,
       "firmaName": "Marek Stejskal",
       "emails": [
@@ -3700,7 +3700,7 @@
       "datum": "09. 03. 2026",
       "splatno": "23. 03. 2026",
       "splatnoDate": "2026-03-22T23:00:00.000Z",
-      "daysOver": 6,
+      "daysOver": 7,
       "celkem": 310.85,
       "firmaName": "Petr Šimon",
       "emails": [
@@ -3719,7 +3719,7 @@
       "datum": "09. 03. 2026",
       "splatno": "23. 03. 2026",
       "splatnoDate": "2026-03-22T23:00:00.000Z",
-      "daysOver": 6,
+      "daysOver": 7,
       "celkem": 10941,
       "firmaName": "Fox-install, s.r.o.",
       "emails": [
@@ -3738,7 +3738,7 @@
       "datum": "09. 03. 2026",
       "splatno": "23. 03. 2026",
       "splatnoDate": "2026-03-22T23:00:00.000Z",
-      "daysOver": 6,
+      "daysOver": 7,
       "celkem": 109.99,
       "firmaName": "CETIN a.s.",
       "emails": [],
@@ -3755,7 +3755,7 @@
       "datum": "10. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 4117.51,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -3774,7 +3774,7 @@
       "datum": "10. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 13704.46,
       "firmaName": "APB - PLZEŇ a.s.",
       "emails": [
@@ -3793,7 +3793,7 @@
       "datum": "10. 03. 2026",
       "splatno": "24. 03. 2026",
       "splatnoDate": "2026-03-23T23:00:00.000Z",
-      "daysOver": 5,
+      "daysOver": 6,
       "celkem": 5207.29,
       "firmaName": "QUANTUM OF MONEY s.r.o.",
       "emails": [
@@ -3812,7 +3812,7 @@
       "datum": "11. 03. 2026",
       "splatno": "25. 03. 2026",
       "splatnoDate": "2026-03-24T23:00:00.000Z",
-      "daysOver": 4,
+      "daysOver": 5,
       "celkem": 8183.29,
       "firmaName": "Stavební geologie - Geosan, s.r.o.",
       "emails": [
@@ -3831,7 +3831,7 @@
       "datum": "11. 03. 2026",
       "splatno": "09. 06. 2026",
       "splatnoDate": "2026-06-08T22:00:00.000Z",
-      "daysOver": -71,
+      "daysOver": -70,
       "celkem": 36291.53,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -3850,7 +3850,7 @@
       "datum": "11. 03. 2026",
       "splatno": "25. 03. 2026",
       "splatnoDate": "2026-03-24T23:00:00.000Z",
-      "daysOver": 4,
+      "daysOver": 5,
       "celkem": 475.53,
       "firmaName": "Norican Czech s.r.o.",
       "emails": [
@@ -3870,7 +3870,7 @@
       "datum": "11. 03. 2026",
       "splatno": "25. 03. 2026",
       "splatnoDate": "2026-03-24T23:00:00.000Z",
-      "daysOver": 4,
+      "daysOver": 5,
       "celkem": 2407.9,
       "firmaName": "SERVIS VESELÝ s.r.o.",
       "emails": [
@@ -3889,7 +3889,7 @@
       "datum": "11. 03. 2026",
       "splatno": "25. 03. 2026",
       "splatnoDate": "2026-03-24T23:00:00.000Z",
-      "daysOver": 4,
+      "daysOver": 5,
       "celkem": 989.05,
       "firmaName": "H-IZOL Liberec s.r.o.",
       "emails": [
@@ -3908,7 +3908,7 @@
       "datum": "11. 03. 2026",
       "splatno": "25. 03. 2026",
       "splatnoDate": "2026-03-24T23:00:00.000Z",
-      "daysOver": 4,
+      "daysOver": 5,
       "celkem": 1540.93,
       "firmaName": "AL Stavby Míkovec s.r.o.",
       "emails": [
@@ -3927,7 +3927,7 @@
       "datum": "11. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 28530.59,
       "firmaName": "CH vodní stavby a.s.",
       "emails": [
@@ -3947,7 +3947,7 @@
       "datum": "12. 03. 2026",
       "splatno": "26. 03. 2026",
       "splatnoDate": "2026-03-25T23:00:00.000Z",
-      "daysOver": 3,
+      "daysOver": 4,
       "celkem": 6889,
       "firmaName": "Lukáš Hovorka",
       "emails": [
@@ -3966,7 +3966,7 @@
       "datum": "12. 03. 2026",
       "splatno": "26. 03. 2026",
       "splatnoDate": "2026-03-25T23:00:00.000Z",
-      "daysOver": 3,
+      "daysOver": 4,
       "celkem": 1622.26,
       "firmaName": "Róbert Malinovský",
       "emails": [
@@ -3985,7 +3985,7 @@
       "datum": "12. 03. 2026",
       "splatno": "26. 03. 2026",
       "splatnoDate": "2026-03-25T23:00:00.000Z",
-      "daysOver": 3,
+      "daysOver": 4,
       "celkem": 3418.37,
       "firmaName": "ROCK SALT, s.r.o.",
       "emails": [
@@ -4004,7 +4004,7 @@
       "datum": "12. 03. 2026",
       "splatno": "26. 03. 2026",
       "splatnoDate": "2026-03-25T23:00:00.000Z",
-      "daysOver": 3,
+      "daysOver": 4,
       "celkem": 7811.03,
       "firmaName": "Iveco Truck Centrum, s.r.o.",
       "emails": [
@@ -4024,7 +4024,7 @@
       "datum": "13. 03. 2026",
       "splatno": "27. 03. 2026",
       "splatnoDate": "2026-03-26T23:00:00.000Z",
-      "daysOver": 2,
+      "daysOver": 3,
       "celkem": 4855.13,
       "firmaName": "ELKOV Jaroměř s.r.o.",
       "emails": [
@@ -4043,7 +4043,7 @@
       "datum": "13. 03. 2026",
       "splatno": "27. 03. 2026",
       "splatnoDate": "2026-03-26T23:00:00.000Z",
-      "daysOver": 2,
+      "daysOver": 3,
       "celkem": 401.72,
       "firmaName": "ELKOV Jaroměř s.r.o.",
       "emails": [
@@ -4062,7 +4062,7 @@
       "datum": "13. 03. 2026",
       "splatno": "27. 03. 2026",
       "splatnoDate": "2026-03-26T23:00:00.000Z",
-      "daysOver": 2,
+      "daysOver": 3,
       "celkem": 15816.15,
       "firmaName": "David Drábek",
       "emails": [
@@ -4081,7 +4081,7 @@
       "datum": "16. 03. 2026",
       "splatno": "30. 03. 2026",
       "splatnoDate": "2026-03-29T22:00:00.000Z",
-      "daysOver": 0,
+      "daysOver": 1,
       "celkem": 7842.37,
       "firmaName": "LOGOSIGN a.s.",
       "emails": [
@@ -4101,7 +4101,7 @@
       "datum": "16. 03. 2026",
       "splatno": "30. 03. 2026",
       "splatnoDate": "2026-03-29T22:00:00.000Z",
-      "daysOver": 0,
+      "daysOver": 1,
       "celkem": 9987.06,
       "firmaName": "LOGOSIGN a.s.",
       "emails": [
@@ -4121,7 +4121,7 @@
       "datum": "16. 03. 2026",
       "splatno": "30. 03. 2026",
       "splatnoDate": "2026-03-29T22:00:00.000Z",
-      "daysOver": 0,
+      "daysOver": 1,
       "celkem": 2270,
       "firmaName": "Adam Staněk",
       "emails": [
@@ -4140,7 +4140,7 @@
       "datum": "16. 03. 2026",
       "splatno": "30. 03. 2026",
       "splatnoDate": "2026-03-29T22:00:00.000Z",
-      "daysOver": 0,
+      "daysOver": 1,
       "celkem": 16206.8,
       "firmaName": "Quixy s.r.o.",
       "emails": [
@@ -4159,7 +4159,7 @@
       "datum": "16. 03. 2026",
       "splatno": "30. 03. 2026",
       "splatnoDate": "2026-03-29T22:00:00.000Z",
-      "daysOver": 0,
+      "daysOver": 1,
       "celkem": 19098.4,
       "firmaName": "Petr Palička",
       "emails": [
@@ -4179,7 +4179,7 @@
       "datum": "16. 03. 2026",
       "splatno": "30. 03. 2026",
       "splatnoDate": "2026-03-29T22:00:00.000Z",
-      "daysOver": 0,
+      "daysOver": 1,
       "celkem": 9196.61,
       "firmaName": "Santech alfa s.r.o.",
       "emails": [
@@ -4198,7 +4198,7 @@
       "datum": "16. 03. 2026",
       "splatno": "30. 03. 2026",
       "splatnoDate": "2026-03-29T22:00:00.000Z",
-      "daysOver": 0,
+      "daysOver": 1,
       "celkem": 13132.86,
       "firmaName": "Relem s.r.o.",
       "emails": [
@@ -4217,7 +4217,7 @@
       "datum": "16. 03. 2026",
       "splatno": "30. 03. 2026",
       "splatnoDate": "2026-03-29T22:00:00.000Z",
-      "daysOver": 0,
+      "daysOver": 1,
       "celkem": 2104.52,
       "firmaName": "Vápenka Čertovy schody a.s.",
       "emails": [
@@ -4237,7 +4237,7 @@
       "datum": "16. 03. 2026",
       "splatno": "30. 03. 2026",
       "splatnoDate": "2026-03-29T22:00:00.000Z",
-      "daysOver": 0,
+      "daysOver": 1,
       "celkem": 752.5,
       "firmaName": "...",
       "emails": [],
@@ -4254,7 +4254,7 @@
       "datum": "16. 03. 2026",
       "splatno": "15. 04. 2026",
       "splatnoDate": "2026-04-14T22:00:00.000Z",
-      "daysOver": -16,
+      "daysOver": -15,
       "celkem": 28023.6,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -4273,7 +4273,7 @@
       "datum": "17. 03. 2026",
       "splatno": "31. 03. 2026",
       "splatnoDate": "2026-03-30T22:00:00.000Z",
-      "daysOver": -1,
+      "daysOver": 0,
       "celkem": 11459,
       "firmaName": "Róbert Janek",
       "emails": [
@@ -4292,7 +4292,7 @@
       "datum": "16. 03. 2026",
       "splatno": "30. 03. 2026",
       "splatnoDate": "2026-03-29T22:00:00.000Z",
-      "daysOver": 0,
+      "daysOver": 1,
       "celkem": 1008.92,
       "firmaName": "František Macháč",
       "emails": [
@@ -4311,7 +4311,7 @@
       "datum": "17. 03. 2026",
       "splatno": "31. 03. 2026",
       "splatnoDate": "2026-03-30T22:00:00.000Z",
-      "daysOver": -1,
+      "daysOver": 0,
       "celkem": 3911.75,
       "firmaName": "...",
       "emails": [],
@@ -4328,7 +4328,7 @@
       "datum": "17. 03. 2026",
       "splatno": "31. 03. 2026",
       "splatnoDate": "2026-03-30T22:00:00.000Z",
-      "daysOver": -1,
+      "daysOver": 0,
       "celkem": 5623.06,
       "firmaName": "STARP Home s.r.o.",
       "emails": [
@@ -4349,7 +4349,7 @@
       "datum": "17. 03. 2026",
       "splatno": "31. 03. 2026",
       "splatnoDate": "2026-03-30T22:00:00.000Z",
-      "daysOver": -1,
+      "daysOver": 0,
       "celkem": 569.16,
       "firmaName": "STARP Home s.r.o.",
       "emails": [
@@ -4370,7 +4370,7 @@
       "datum": "17. 03. 2026",
       "splatno": "16. 04. 2026",
       "splatnoDate": "2026-04-15T22:00:00.000Z",
-      "daysOver": -17,
+      "daysOver": -16,
       "celkem": 2063.49,
       "firmaName": "CH vodní stavby a.s.",
       "emails": [
@@ -4390,7 +4390,7 @@
       "datum": "18. 03. 2026",
       "splatno": "01. 04. 2026",
       "splatnoDate": "2026-03-31T22:00:00.000Z",
-      "daysOver": -2,
+      "daysOver": -1,
       "celkem": 1571,
       "firmaName": "Michal Šujak",
       "emails": [
@@ -4409,7 +4409,7 @@
       "datum": "18. 03. 2026",
       "splatno": "01. 04. 2026",
       "splatnoDate": "2026-03-31T22:00:00.000Z",
-      "daysOver": -2,
+      "daysOver": -1,
       "celkem": 6753.33,
       "firmaName": "LiftTowers s.r.o.",
       "emails": [
@@ -4429,7 +4429,7 @@
       "datum": "18. 03. 2026",
       "splatno": "01. 04. 2026",
       "splatnoDate": "2026-03-31T22:00:00.000Z",
-      "daysOver": -2,
+      "daysOver": -1,
       "celkem": 1069,
       "firmaName": "Němec Zdeněk",
       "emails": [
@@ -4448,7 +4448,7 @@
       "datum": "18. 03. 2026",
       "splatno": "01. 04. 2026",
       "splatnoDate": "2026-03-31T22:00:00.000Z",
-      "daysOver": -2,
+      "daysOver": -1,
       "celkem": 4336,
       "firmaName": "Josef Snášel",
       "emails": [
@@ -4467,7 +4467,7 @@
       "datum": "18. 03. 2026",
       "splatno": "01. 04. 2026",
       "splatnoDate": "2026-03-31T22:00:00.000Z",
-      "daysOver": -2,
+      "daysOver": -1,
       "celkem": 17895.9,
       "firmaName": "SE-MA STAV EU s.r.o.",
       "emails": [
@@ -4486,7 +4486,7 @@
       "datum": "18. 03. 2026",
       "splatno": "01. 04. 2026",
       "splatnoDate": "2026-03-31T22:00:00.000Z",
-      "daysOver": -2,
+      "daysOver": -1,
       "celkem": 8378.91,
       "firmaName": "MONO-STAV cz s.r.o.",
       "emails": [
@@ -4505,7 +4505,7 @@
       "datum": "18. 03. 2026",
       "splatno": "01. 04. 2026",
       "splatnoDate": "2026-03-31T22:00:00.000Z",
-      "daysOver": -2,
+      "daysOver": -1,
       "celkem": 5448.15,
       "firmaName": "JEZL ELEKTRO s.r.o.",
       "emails": [
@@ -4524,7 +4524,7 @@
       "datum": "18. 03. 2026",
       "splatno": "01. 04. 2026",
       "splatnoDate": "2026-03-31T22:00:00.000Z",
-      "daysOver": -2,
+      "daysOver": -1,
       "celkem": 91.48,
       "firmaName": "...",
       "emails": [],
@@ -4541,7 +4541,7 @@
       "datum": "18. 03. 2026",
       "splatno": "17. 04. 2026",
       "splatnoDate": "2026-04-16T22:00:00.000Z",
-      "daysOver": -18,
+      "daysOver": -17,
       "celkem": 28169.2,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -4560,7 +4560,7 @@
       "datum": "18. 03. 2026",
       "splatno": "01. 04. 2026",
       "splatnoDate": "2026-03-31T22:00:00.000Z",
-      "daysOver": -2,
+      "daysOver": -1,
       "celkem": 5872.98,
       "firmaName": "Václav Tůma",
       "emails": [
@@ -4579,7 +4579,7 @@
       "datum": "19. 03. 2026",
       "splatno": "18. 04. 2026",
       "splatnoDate": "2026-04-17T22:00:00.000Z",
-      "daysOver": -19,
+      "daysOver": -18,
       "celkem": 383.32,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -4598,7 +4598,7 @@
       "datum": "19. 03. 2026",
       "splatno": "02. 04. 2026",
       "splatnoDate": "2026-04-01T22:00:00.000Z",
-      "daysOver": -3,
+      "daysOver": -2,
       "celkem": 1453.1,
       "firmaName": "INSTALA PROFI s.r.o.",
       "emails": [],
@@ -4615,7 +4615,7 @@
       "datum": "19. 03. 2026",
       "splatno": "02. 04. 2026",
       "splatnoDate": "2026-04-01T22:00:00.000Z",
-      "daysOver": -3,
+      "daysOver": -2,
       "celkem": 6488.33,
       "firmaName": "DKF systém s.r.o.",
       "emails": [
@@ -4634,7 +4634,7 @@
       "datum": "19. 03. 2026",
       "splatno": "02. 04. 2026",
       "splatnoDate": "2026-04-01T22:00:00.000Z",
-      "daysOver": -3,
+      "daysOver": -2,
       "celkem": 718.74,
       "firmaName": "SERVIS VESELÝ s.r.o.",
       "emails": [
@@ -4653,7 +4653,7 @@
       "datum": "20. 03. 2026",
       "splatno": "03. 04. 2026",
       "splatnoDate": "2026-04-02T22:00:00.000Z",
-      "daysOver": -4,
+      "daysOver": -3,
       "celkem": 2420.85,
       "firmaName": "ProTelco s.r.o.",
       "emails": [
@@ -4672,7 +4672,7 @@
       "datum": "20. 03. 2026",
       "splatno": "03. 04. 2026",
       "splatnoDate": "2026-04-02T22:00:00.000Z",
-      "daysOver": -4,
+      "daysOver": -3,
       "celkem": 18068.66,
       "firmaName": "Tomáš Vorel",
       "emails": [
@@ -4691,7 +4691,7 @@
       "datum": "20. 03. 2026",
       "splatno": "03. 04. 2026",
       "splatnoDate": "2026-04-02T22:00:00.000Z",
-      "daysOver": -4,
+      "daysOver": -3,
       "celkem": 15062.09,
       "firmaName": "Petr Palička",
       "emails": [
@@ -4711,7 +4711,7 @@
       "datum": "20. 03. 2026",
       "splatno": "19. 04. 2026",
       "splatnoDate": "2026-04-18T22:00:00.000Z",
-      "daysOver": -20,
+      "daysOver": -19,
       "celkem": 36179,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -4730,7 +4730,7 @@
       "datum": "20. 03. 2026",
       "splatno": "03. 04. 2026",
       "splatnoDate": "2026-04-02T22:00:00.000Z",
-      "daysOver": -4,
+      "daysOver": -3,
       "celkem": 14899,
       "firmaName": "Roman Mol",
       "emails": [
@@ -4749,7 +4749,7 @@
       "datum": "20. 03. 2026",
       "splatno": "03. 04. 2026",
       "splatnoDate": "2026-04-02T22:00:00.000Z",
-      "daysOver": -4,
+      "daysOver": -3,
       "celkem": 5630.9,
       "firmaName": "Miroslav Drs",
       "emails": [],
@@ -4766,7 +4766,7 @@
       "datum": "20. 03. 2026",
       "splatno": "03. 04. 2026",
       "splatnoDate": "2026-04-02T22:00:00.000Z",
-      "daysOver": -4,
+      "daysOver": -3,
       "celkem": 13540.05,
       "firmaName": "AL Stavby Míkovec s.r.o.",
       "emails": [
@@ -4785,7 +4785,7 @@
       "datum": "20. 03. 2026",
       "splatno": "03. 04. 2026",
       "splatnoDate": "2026-04-02T22:00:00.000Z",
-      "daysOver": -4,
+      "daysOver": -3,
       "celkem": 16206.8,
       "firmaName": "Quixy s.r.o.",
       "emails": [
@@ -4804,7 +4804,7 @@
       "datum": "20. 03. 2026",
       "splatno": "03. 04. 2026",
       "splatnoDate": "2026-04-02T22:00:00.000Z",
-      "daysOver": -4,
+      "daysOver": -3,
       "celkem": 655.58,
       "firmaName": "HMS, spol. s r.o.",
       "emails": [
@@ -4823,7 +4823,7 @@
       "datum": "20. 03. 2026",
       "splatno": "03. 04. 2026",
       "splatnoDate": "2026-04-02T22:00:00.000Z",
-      "daysOver": -4,
+      "daysOver": -3,
       "celkem": 9183.54,
       "firmaName": "LOGOSIGN a.s.",
       "emails": [
@@ -4843,7 +4843,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 720.2,
       "firmaName": "...",
       "emails": [],
@@ -4860,7 +4860,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 21668.79,
       "firmaName": "Jakub Knettig",
       "emails": [
@@ -4879,7 +4879,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 4697.95,
       "firmaName": "MITEL a.s.",
       "emails": [
@@ -4899,7 +4899,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 1040,
       "firmaName": "Petr Seemann",
       "emails": [
@@ -4918,7 +4918,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 8069.49,
       "firmaName": "ProTelco s.r.o.",
       "emails": [
@@ -4937,7 +4937,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 388.2,
       "firmaName": "Miroslav Kuča",
       "emails": [
@@ -4956,7 +4956,7 @@
       "datum": "23. 03. 2026",
       "splatno": "22. 04. 2026",
       "splatnoDate": "2026-04-21T22:00:00.000Z",
-      "daysOver": -23,
+      "daysOver": -22,
       "celkem": 16422.12,
       "firmaName": "CH vodní stavby a.s.",
       "emails": [
@@ -4976,7 +4976,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 723.1,
       "firmaName": "...",
       "emails": [],
@@ -4993,7 +4993,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 8445.8,
       "firmaName": "SERVIS VESELÝ s.r.o.",
       "emails": [
@@ -5012,7 +5012,7 @@
       "datum": "23. 03. 2026",
       "splatno": "22. 04. 2026",
       "splatnoDate": "2026-04-21T22:00:00.000Z",
-      "daysOver": -23,
+      "daysOver": -22,
       "celkem": 728.54,
       "firmaName": "CH vodní stavby a.s.",
       "emails": [
@@ -5032,7 +5032,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 522,
       "firmaName": "HEFA-PROTIPOŽÁRNÍ SYSTÉMY, v.o.s.",
       "emails": [
@@ -5051,7 +5051,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 3461.93,
       "firmaName": "Stavitelství Vlček s.r.o.",
       "emails": [
@@ -5070,7 +5070,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 46512.05,
       "firmaName": "Elektro pohotovost RM, s.r.o.",
       "emails": [
@@ -5089,7 +5089,7 @@
       "datum": "23. 03. 2026",
       "splatno": "21. 06. 2026",
       "splatnoDate": "2026-06-20T22:00:00.000Z",
-      "daysOver": -83,
+      "daysOver": -82,
       "celkem": 8819.78,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -5109,7 +5109,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 20014.14,
       "firmaName": "ALSAP s.r.o.",
       "emails": [
@@ -5129,7 +5129,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 6163,
       "firmaName": "Libuše Sedláková",
       "emails": [
@@ -5148,7 +5148,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 5554.99,
       "firmaName": "Jakub Šimka",
       "emails": [
@@ -5167,7 +5167,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 8442.63,
       "firmaName": "STARP Home s.r.o.",
       "emails": [
@@ -5188,7 +5188,7 @@
       "datum": "23. 03. 2026",
       "splatno": "06. 04. 2026",
       "splatnoDate": "2026-04-05T22:00:00.000Z",
-      "daysOver": -7,
+      "daysOver": -6,
       "celkem": 2690.98,
       "firmaName": "Patrik Pechek",
       "emails": [
@@ -5207,7 +5207,7 @@
       "datum": "18. 03. 2026",
       "splatno": "01. 04. 2026",
       "splatnoDate": "2026-03-31T22:00:00.000Z",
-      "daysOver": -2,
+      "daysOver": -1,
       "celkem": 253,
       "firmaName": "Alexandru Moscovici",
       "emails": [],
@@ -5224,7 +5224,7 @@
       "datum": "24. 03. 2026",
       "splatno": "22. 06. 2026",
       "splatnoDate": "2026-06-21T22:00:00.000Z",
-      "daysOver": -84,
+      "daysOver": -83,
       "celkem": 3830.03,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -5244,7 +5244,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 3338.65,
       "firmaName": "Lukáš Vydra",
       "emails": [
@@ -5263,7 +5263,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 2,
       "firmaName": "Záchranná služba Asociace samaritánů České republiky Praha-západ  z.s.",
       "emails": [
@@ -5282,7 +5282,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 18166.58,
       "firmaName": "Tomáš Gorgoň",
       "emails": [
@@ -5301,7 +5301,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 1491.94,
       "firmaName": "Záchranná služba Asociace samaritánů České republiky Praha-západ  z.s.",
       "emails": [
@@ -5320,7 +5320,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 5349.95,
       "firmaName": "...",
       "emails": [],
@@ -5337,7 +5337,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 458.47,
       "firmaName": "...",
       "emails": [],
@@ -5354,7 +5354,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 3599.75,
       "firmaName": "SPOJmat Hýskov s.r.o.",
       "emails": [
@@ -5373,7 +5373,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 2379,
       "firmaName": "Martin Müller",
       "emails": [
@@ -5392,7 +5392,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 2653.29,
       "firmaName": "Ing. Josef Mašek",
       "emails": [
@@ -5411,7 +5411,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 1385,
       "firmaName": "Bowling servis s.r.o.",
       "emails": [
@@ -5430,7 +5430,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 885.5,
       "firmaName": "Roman Demchuk",
       "emails": [
@@ -5449,7 +5449,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 4950.52,
       "firmaName": "VP Construction Development s.r.o.",
       "emails": [
@@ -5469,7 +5469,7 @@
       "datum": "25. 03. 2026",
       "splatno": "08. 04. 2026",
       "splatnoDate": "2026-04-07T22:00:00.000Z",
-      "daysOver": -9,
+      "daysOver": -8,
       "celkem": 8539,
       "firmaName": "Aleš Krchňavý",
       "emails": [
@@ -5488,7 +5488,7 @@
       "datum": "24. 03. 2026",
       "splatno": "07. 04. 2026",
       "splatnoDate": "2026-04-06T22:00:00.000Z",
-      "daysOver": -8,
+      "daysOver": -7,
       "celkem": 39511.36,
       "firmaName": "Ing. Martin Svoboda",
       "emails": [
@@ -5507,7 +5507,7 @@
       "datum": "25. 03. 2026",
       "splatno": "08. 04. 2026",
       "splatnoDate": "2026-04-07T22:00:00.000Z",
-      "daysOver": -9,
+      "daysOver": -8,
       "celkem": 910.3,
       "firmaName": "Ondrej Veselý",
       "emails": [
@@ -5526,7 +5526,7 @@
       "datum": "25. 03. 2026",
       "splatno": "08. 04. 2026",
       "splatnoDate": "2026-04-07T22:00:00.000Z",
-      "daysOver": -9,
+      "daysOver": -8,
       "celkem": 2592.48,
       "firmaName": "Dřevosprint P+B s.r.o.",
       "emails": [
@@ -5545,7 +5545,7 @@
       "datum": "25. 03. 2026",
       "splatno": "08. 04. 2026",
       "splatnoDate": "2026-04-07T22:00:00.000Z",
-      "daysOver": -9,
+      "daysOver": -8,
       "celkem": 740.52,
       "firmaName": "Barrandov Studio a.s.",
       "emails": [
@@ -5564,7 +5564,7 @@
       "datum": "25. 03. 2026",
       "splatno": "08. 04. 2026",
       "splatnoDate": "2026-04-07T22:00:00.000Z",
-      "daysOver": -9,
+      "daysOver": -8,
       "celkem": 2482.92,
       "firmaName": "ROTHLEHNER pracovní plošiny s.r.o.",
       "emails": [
@@ -5583,7 +5583,7 @@
       "datum": "25. 03. 2026",
       "splatno": "08. 04. 2026",
       "splatnoDate": "2026-04-07T22:00:00.000Z",
-      "daysOver": -9,
+      "daysOver": -8,
       "celkem": 2,
       "firmaName": "...",
       "emails": [],
@@ -5600,7 +5600,7 @@
       "datum": "25. 03. 2026",
       "splatno": "08. 04. 2026",
       "splatnoDate": "2026-04-07T22:00:00.000Z",
-      "daysOver": -9,
+      "daysOver": -8,
       "celkem": 12546.67,
       "firmaName": "CARACAL MACHINES s.r.o.",
       "emails": [
@@ -5619,7 +5619,7 @@
       "datum": "25. 03. 2026",
       "splatno": "08. 04. 2026",
       "splatnoDate": "2026-04-07T22:00:00.000Z",
-      "daysOver": -9,
+      "daysOver": -8,
       "celkem": 29966.62,
       "firmaName": "El Horis s.r.o.",
       "emails": [
@@ -5638,7 +5638,7 @@
       "datum": "25. 03. 2026",
       "splatno": "08. 04. 2026",
       "splatnoDate": "2026-04-07T22:00:00.000Z",
-      "daysOver": -9,
+      "daysOver": -8,
       "celkem": 14593.52,
       "firmaName": "Gerad Elektro s.r.o.",
       "emails": [
@@ -5658,7 +5658,7 @@
       "datum": "25. 03. 2026",
       "splatno": "24. 04. 2026",
       "splatnoDate": "2026-04-23T22:00:00.000Z",
-      "daysOver": -25,
+      "daysOver": -24,
       "celkem": 3755.96,
       "firmaName": "CONSTRUCTION TEAM  s.r.o.",
       "emails": [
@@ -5677,7 +5677,7 @@
       "datum": "25. 03. 2026",
       "splatno": "08. 04. 2026",
       "splatnoDate": "2026-04-07T22:00:00.000Z",
-      "daysOver": -9,
+      "daysOver": -8,
       "celkem": 9661.24,
       "firmaName": "Ing. František Kuba",
       "emails": [
@@ -5696,7 +5696,7 @@
       "datum": "25. 03. 2026",
       "splatno": "08. 04. 2026",
       "splatnoDate": "2026-04-07T22:00:00.000Z",
-      "daysOver": -9,
+      "daysOver": -8,
       "celkem": 6103.36,
       "firmaName": "Radek Dvořák",
       "emails": [
@@ -5715,7 +5715,7 @@
       "datum": "26. 03. 2026",
       "splatno": "24. 06. 2026",
       "splatnoDate": "2026-06-23T22:00:00.000Z",
-      "daysOver": -86,
+      "daysOver": -85,
       "celkem": 4520.19,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -5735,7 +5735,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 22294.98,
       "firmaName": "Prowater, s.r.o.",
       "emails": [
@@ -5754,7 +5754,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 468.45,
       "firmaName": "Kýhos Ladislav",
       "emails": [
@@ -5773,7 +5773,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 2448.07,
       "firmaName": "Záchranná služba Asociace samaritánů České republiky Praha-západ  z.s.",
       "emails": [
@@ -5792,7 +5792,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 20809.12,
       "firmaName": "Servis Musil, s.r.o.",
       "emails": [],
@@ -5809,7 +5809,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 40226.26,
       "firmaName": "Jakub Knettig",
       "emails": [
@@ -5828,7 +5828,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 5842.49,
       "firmaName": "Instal servis V s.r.o.",
       "emails": [
@@ -5847,7 +5847,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 14808.27,
       "firmaName": "Instal servis V s.r.o.",
       "emails": [
@@ -5866,7 +5866,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 15464.53,
       "firmaName": "SCARPA Works s.r.o.",
       "emails": [
@@ -5885,7 +5885,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 444.68,
       "firmaName": "Mi:Bo Transportation s.r.o.",
       "emails": [
@@ -5905,7 +5905,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 12976.53,
       "firmaName": "Jan Vrba",
       "emails": [
@@ -5924,7 +5924,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 8433.85,
       "firmaName": "Ivo Kulhánek",
       "emails": [
@@ -5943,7 +5943,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 3781,
       "firmaName": "Miroslav Dani",
       "emails": [],
@@ -5960,7 +5960,7 @@
       "datum": "26. 03. 2026",
       "splatno": "09. 04. 2026",
       "splatnoDate": "2026-04-08T22:00:00.000Z",
-      "daysOver": -10,
+      "daysOver": -9,
       "celkem": 2213.57,
       "firmaName": "Jaroslav PROCHÁZKA",
       "emails": [],
@@ -5977,7 +5977,7 @@
       "datum": "27. 03. 2026",
       "splatno": "25. 06. 2026",
       "splatnoDate": "2026-06-24T22:00:00.000Z",
-      "daysOver": -87,
+      "daysOver": -86,
       "celkem": 2050.04,
       "firmaName": "ELMONT GROUP, a.s.",
       "emails": [
@@ -5997,7 +5997,7 @@
       "datum": "27. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 6532.63,
       "firmaName": "MITEL a.s.",
       "emails": [
@@ -6017,7 +6017,7 @@
       "datum": "27. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 2035,
       "firmaName": "Martin Buchl",
       "emails": [
@@ -6036,7 +6036,7 @@
       "datum": "27. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 1727,
       "firmaName": "ÚSOVSKO AGRO s.r.o.",
       "emails": [
@@ -6055,7 +6055,7 @@
       "datum": "27. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 918.75,
       "firmaName": "František Živčák",
       "emails": [
@@ -6074,7 +6074,7 @@
       "datum": "27. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 644,
       "firmaName": "Martin Blahut",
       "emails": [
@@ -6093,7 +6093,7 @@
       "datum": "27. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 7295.09,
       "firmaName": "Heidelberg CZ & SK s.r.o.",
       "emails": [],
@@ -6110,7 +6110,7 @@
       "datum": "27. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 22687.5,
       "firmaName": "KLIMASERVIS SŮVA, spol. s r.o.",
       "emails": [
@@ -6130,7 +6130,7 @@
       "datum": "27. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 1317.69,
       "firmaName": "ZRUP Příbram a.s.",
       "emails": [
@@ -6151,7 +6151,7 @@
       "datum": "27. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 2339.17,
       "firmaName": "Andres a Vild, spol. s r.o.",
       "emails": [
@@ -6171,7 +6171,7 @@
       "datum": "27. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 48952.6,
       "firmaName": "BRAJ ProBuild s.r.o.",
       "emails": [
@@ -6190,7 +6190,7 @@
       "datum": "27. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 2568.95,
       "firmaName": "Miroslav Gregor",
       "emails": [
@@ -6209,7 +6209,7 @@
       "datum": "27. 03. 2026",
       "splatno": "10. 04. 2026",
       "splatnoDate": "2026-04-09T22:00:00.000Z",
-      "daysOver": -11,
+      "daysOver": -10,
       "celkem": 22826.11,
       "firmaName": "Elektro pohotovost RM, s.r.o.",
       "emails": [
@@ -6228,7 +6228,7 @@
       "datum": "30. 03. 2026",
       "splatno": "13. 04. 2026",
       "splatnoDate": "2026-04-12T22:00:00.000Z",
-      "daysOver": -14,
+      "daysOver": -13,
       "celkem": 1637.13,
       "firmaName": "Róbert Malinovský",
       "emails": [
@@ -6247,7 +6247,7 @@
       "datum": "30. 03. 2026",
       "splatno": "13. 04. 2026",
       "splatnoDate": "2026-04-12T22:00:00.000Z",
-      "daysOver": -14,
+      "daysOver": -13,
       "celkem": 5,
       "firmaName": "Petr Mile",
       "emails": [
@@ -6266,7 +6266,7 @@
       "datum": "30. 03. 2026",
       "splatno": "13. 04. 2026",
       "splatnoDate": "2026-04-12T22:00:00.000Z",
-      "daysOver": -14,
+      "daysOver": -13,
       "celkem": 8681.75,
       "firmaName": "Pavel Zlesák",
       "emails": [
@@ -6285,7 +6285,7 @@
       "datum": "30. 03. 2026",
       "splatno": "13. 04. 2026",
       "splatnoDate": "2026-04-12T22:00:00.000Z",
-      "daysOver": -14,
+      "daysOver": -13,
       "celkem": 23956.41,
       "firmaName": "Bagger BS s.r.o.",
       "emails": [
@@ -6304,7 +6304,7 @@
       "datum": "30. 03. 2026",
       "splatno": "13. 04. 2026",
       "splatnoDate": "2026-04-12T22:00:00.000Z",
-      "daysOver": -14,
+      "daysOver": -13,
       "celkem": 722.12,
       "firmaName": "...",
       "emails": [],
@@ -6321,7 +6321,7 @@
       "datum": "30. 03. 2026",
       "splatno": "13. 04. 2026",
       "splatnoDate": "2026-04-12T22:00:00.000Z",
-      "daysOver": -14,
+      "daysOver": -13,
       "celkem": 42752.87,
       "firmaName": "El Horis s.r.o.",
       "emails": [
@@ -6340,7 +6340,7 @@
       "datum": "30. 03. 2026",
       "splatno": "13. 04. 2026",
       "splatnoDate": "2026-04-12T22:00:00.000Z",
-      "daysOver": -14,
+      "daysOver": -13,
       "celkem": 2003.04,
       "firmaName": "David Chaloupek",
       "emails": [
@@ -6359,7 +6359,7 @@
       "datum": "30. 03. 2026",
       "splatno": "13. 04. 2026",
       "splatnoDate": "2026-04-12T22:00:00.000Z",
-      "daysOver": -14,
+      "daysOver": -13,
       "celkem": 7.26,
       "firmaName": "Mi:Bo Transportation s.r.o.",
       "emails": [
@@ -6379,7 +6379,7 @@
       "datum": "30. 03. 2026",
       "splatno": "13. 04. 2026",
       "splatnoDate": "2026-04-12T22:00:00.000Z",
-      "daysOver": -14,
+      "daysOver": -13,
       "celkem": 476.74,
       "firmaName": "AL Stavby Míkovec s.r.o.",
       "emails": [
@@ -6398,7 +6398,7 @@
       "datum": "30. 03. 2026",
       "splatno": "13. 04. 2026",
       "splatnoDate": "2026-04-12T22:00:00.000Z",
-      "daysOver": -14,
+      "daysOver": -13,
       "celkem": 1391.74,
       "firmaName": "Zdeněk RŮŽIČKA",
       "emails": [
@@ -6417,7 +6417,7 @@
       "datum": "30. 03. 2026",
       "splatno": "13. 04. 2026",
       "splatnoDate": "2026-04-12T22:00:00.000Z",
-      "daysOver": -14,
+      "daysOver": -13,
       "celkem": 31062.45,
       "firmaName": "Jakub Krecbach",
       "emails": [
@@ -6431,5 +6431,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-30T18:59:35.516Z"
+  "updated": "2026-03-31T06:58:32.287Z"
 }
