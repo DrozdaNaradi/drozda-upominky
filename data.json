@@ -16,7 +16,7 @@
       "ic": "27119432",
       "selected": false,
       "salutation": null,
-      "note": "TEST",
+      "note": "",
       "lastSent": null,
       "noSend": false
     },
@@ -6431,5 +6431,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-31T07:03:49.022Z"
+  "updated": "2026-03-31T07:03:57.838Z"
 }
