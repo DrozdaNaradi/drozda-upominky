@@ -16,7 +16,7 @@
       "ic": "27119432",
       "selected": false,
       "salutation": null,
-      "note": "TEST",
+      "note": "",
       "lastSent": null,
       "noSend": false
     },
@@ -770,10 +770,10 @@
       "firmaName": "...",
       "emails": [],
       "ic": "",
-      "selected": true,
-      "salutation": "Dobrý den,",
+      "selected": false,
+      "salutation": null,
       "note": "",
-      "lastSent": "30. 3. 2026",
+      "lastSent": null,
       "noSend": false
     },
     {
@@ -959,11 +959,9 @@
       "daysOver": 209,
       "celkem": 110000,
       "firmaName": "Techtronic Industries Eastern Europe Sp. z o.o.",
-      "emails": [
-        "robert.klat@drozda-naradi.cz"
-      ],
+      "emails": [],
       "ic": "",
-      "selected": true,
+      "selected": false,
       "salutation": null,
       "note": "",
       "lastSent": null,
@@ -1791,9 +1789,9 @@
       "ic": "05800510",
       "selected": false,
       "salutation": null,
-      "note": "Uz ma zaplaceno",
+      "note": "",
       "lastSent": null,
-      "noSend": true
+      "noSend": false
     },
     {
       "cislo": "25FV-2335",
@@ -4051,7 +4049,7 @@
       ],
       "ic": "27485471",
       "selected": false,
-      "salutation": "Vážení obchodní partneři,",
+      "salutation": null,
       "note": "",
       "lastSent": null,
       "noSend": false
@@ -6431,5 +6429,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-31T06:58:32.287Z"
+  "updated": "2026-03-31T07:01:22.771Z"
 }
