@@ -34,7 +34,7 @@
         "fakturace@sosdekorace.cz"
       ],
       "ic": "27119432",
-      "selected": true,
+      "selected": false,
       "salutation": null,
       "note": "test",
       "lastSent": null,
@@ -57,7 +57,7 @@
       "salutation": null,
       "note": "",
       "lastSent": null,
-      "noSend": true
+      "noSend": false
     },
     {
       "cislo": "23FV-0564",
@@ -89,7 +89,7 @@
       "firmaName": "Cheznet servis s.r.o.",
       "emails": [],
       "ic": "04319371",
-      "selected": true,
+      "selected": false,
       "salutation": null,
       "note": "",
       "lastSent": null,
@@ -112,7 +112,7 @@
       "salutation": null,
       "note": "",
       "lastSent": null,
-      "noSend": true
+      "noSend": false
     },
     {
       "cislo": "23FV-0740",
@@ -770,7 +770,7 @@
       "firmaName": "...",
       "emails": [],
       "ic": "",
-      "selected": true,
+      "selected": false,
       "salutation": "Dobrý den,",
       "note": "",
       "lastSent": "30. 3. 2026",
@@ -963,7 +963,7 @@
         "robert.klat@drozda-naradi.cz"
       ],
       "ic": "",
-      "selected": true,
+      "selected": false,
       "salutation": null,
       "note": "",
       "lastSent": null,
@@ -6431,5 +6431,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-31T07:02:39.634Z"
+  "updated": "2026-03-31T07:03:44.854Z"
 }
