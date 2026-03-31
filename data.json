@@ -89,7 +89,7 @@
       "firmaName": "Cheznet servis s.r.o.",
       "emails": [],
       "ic": "04319371",
-      "selected": false,
+      "selected": true,
       "salutation": null,
       "note": "",
       "lastSent": null,
@@ -112,7 +112,7 @@
       "salutation": null,
       "note": "",
       "lastSent": null,
-      "noSend": false
+      "noSend": true
     },
     {
       "cislo": "23FV-0740",
@@ -6431,5 +6431,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-03-31T07:02:06.303Z"
+  "updated": "2026-03-31T07:02:39.634Z"
 }
