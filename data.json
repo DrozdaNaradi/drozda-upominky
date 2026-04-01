@@ -4318,10 +4318,10 @@
         "robert.klat@drozda-naradi.cz"
       ],
       "ic": "",
-      "selected": false,
-      "salutation": null,
+      "selected": true,
+      "salutation": "Dobrý den,",
       "note": "",
-      "lastSent": null,
+      "lastSent": "1. 4. 2026",
       "noSend": false
     },
     {
@@ -7032,5 +7032,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-04-01T14:39:45.501Z"
+  "updated": "2026-04-01T14:40:19.005Z"
 }
