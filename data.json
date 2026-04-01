@@ -4314,9 +4314,7 @@
       "daysOver": 1,
       "celkem": 3911.75,
       "firmaName": "...",
-      "emails": [
-        "robert.klat@drozda-naradi.cz"
-      ],
+      "emails": [],
       "ic": "",
       "selected": true,
       "salutation": "Dobrý den,",
@@ -7032,5 +7030,5 @@
       "noSend": false
     }
   ],
-  "updated": "2026-04-01T14:40:19.005Z"
+  "updated": "2026-04-01T14:41:52.092Z"
 }
